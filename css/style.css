@@ -1,0 +1,151 @@
+
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+.header{
+    width: 100%;
+    height: 72vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .nav_bar_main ul li a{
+       font-size: 0.9rem;
+       font-weight: 800;
+       color: #000000!important;
+   }
+
+   .search_main{
+       position: relative;
+   }
+   .search_main .fa-search{
+       position: absolute;
+       top: 40%;
+       left: 4%;
+       transform: translate(-40%);
+       z-index: 99;
+       padding-left: 0.5rem;
+       color: #B4B5C0;
+       font-size: 0.8rem;
+
+   }
+
+   .search_input::placeholder{
+       font-size: 0.7rem;
+       padding-left: 1rem;
+       color: #000000!important;
+   }
+   .search_input{
+    font-size: 0.8rem;
+   }
+
+  
+
+   .third_icon li p{
+       font-size: 0.8rem;
+   }
+
+   .third_icon{
+       height: 3rem!important;
+   }
+
+   .fir_nav_drop{
+      width: 57%;
+      height: 90%;
+      background-color: #ffffff;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: 99;
+   }
+
+    .per_one_drop{
+       
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+   } 
+
+   .sec_nav_drop{
+    width: 57%;
+    height: 90%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+    
+ }
+
+ .per_two_drop{
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+} 
+
+.thr_nav_drop{
+    width: 57%;
+    height: 90%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
+
+.per_thr_drop{
+
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+} 
+
+.four_nav_drop{
+    width: 57%;
+    height: 90%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
+
+.per_four_drop{
+
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+} 
+
+.drop_con ul{
+    list-style: none;
+}
+.drop_con ul li a{
+    text-decoration: none;
+}
+
+/* 
+.crousel_main{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    
+} */
+.crousel_child{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 18%;
+    
+    
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+     
+
+
+
+  
