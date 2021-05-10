@@ -50,9 +50,9 @@
 
    .fir_nav_drop{
       width: 57%;
-      height: 90%;
+      height: 60%;
       background-color: #ffffff;
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 50%;
       transform: translate(-50%);
@@ -67,9 +67,9 @@
 
    .sec_nav_drop{
     width: 57%;
-    height: 90%;
+    height: 60%;
     background-color: #FFFFFF;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 50%;
     transform: translate(-50%);
@@ -84,9 +84,9 @@
 
 .thr_nav_drop{
     width: 57%;
-    height: 90%;
+    height: 60%;
     background-color: #FFFFFF;
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 50%;
     transform: translate(-50%);
@@ -101,9 +101,9 @@
 
 .four_nav_drop{
     width: 57%;
-    height: 90%;
+    height: 60%;
     background-color: #FFFFFF;
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 50%;
     transform: translate(-50%);
@@ -176,6 +176,30 @@
 
 .card_body p{
  font-size: 0.9rem;
+}
+
+.eleven_one{
+  width: 100%;
+  height: 85vh;
+  background-color: #EFEFEF;
+  margin-top: 3rem
+}
+
+.foot_sec{
+  width: 100%;
+  height: 25vh;
+  background-color: #EFEFEF;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+
+.foot_ul li{
+  list-style: none;
+}
+
+.foot_ul li a:hover{
+  text-decoration: none;
 }
 
 
