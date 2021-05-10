@@ -28,6 +28,9 @@
        font-size: 0.8rem;
 
    }
+   .search_main input{
+    background-color: #F5F5F6;
+   }
 
    .search_input::placeholder{
        font-size: 0.7rem;
@@ -42,6 +45,7 @@
 
    .third_icon li p{
        font-size: 0.8rem;
+       color: #000000;
    }
 
    .third_icon{
@@ -187,10 +191,18 @@
 
 .foot_sec{
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   background-color: #EFEFEF;
   margin-top: 3rem;
   padding-top: 3rem;
+}
+.foot_sec li a{
+ color: #000000!important;
+ text-decoration: none;
+}
+
+.foot_sec li a:hover{
+ text-decoration: none;
 }
 
 
@@ -214,28 +226,30 @@
 
 .foot_two a{
       color: #696B79!important;
+      text-decoration: none;
 
 }
 .foot_two a:hover{
-      color: ##1A65A8!important;
+      color: #91C8E7!important;
       text-decoration: none;
 
 }
 
 .foot_three a{
       color: #696B79!important;
+      text-decoration: none;
 
 }
 .foot_three a:hover{
-      color: ##1A65A8!important;
+      color: #91C8E7!important;
       text-decoration: none;
 
 }
 
 .footer-logo{
     width: 50px;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    /*margin-top: 5px;
+    margin-bottom: 15px;*/
     
 }
 
@@ -244,12 +258,13 @@
     font-size: 15px;
     text-align: left; 
     margin-bottom: 25px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 #footer p{
-    font-size: 12px;
+    font-size: 0.8rem;
     text-align: left;
+    line-height: 0.5rem;
 }
 
 #footer .city{
@@ -260,6 +275,10 @@
 #footer .row .fa{
     padding-right: 20px;
     font-size: 1.5rem;
+}
+
+.foot_icon a{
+  color: #000000;
 }
 
 #footer hr{
