@@ -1,5 +1,5 @@
 
-*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
 .header{
     width: 100%;
     height: 72vh;
@@ -9,8 +9,8 @@
    }
 
    .nav_bar_main ul li a{
-       font-size: 0.9rem;
-       font-weight: 800;
+       font-size: 0.75rem;
+       font-weight: bolder;
        color: #000000!important;
    }
 
@@ -143,6 +143,117 @@
     width: 100%;
     height: 100%;
   }
+
+
+  /*--------------------------------- NEW SECTION------------------------- */
+
+  
+
+#eyeglass{
+    padding: 50px 100px;
+    width: 100%;
+    text-align: center;
+}
+#eyeglass .eyeglass a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#eyeglass .eyeglass img{
+    height: 100px;
+    text-align: center;
+}
+#eyeglass .eyeglass a .eyeglass_heading{
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center !important;
+    width: 100%;
+    padding: 10px 0px;
+    
+}
+
+.card_body p{
+ font-size: 0.9rem;
+}
+
+
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #F7F7F7;
+    /*color: #013f7e;*/
+    /*color: #696B79!important;*/
+    
+}
+
+.foot_two a{
+      color: #696B79!important;
+
+}
+.foot_two a:hover{
+      color: ##1A65A8!important;
+      text-decoration: none;
+
+}
+
+.foot_three a{
+      color: #696B79!important;
+
+}
+.foot_three a:hover{
+      color: ##1A65A8!important;
+      text-decoration: none;
+
+}
+
+.footer-logo{
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+}
+
+
+#footer h1{
+    font-size: 15px;
+    text-align: left; 
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#footer p{
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .city{
+    margin-left: 37px;
+    
+}
+
+#footer .row .fa{
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
+
+#footer hr{
+    margin-top: 10px;
+}
+#footer .fa-heart-o{
+    color: red;
+    font-size: 17px;
+}
+
+#footer .copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+
 
      
 
