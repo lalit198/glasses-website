@@ -23,11 +23,7 @@
      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main">
         <div class="container-fluid text-uppercase p-2">
           <a class="navbar-brand font-weight-bold text-capitalize" href="#"><span class="text-primary font-weight-bolder">C</span>ool <span class="text-primary font-weight-bolder">W</span>inks</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div>
             <ul class="navbar-nav" style="margin-left: 2rem;">
               <li class="nav-item px-2">
                 <a class="nav-link" aria-current="page" href="#" id="eyeglassId">EYEGLASSES</a>
@@ -377,10 +373,10 @@
     
     <!-- Left and right controls -->
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon bg-dark"></span>
+      <span class="carousel-control-prev-icon"></span>
     </a>
     <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon bg-dark"></span>
+      <span class="carousel-control-next-icon"></span>
     </a>
   </div>
   
@@ -625,7 +621,7 @@
 
 
 
-<div class="container-fluid mt-5" style="width: 100%; height: 10vh; background-color: #F9F9F9"></div>
+<!-- <div class="container-fluid mt-5" style="width: 100%; height: 10vh; background-color: #F9F9F9"></div> -->
 
  <!--------------------------- NEXT SECTION ---------------------------->
 
@@ -1363,49 +1359,276 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!---------------------- MOBILE START --------------------------->
 
 <div class="mobile" style="display: none;">
-<div id="mob-header">
- <nav class="navbar bg-light navbar-light">
-  <div class="container-fluid">
-  <a class="navbar-brand mx-auto" href="#"><span class="text-primary font-weight-bolder">C</span>ool <span class="text-primary font-weight-bolder">W</span>inks</a>
-  <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>    
-    </ul>
-  </div>
-  </div>  
-</nav>
-<div class="img_main container">
-  <div class="img_head">
-  <img src="images/cateye.jpg" class="img-fluid">
-  </div>
- <div class="img_head">            
-  <img src="images/clubmaster.jpg" class="img-fluid">
-  </div>
- <div class="img_head">         
-  <img src="images/cateye.jpg" class="img-fluid">
-  </div>
-<div class="img_head">         
-  <img src="images/clubmaster.jpg" class="img-fluid">
-  </div>
-<div class="img_head">         
-  <img src="images/cateye.jpg" class="img-fluid">
-  </div>
+ <div class="mobilecontent">
+
+  <div id="main_menu">
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top main-navigation">
+    <div class="container-fluid">
+     
+      <a class="navbar-brand font-weight-bold order-2 mr-auto" href="#"><span class="text-primary" style="font-size: 2rem;">C</span>ool <span class="text-primary" style="font-size: 2rem;">W</span>inks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="icons order-3 ">
+        <ul class="ml-auto navbar-nav third_icon">
+         <li class="nav-item  text-center">
+           <a class="nav-link text-dark" href=""><i class="fa fa-user-o" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+
+        <div class="icons order-4" style="margin-right: 20px;">
+          <ul class="ml-auto navbar-nav third_icon" >
+         <li class="nav-item  text-center">
+          <a class="nav-link text-dark" href=""><i class="fa fa-suitcase" aria-hidden="true"></i></a>
+         </li>
+      </ul>
+    </div>
+
+      <div class="overlay d-flex d-lg-none"></div>
+
+        <div class="order-lg-2 bg-light d-lg-flex w-100 sidebar pb-3 pb-lg-0">
+
+         <ul class="navbar-nav mr-lg-auto mb-2 mb-lg-0">
+            <li class="nav-item welcome d-flex">
+              <div class="left"><img src="images/men_cat.png " style="border-radius: 50%; margin-top: 12px;" alt="" width="40px" height="50px" class="mx-4 text-center"></div>
+              <div class="right">
+                <a
+                class="nav-link px-3 px-lg-2 "
+                aria-current="page"
+                href="#"
+                >Welcome!
+                <p class="my-1" style="font-size: .8rem;">Sign In/Sign Up</p> </a
+                >
+              </div>
+             
+            </li>
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#"><img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-home.svg"  alt="">Home</a>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-eyeglasses.png"  alt=""> Eyeglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Pilot Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Cateye Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Retrosquare Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Clubmaster Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Round Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Full Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Half Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Men Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Eyeglasses</a></li>
+               
+                
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-sunglasses.png"  alt=""> Sunglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Mirror Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Tinted Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Polarized Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Flash Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Gradient Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Men Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Sunglasses</a></li>
+        
+               
+                
+              </ul>
+            </li>
+            
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/contact-lense/cl-hamburger.png" 
+                 alt="">Contact lens</a>
+            </li>
+            
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-powersunglasses.png"  alt=""> Precription Sunglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Men Power Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Power Sunglasses</a></li>
+             
+                
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/kids-eyeglasses.png"  alt=""> Kids Glasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Kids Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Kids Sunglasses</a></li>
+             
+                
+              </ul>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-computer.svg" 
+                 alt="" >Computer Glasses</a>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/site-images/reading-eyeglasses-hamburgericon.png" 
+                 alt="" >Rreading Glasses</a>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/site-images/icon-wipes.svg" 
+                 alt="" >Lens Clearing Wipes</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-color-blindness.svg" 
+                 alt="" >Color Blind Glasses</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-color-changable-frames.png" 
+                 alt="" >Color Changing Frame</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-offers.svg" 
+                 alt="" >Offers</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/eyetesticon.svg" 
+                 alt="" >Free Eye Testing Camp</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-recentlyViewed.svg" 
+                 alt="" >Recent Viewed</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-help.svg" 
+                 alt="" >Help</a>
+            </li>
+
+            
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-chat-with-us.svg" 
+                 alt="" >Chat With Us</a>
+            </li>
+
+            
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-help.svg" 
+                 alt="" >Contact Us</a>
+            </li>
+        
+          </ul>
+        
+        </div>
+      
+    </div>
+  </nav>
+
+    </div>
 </div>
-</div>
+
+
+
+
+  <section class="mob_carosel container-fluid">
+
+ <div id="mobIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
+           <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#mobIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#mobIndicators" data-slide-to="1"></li>
+    <li data-target="#mobIndicators" data-slide-to="2"></li>
+  </ul>
+            <div class="carousel-inner container">
+              <div class="carousel-item active">
+              <div class="row gx-4">
+                <div class="col-lg-3 col-md-3 col-3">
+                  <div class="img_head"><a href="#"><img src="images/top-cat-sunglasses.jpg" class="img-fluid"  alt=""></a></div></div>
+                <div class="col-lg-3 col-md-3 col-3">
+                  <div class="img_head"><a href="#"><img src="images/top-cat-power-sunglasses.jpg" class="img-fluid"  alt=""></a></div></div>
+                <div class="col-lg-3 col-md-3 col-3">
+                  <div class="img_head"><a href="#"><img src="images/reading-menu1.jpg" class="img-fluid"  alt=""></a></div></div>
+                  <div class="col-lg-3 col-md-3 col-3">
+                  <div class="img_head"><a href="#"><img src="images/top-cat-eyeglasses.jpg" class="img-fluid"  alt=""></a></div></div>
+              </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="row gx-4">
+                <div class="col-lg-3 col-md-3 col-3">
+                  <div class="img_head"><a href="#"><img src="images/top-cat-color-blind-glasses_31may19.jpg"  class="img-fluid" alt=""></a></div></div>
+                  <div class="col-lg-3 col-md-3 col-3">
+                   <div class="img_head"> <a href="#"><img src="images/top-cat-computer-glasses.jpg"class="img-fluid"  alt=""></a></div></div>
+                  <div class="col-lg-3 col-md-3 col-3">
+                    <div class="img_head"><a href="#"><img src="images/contact-lense-android-msite.jpg" class="img-fluid"  alt=""></a></div></div>
+                    <div class="col-lg-3 col-md-3 col-3">
+                  <div class="img_head"><a href="#"><img src="images/top-cat-power-sunglasses.jpg" class="img-fluid"  alt=""></a></div></div>
+              </div>
+            </div>
+            </div>
+            
+            <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#mobIndicators" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#mobIndicators" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+          </div>
+          
+        </a>
+        
+</section>
  <!-------------- NEW SECTION ----------------------->
 <div class="container-fluid mobile_hero">
   <img src="images/header 1.jpg" class="img-fluid">
@@ -1556,32 +1779,42 @@
 
   <footer id="mob_foot">
     <div class="container-fluid pt-4">
-    <h5 class="text-white font-weight-bolder" style="padding-left: 1.4rem; font-size: 1.1rem;">Need Help?</h5>
-   <!--  <div class="foot_main_icon">
+     <h5 class="text-white font-weight-bolder foot_fir">Need Help?</h5>
+     <div class="foot_main_icon">
 
     
       <div class="foot_lf_icon d-flex">
         <i class="fa fa-envelope" aria-hidden="true"></i>
       </div>
       <div class="lf_con">
-        <p style="font-size: 1rem; color: white;">EMAIL</p>
-         <p style="font-size: 0.9rem; color: white;">support@coolwink.com</p>
+        <p>Email</p>
+         <p>support@coolwink.com</p>
         </div>
   
  
-      <div class="foot_rg_icon d-flex">
+       <div class="foot_rg_icon d-flex">
         <i class="fa fa-phone" aria-hidden="true"></i>
       </div>
       <div class="rg_con">
-        <p style="font-size: 1rem; color: white;">CALL US AT</p>
-        <p style="font-size: 0.9rem; color: white;">24122-66563</p>
-        </div>
+        <p>Call us at</p>
+        <p>24122-66563</p>
+        </div> 
         
     </div>
-    </div>
+    
     <hr>
     <div class="foot_about"><p>More About Coolwinks</p></div>
-    <hr> -->
+    <hr> 
+    <div class="foot_social">
+      <p>FOLLOW US ON</p>
+      <div class="d-flex foot_icn">
+         <div class="foot_rnd"><a href=""><i class="fa fa-youtube-play text-white px-2"></i></a></div>
+         <div class="foot_rnd"><a href=""><i class="fa fa-facebook-official text-white px-2"></i></a></div>
+         <div class="foot_rnd"><a href=""><i class="fa fa-google text-white px-2"></i></a></div>
+         <div class="foot_rnd"><a href=""><i class="fa fa-twitter text-white px-2"></i></a></div>
+          </div>
+    </div>
+    </div> 
   </footer>
 
  </div>
@@ -1592,11 +1825,7 @@
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
--->
+
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -1661,6 +1890,12 @@
      $('#showFour').css("visibility","hidden");
    });
   });
+
+
+
+
+
+
 </script>
 </body>
 </html>
