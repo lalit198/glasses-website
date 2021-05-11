@@ -2,7 +2,7 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
 .header{
     width: 100%;
-    height: 72vh;
+    height: 55vh;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
@@ -148,6 +148,14 @@
     height: 100%;
   }
 
+  .hero_img{
+    width: 100%;
+    height: 60%;
+    background-image: url('../images/offer1.jpg');
+    background-size: 100% 100%;
+    z-index: 100;
+  }
+
 
   /*--------------------------------- NEW SECTION------------------------- */
 
@@ -186,7 +194,7 @@
   width: 100%;
   height: 85vh;
   background-color: #EFEFEF;
-  margin-top: 3rem
+  margin-top: 3rem;
 }
 
 .foot_sec{
@@ -295,6 +303,140 @@
     font-size: 15px;
     
 }
+
+/*-----------------------------------DESKTOP END------------------------------------*/
+
+/*-------------------------------------MOBILE START-----------------------------*/
+
+.img_main{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  margin-top: 1rem;
+}
+
+.img_head{
+  width: 7rem;
+  height: 7rem;
+}
+.img_head img{
+    border-radius: 50%;
+}
+
+.mobile_hero{
+  margin-top: 2rem;
+}
+
+.mob_eve{
+  margin-top: 0.8rem;
+}
+
+.mob_odd{
+  margin-top: 0.8rem;
+}
+
+/*.img_right img{
+  width: 200px;
+  height: 100px;
+}*/
+
+#mob_foot{
+  width: 100%;
+  height: 30vh;
+  background-color: #393939;
+  font-family: "Playfair Display", serif;
+}
+
+.foot_main_icon{
+  display: flex;
+  margin-top: 1.5rem;
+  padding-left: 1.4rem;
+}
+
+.foot_lf_icon{
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  color: #FFCC80;
+  font-size: 2rem;
+  padding: 0.7rem 1.1rem;
+}
+
+.foot_rg_icon{
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  /*margin-left: 13rem;*/
+  color: #FFCC80;
+  font-size: 2rem;
+  padding: 0.9rem 1.1rem;
+}
+
+.lf_con{
+  padding-left: 1.3rem;
+  font-size: 1.3rem;
+}
+.rg_con{
+  padding-left: 1.3rem;
+    font-size: 1.3rem;
+
+}
+
+.foot_about{
+  padding-left: 1.5rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+/*------------------------MEDIA QUERIES----------------*/
+
+
+
+/*@media only screen and (max-width: 1024px) {
+.header{
+    height: 40vh;
+   }
+}*/
+
+@media only screen and (max-width: 768px) {
+.desktop{
+  display: none;
+}
+.mobile{
+  display: block!important;
+}
+
+}
+
+@media only screen and (max-width: 448px) {
+.desktop{
+  display: none;
+}
+.mobile{
+  display: block!important;
+}
+
+.img_head{
+  width: 3.6rem;
+  height: 3.6rem;
+}
+.mobile_hero{
+  margin-top: 0.5rem;
+}
+
+}
+
 
 
 
