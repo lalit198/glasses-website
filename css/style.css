@@ -580,7 +580,7 @@
 }
 
 #mob_foot{
-  height: 39vh;
+  height: 43vh;
 }
 
 .foot_fir{
@@ -669,7 +669,7 @@
 
 @media only screen and (min-width: 250px) {
   #mob_foot{
-  height: 62vh;
+  height: vh;
 }
 }
 
