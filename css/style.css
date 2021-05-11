@@ -2,7 +2,7 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
 .header{
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
@@ -403,11 +403,15 @@
 
 
 
-/*@media only screen and (max-width: 1024px) {
+
+
+
+@media only screen and (max-width: 1024px) {
 .header{
-    height: 40vh;
+    height: 30vh;
    }
-}*/
+  
+}
 
 @media only screen and (max-width: 768px) {
 .desktop{
