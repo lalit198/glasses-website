@@ -351,7 +351,7 @@
   max-width: 300px;
   transition: all ease 0.25s;
   overflow-y: auto;
-  z-index: 1032;
+  z-index: 75;
 }
 .overlay {
   left: 0;
@@ -360,7 +360,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   visibility: hidden;
-  z-index: 1031;
+  z-index: 75;
 }
 
 .main-navigation.active .sidebar {
@@ -682,7 +682,35 @@
     border-bottom: 0.1rem solid #0B5ED7;
 
 }
-     
+
+.sigin_form .form-control{
+    border: none;
+    border-bottom: 0.1rem solid grey;
+
+}
+
+.sigin_bdr{
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  color: #0B5ED7;
+}
+
+.sigin_bdr p{
+  border-bottom: 1px solid #0B5ED7;
+}
+
+.otp_form  .form-control{
+  border:none;
+  border-bottom: 0.1rem solid grey;
+}
+
+.forget_form .form-control{
+    border: none;
+    border-bottom: 0.1rem solid grey;
+
+}
+
 
 
 
