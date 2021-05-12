@@ -11,7 +11,7 @@
     <!--Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 <body>
   <div class="desktop">
 <div class="header">
-     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main">
+     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 75">
         <div class="container-fluid text-uppercase p-2">
           <a class="navbar-brand font-weight-bold text-capitalize" href="#"><span class="text-primary font-weight-bolder">C</span>ool <span class="text-primary font-weight-bolder">W</span>inks</a>
           <div>
@@ -40,7 +40,7 @@
             </ul>
             </div>
 
-            <form class="form-inline nav_form" action="/action_page.php" style="margin-right: 3rem;">
+            <form class="form-inline nav_form" action="/action_page.php" style="margin-right: 0.5rem;">
                 <div class="input-group search_main">
                  <i class="fa fa-search" aria-hidden="true"></i>
                 <input type="text" class="form-control search_input" placeholder="What are you looking for?" class="bg-dark">
@@ -49,7 +49,7 @@
               
               <ul class="ml-auto navbar-nav third_icon" style="margin-top: -0.5rem;">
                <li class="nav-item px-4 text-center">
-                <a  class="nav-link text-dark" href=""><i class="fa fa-user-o" aria-hidden="true"></i><p class="font-weight-bolder">SIGN IN/SIGN UP</p></a>
+                <span id="click_reg" class="nav-link text-dark" href=""><i class="fa fa-user-o" aria-hidden="true"></i><p class="font-weight-bolder" style="cursor: pointer;">SIGN IN/SIGN UP</p></span>
                </li>
 
                <li class="nav-item px-4 text-center">
@@ -385,6 +385,85 @@
 </div>
 
 </div>
+
+  <div id="show_reg" style="width: 100%; height: 100vh; background-color: rgba(0,0,0,0.1); position: absolute; top: 0;
+      z-index: 101; visibility: hidden; transition: all ease 0.25s">
+        <div style="width: 33%; height: 70%; background-color: white; position: absolute; left: 29%; top: 5%;" class="fir_frm">
+          <div style="position: absolute;" class="container-fluid text-center">
+          <div id="reg_can"><i class="fa fa-times ml-auto mt-2" aria-hidden="true" style="position: absolute; left: 95%; cursor: pointer;"></i></div>
+
+            <h4 class="mt-4 text-primary" style="font-weight: 800">SIGN IN / SIGN UP</h4>
+            <pre><p class="pt-1" style="font-size: 1rem;">We do not share your personal details
+ with anyone</p></pre>
+
+             <form action="/action_page.php" class="reg_form">
+  <div class="form-group">
+
+    <input type="email" class="form-control" placeholder="Phone No" id="email">
+  </div>
+  <button type="button" id="reg_btn" class="btn btn-primary btn-block mt-3 btn-block" style="padding: 0.7rem 0;
+   font-weight: 800;">Proceed</button>
+  <p style="border-radius: 50%; color: black; margin-top: 3rem;">OR</p>
+ 
+  <a href="#"><button class="btn btn-primary px-4 mr-1"><i class="fa fa-facebook-official f_btn" aria-hidden="true" style="font-size: 1.5rem;"></i> Facebook</button></a>
+
+    <a href="#"><button class="btn btn-danger px-5 ml-1"><i class="fa fa-google g_btn" aria-hidden="true" style="font-size: 1.5rem;"></i> Google</button></a>
+ 
+</form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id="show_form" style="width: 100%; height: 100vh; background-color: rgba(0,0,0,0.1); position: absolute; top: 0; z-index: 101; visibility: hidden;">
+        <div style="width: 33%; height: 90%; background-color: white; position: absolute; left: 29%; top: 5%;" class="sec_frm">
+          <div style="position: absolute;" class="container-fluid text-center">
+          <div id="form_can"><i class="fa fa-times ml-auto mt-2" aria-hidden="true" style="position: absolute; left: 95%; cursor: pointer;"></i></div>
+
+            <h4 class="mt-4 text-primary" style="font-weight: 800">Nice to meet you</h4>
+            <pre><p class="pt-1" style="font-size: 1rem;">Create an account for exciting 
+offers and stylish frames</p></pre>
+
+             <form action="/action_page.php" class="reg_form">
+  <div class="form-group">
+     <input type="text" class="form-control" placeholder="Phone No" id="number" required>
+  </div>
+  <div class="form-group">
+     <input type="text" class="form-control" placeholder="Enter OTP" id="otp" required>
+  </div>
+  <div class="form-group">
+     <input type="email" class="form-control" placeholder="Enter Email Id" id="email" required>
+  </div>
+  <div class="form-group">
+     <input type="Password" class="form-control" placeholder="Set Password" id="pass" required>
+  </div>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" id="" placeholder="First Name" name="">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last Name" name="">
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col">
+      <input type="text" class="form-control" id="" placeholder="Referral Code" name="">
+    </div>
+    <div class="col">
+      <p style="margin-right: 8rem;">(Optional)</p>
+    </div>
+  </div>
+
+  
+  <a href="index.html"><button type="button" class="btn btn-primary btn-block mt-3 btn-block" style="padding: 0.7rem 0; font-weight: 800;">Register</button></a>
+  
+</form>
+          </div>
+        </div>
+      </div> 
+
 <!---------------- NEXT SECTION ----------------------->
 <section id="eyeglass">
   <div class="container eyeglass">
@@ -1382,12 +1461,12 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top main-navigation">
     <div class="container-fluid">
      
-      <a class="navbar-brand font-weight-bold order-2 mr-auto" href="#"><span class="text-primary" style="font-size: 2rem;">C</span>ool <span class="text-primary" style="font-size: 2rem;">W</span>inks</a>
+      <a class="navbar-brand font-weight-bold order-2 mx-auto" href="#"><span class="text-primary" style="font-size: 2rem;">C</span>ool <span class="text-primary" style="font-size: 2rem;">W</span>inks</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
-      <div class="icons order-3 ">
+      <div class="icons order-3 pr-3">
         <ul class="ml-auto navbar-nav third_icon">
          <li class="nav-item  text-center">
            <a class="nav-link text-dark" href=""><i class="fa fa-user-o" aria-hidden="true" style="font-size: 2rem;"></i></a>
@@ -1413,13 +1492,12 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               <div class="left"><i class="fa fa-user-o" aria-hidden="true" style="border-radius: 50%; margin-top: 12px; color: white; font-size: 3rem;"></i></div>
               <!-- <img src="images/men_cat.png " style="border-radius: 50%; margin-top: 12px; color: white;" alt="" width="40px" height="50px" class="mx-4 text-center"> -->
               <div class="right">
-                <a
+                <span id="click_reg" 
                 class="nav-link px-3 px-lg-2 text-white"
                 aria-current="page"
                 href="#"
                 >Welcome!
-                <p class="my-1 text-white" style="font-size: .8rem;">Sign In/Sign Up</p> </a
-                >
+                <p class="my-1 text-white" style="font-size: .8rem;">Sign In/Sign Up</p> </span>
               </div>
              
             </li>
@@ -1579,6 +1657,85 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
     </div>
 </div>
 
+<div id="show_reg" style="width: 100%; height: 100vh; background-color: rgba(0,0,0,0.1); position: absolute; top: 0;
+      z-index: 100; visibility: hidden; transition: all ease 0.25s">
+        <div style="width: 33%; height: 70%; background-color: white; position: absolute; left: 29%; top: 5%;" class="fir_frm">
+          <div style="position: absolute;" class="container-fluid text-center">
+          <div id="reg_can"><i class="fa fa-times ml-auto mt-2" aria-hidden="true" style="position: absolute; left: 95%; cursor: pointer;"></i></div>
+
+            <h4 class="mt-4 text-primary" style="font-weight: 800">SIGN IN / SIGN UP</h4>
+            <pre><p class="pt-1" style="font-size: 1rem;">We do not share your personal details
+ with anyone</p></pre>
+
+             <form action="/action_page.php" class="reg_form">
+  <div class="form-group">
+
+    <input type="email" class="form-control" placeholder="Phone No" id="email">
+  </div>
+  <button type="button" id="reg_btn" class="btn btn-primary btn-block mt-3 btn-block" style="padding: 0.7rem 0;
+   font-weight: 800;">Proceed</button>
+  <p style="border-radius: 50%; color: black; margin-top: 3rem;">OR</p>
+ 
+  <a href="#"><button class="btn btn-primary px-4 mr-1"><i class="fa fa-facebook-official f_btn" aria-hidden="true" style="font-size: 1.5rem;"></i> Facebook</button></a>
+
+    <a href="#"><button class="btn btn-danger px-5 ml-1"><i class="fa fa-google g_btn" aria-hidden="true" style="font-size: 1.5rem;"></i> Google</button></a>
+ 
+</form>
+          </div>
+        </div>
+      </div>
+
+
+
+  <!----------------------------- form start -------------------------------------->
+      <div id="show_form" style="width: 100%; height: 100vh; background-color: rgba(0,0,0,0.1); position: absolute; top: 0; z-index: 101; visibility: hidden;">
+        <div style="width: 33%; height: 90%; background-color: white; position: absolute; left: 29%; top: 5%;" class="sec_frm">
+          <div style="position: absolute;" class="container-fluid text-center">
+          <div id="form_can"><i class="fa fa-times ml-auto mt-2" aria-hidden="true" style="position: absolute; left: 95%; cursor: pointer;"></i></div>
+
+            <h4 class="mt-4 text-primary" style="font-weight: 800">Nice to meet you</h4>
+            <pre><p class="pt-1" style="font-size: 1rem;">Create an account for exciting 
+offers and stylish frames</p></pre>
+
+             <form action="/action_page.php" class="reg_form">
+  <div class="form-group">
+     <input type="text" class="form-control" placeholder="Phone No" id="number" required>
+  </div>
+  <div class="form-group">
+     <input type="text" class="form-control" placeholder="Enter OTP" id="otp" required>
+  </div>
+  <div class="form-group">
+     <input type="email" class="form-control" placeholder="Enter Email Id" id="email" required>
+  </div>
+  <div class="form-group">
+     <input type="Password" class="form-control" placeholder="Set Password" id="pass" required>
+  </div>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" id="" placeholder="First Name" name="">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last Name" name="">
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col">
+      <input type="text" class="form-control" id="" placeholder="Referral Code" name="">
+    </div>
+    <div class="col">
+      <p style="margin-right: 8rem;">(Optional)</p>
+    </div>
+  </div>
+
+  
+  <a href="index.html"><button type="button" class="btn btn-primary btn-block mt-3 btn-block" style="padding: 0.7rem 0; font-weight: 800;">Register</button></a>
+  
+</form>
+          </div>
+        </div>
+      </div> 
+
+  <!----------------------------- form end -------------------------------------->
 
 
 
@@ -1894,7 +2051,34 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
    });
   });
 
+$(document).ready(function(){
+  $('#click_reg').click(function(){
+    $('#show_reg').css("visibility","visible");
+    $('#show_reg').css("transition","#show_reg 0.25s");
+  });
+});
 
+$(document).ready(function(){
+  $('#reg_can').click(function(){
+    $('#show_reg').css("visibility","hidden");
+
+  });
+});
+
+
+$(document).ready(function(){
+  $('#reg_btn').click(function(){
+    $('#show_form').css("visibility","visible");
+  });
+});
+
+$(document).ready(function(){
+  $('#form_can').click(function(){
+    $('#show_form').css("visibility","hidden");
+    $('#show_reg').css("visibility","hidden");
+
+  });
+});
 
 
 

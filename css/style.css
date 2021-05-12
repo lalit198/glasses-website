@@ -22,7 +22,7 @@
        top: 40%;
        left: 4%;
        transform: translate(-40%);
-       z-index: 99;
+       z-index: 50;
        padding-left: 0.5rem;
        color: #B4B5C0;
        font-size: 0.8rem;
@@ -60,7 +60,7 @@
       top: 0;
       left: 50%;
       transform: translate(-50%);
-      z-index: 99;
+      z-index: 50;
    }
 
     .per_one_drop{
@@ -77,7 +77,7 @@
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    z-index: 99;
+    z-index: 50;
     
  }
 
@@ -94,7 +94,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%);
-    z-index: 99;
+    z-index: 50;
 }
 
 .per_thr_drop{
@@ -111,7 +111,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%);
-    z-index: 99;
+    z-index: 50;
 }
 
 .per_four_drop{
@@ -153,7 +153,7 @@
     height: 60%;
     background-image: url('../images/offer1.jpg');
     background-size: 100% 100%;
-    z-index: 100;
+    z-index: 75;
   }
 
 
@@ -544,6 +544,10 @@
 .header{
     height: 30vh;
    }
+   .sec_frm{
+    height: 50%!important;
+   }
+  
   
 }
 
@@ -673,7 +677,11 @@
 
 
 
+.reg_form .form-control{
+    border: none;
+    border-bottom: 0.1rem solid #0B5ED7;
 
+}
      
 
 
