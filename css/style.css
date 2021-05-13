@@ -618,7 +618,7 @@
 
   #show_reg .fir_frm{
    width: 50%!important;
-   height: 40%!important;
+   height: 60%!important;
  }
 
  #show_form .sec_frm{
@@ -665,8 +665,8 @@
   }
 
   #show_reg .fir_frm{
-   width: 60%!important;
-   height: 50%!important;
+   width: 65%!important;
+   height: 60%!important;
  }
 
  #show_form{
@@ -846,9 +846,6 @@
   margin-top: -1rem;
 }
 
-.reg_or button:nth-last-child(2){
-  margin: 2rem 0;
-}
 #reg_can{
   margin-left: -1rem;
 }
@@ -910,22 +907,24 @@
   height: 65%!important;
 }
 }
-/*@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 384px) {
   #show_form .sec_frm{
+    width: 80%!important;
    height: 94%!important;
+
  }
  #show_reg{
-  top: 50%!important;
+  top: 32%!important;
  }
  #show_form{
   top: 4%!important;
  }
  #show_sigin{
-top: 44%!important;
+top: 24%!important;
 
   {
 #show_otp{
-    top: 50%!important;
+    top: 55%!important;
 
   {
 #show_forget{
@@ -935,4 +934,31 @@ top: 44%!important;
 
  }
 }
-*/
+@media only screen and (max-width: 322px) {
+  #show_form .sec_frm{
+    width: 90%!important;
+   height: 100%!important;
+
+ }
+ #show_reg{
+  top: 0%!important;
+ }
+ #show_form{
+  top: 0%!important;
+ }
+ #show_sigin{
+top: 0%!important;
+
+  {
+#show_otp{
+    top: 55%!important;
+
+  {
+#show_forget{
+top: 44%!important;
+
+  {
+
+ }
+}
+
