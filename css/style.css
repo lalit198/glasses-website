@@ -64,7 +64,7 @@
 }
 
 .per_one_drop{
- 
+
  padding: 4.5rem 0 0 2rem;
  height: 100%;
 } 
@@ -78,7 +78,7 @@
   left: 50%;
   transform: translate(-50%);
   z-index: 50;
-  
+
 }
 
 .per_two_drop{
@@ -139,8 +139,8 @@
       height: 90%;
       position: absolute;
       top: 18%;
-      
-      
+
+
     }
 
     .carousel-inner img {
@@ -159,7 +159,7 @@
 
     /*--------------------------------- NEW SECTION------------------------- */
 
-    
+
 
     #eyeglass{
       padding: 50px 100px;
@@ -183,7 +183,7 @@
       text-align: center !important;
       width: 100%;
       padding: 10px 0px;
-      
+
     }
 
     .card_body p{
@@ -229,7 +229,7 @@
   background-color: #F7F7F7;
   /*color: #013f7e;*/
   /*color: #696B79!important;*/
-  
+
 }
 
 .foot_two a{
@@ -329,7 +329,7 @@
    and (max-device-width : 768px){ 
      .mobilecontent {display: inline;}
      }*/
-     
+
      #main_menu{
       margin-bottom: 0;
       position: relative;
@@ -421,7 +421,7 @@
       border-bottom: .1px solid #ddd  ;
       padding: 10px 8px 10px 16px;
       overflow: hidden;
-      
+
     }
 
     .mob_carosel{
@@ -520,7 +520,7 @@
   }
 
   .foot_icn{
-    
+
     font-size: 1.6rem;
     margin-bottom: 1rem;
     padding-left: 1rem;
@@ -612,6 +612,7 @@
   .sec_frm{
     height: 50%!important;
   }
+  
 
   /*----------------LOGIN POP FORM-----------------------------*/
 
@@ -658,28 +659,53 @@
     display: block!important;
   }
   /*----------------LOGIN POP FORM-----------------------------*/
+  #show_reg{
+    top: 50%!important;
+    right: 10%;
+  }
+
   #show_reg .fir_frm{
    width: 60%!important;
    height: 50%!important;
  }
 
- #show_form .sec_frm{
-   width: 65%!important;
-   height: 60%!important;
- }
+ #show_form{
+  top: 40%!important;
+  right: 10%;
+}
 
- #show_sigin .sigin_frm{
-   width: 65%!important;
-   height: 50%!important;
- }
+#show_form .sec_frm{
+ width: 65%!important;
+ height: 60%!important;
+}
 
- .sigin_bdr p{
+#show_sigin{
+  top: 47%!important;
+  right: 10%;
+}
+
+#show_sigin .sigin_frm{
+ width: 65%!important;
+ height: 50%!important;
+}
+
+.sigin_bdr p{
   font-size: 1.2rem!important;
+}
+
+#show_otp{
+  top: 60%!important;
+  right: 10%;
 }
 
 #show_otp .otp_frm{
   width: 60%!important;
   height: 35%!important;
+}
+
+#show_forget{
+  top: 60%!important;
+  right: 10%;
 }
 
 #show_forget .forget_frm{
@@ -787,7 +813,7 @@
 }
 
 .foot_icn{
-  
+
   font-size: 1.3rem;
   margin-bottom: 1rem;
   padding-left: 0.2rem;
@@ -795,8 +821,14 @@
 }
 
 /*----------------LOGIN POP FORM-----------------------------*/
+#show_reg{
+  top: 35%!important;
+  right: 20%!important;
+}
+
 #show_reg .fir_frm{
- height: 65%!important;
+  width: 75%!important;
+  height: 65%!important;
 }
 .reg_con h4{
  font-size: 0.9rem;
@@ -821,6 +853,9 @@
   margin-left: -1rem;
 }
 
+#show_form{
+  top: 22%!important;
+}
 #show_form .sec_frm{
  width: 65%!important;
  height: 80%!important;
@@ -839,8 +874,14 @@
   font-size: 0.8rem;
   color: red;
 }
+
+#show_sigin{
+  top: 33%!important;
+  right: 20%!important;
+}
+
 #show_sigin .sigin_frm{
- width: 65%!important;
+ width: 75%!important;
  height: 70%!important;
 }
 
@@ -849,19 +890,49 @@
   border-bottom: none;
 }
 
+#show_otp{
+  top: 40%!important;
+  right: 20%!important;
+}
+
 #show_otp .otp_frm{
-  width: 60%!important;
-  height: 65%!important;
+  width: 80%!important;
+  height: 55%!important;
+}
+
+#show_forget{
+  top: 40%!important;
+  right: 25%!important;
 }
 
 #show_forget .forget_frm{
-  width: 60%!important;
+  width: 80%!important;
   height: 65%!important;
 }
 }
-@media only screen and (max-width: 540px) {
+/*@media only screen and (max-width: 375px) {
   #show_form .sec_frm{
-   height: 85%!important;
+   height: 94%!important;
+ }
+ #show_reg{
+  top: 50%!important;
+ }
+ #show_form{
+  top: 4%!important;
+ }
+ #show_sigin{
+top: 44%!important;
+
+  {
+#show_otp{
+    top: 50%!important;
+
+  {
+#show_forget{
+top: 44%!important;
+
+  {
+
  }
 }
-
+*/
