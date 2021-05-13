@@ -526,8 +526,73 @@
   padding-left: 1rem;
 }
 
+/*----------------LOGIN POP FORM-----------------------------*/
+
+#show_reg .fir_frm{
+   width: 33%!important;
+   height: 70%!important;
+}
+
+#show_form .sec_frm{
+   width: 33%!important;
+   height: 90%!important;
+}
+
+#show_sigin .sigin_frm{
+   width: 33%!important;
+   height: 70%!important;
+}
+
+.sigin_bdr p{
+  font-size: 1.2rem!important;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#show_otp .otp_frm{
+  width: 33%!important;
+   height: 53%!important;
+}
+
+#show_forget .forget_frm{
+  width: 33%!important;
+   height: 55%!important;
+}
 
 
+.reg_form .form-control{
+    border: none;
+    border-bottom: 0.1rem solid #0B5ED7;
+
+}
+
+.sigin_form .form-control{
+    border: none;
+    border-bottom: 0.1rem solid grey;
+
+}
+
+.sigin_bdr{
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  color: #0B5ED7;
+}
+
+.sigin_bdr p{
+  border-bottom: 1px solid #0B5ED7;
+}
+
+.otp_form  .form-control{
+  border:none;
+  border-bottom: 0.1rem solid grey;
+}
+
+.forget_form .form-control{
+    border: none;
+    border-bottom: 0.1rem solid grey;
+
+}
 
 
 
@@ -547,6 +612,40 @@
    .sec_frm{
     height: 50%!important;
    }
+
+   /*----------------LOGIN POP FORM-----------------------------*/
+
+#show_reg .fir_frm{
+   width: 50%!important;
+   height: 40%!important;
+}
+
+#show_form .sec_frm{
+   width: 50%!important;
+   height: 45%!important;
+}
+
+#show_sigin .sigin_frm{
+   width: 50%!important;
+   height: 40%!important;
+}
+
+.sigin_bdr p{
+  font-size: 1.2rem!important;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#show_otp .otp_frm{
+  width: 50%!important;
+   height: 30%!important;
+}
+
+#show_forget .forget_frm{
+  width: 50%!important;
+   height: 30%!important;
+}
+
   
   
 }
@@ -558,21 +657,47 @@
 .mobile{
   display: block!important;
 }
+/*----------------LOGIN POP FORM-----------------------------*/
+#show_reg .fir_frm{
+   width: 60%!important;
+   height: 50%!important;
+}
+
+#show_form .sec_frm{
+   width: 65%!important;
+   height: 60%!important;
+}
+
+#show_sigin .sigin_frm{
+   width: 65%!important;
+   height: 50%!important;
+}
+
+.sigin_bdr p{
+  font-size: 1.2rem!important;
+}
+
+#show_otp .otp_frm{
+  width: 60%!important;
+   height: 35%!important;
+}
+
+#show_forget .forget_frm{
+  width: 60%!important;
+   height: 35%!important;
+}
+
 
 }
 
 @media only screen and (max-width: 540px) {
+
 .desktop{
   display: none;
 }
 .mobile{
   display: block!important;
 }
-
-/*.img_main{
-  height: 13vh;
-  margin-top: 1rem;
-}*/
 
 
 .img_head{
@@ -667,51 +792,95 @@
   margin-bottom: 1rem;
   padding-left: 0.2rem;
   margin-bottom: 5rem;
-
-}
 }
 
-
-
-
-
-
-
-.reg_form .form-control{
-    border: none;
-    border-bottom: 0.1rem solid #0B5ED7;
-
+/*----------------LOGIN POP FORM-----------------------------*/
+#show_reg .fir_frm{
+   height: 65%!important;
+}
+.reg_con h4{
+   font-size: 0.9rem;
 }
 
-.sigin_form .form-control{
-    border: none;
-    border-bottom: 0.1rem solid grey;
-
+.reg_con p{
+   font-size: 0.8rem!important;
 }
 
-.sigin_bdr{
-  font-size: 0.9rem;
-  margin-top: 1.5rem;
-  cursor: pointer;
-  color: #0B5ED7;
+.reg_form{
+  margin-top: -1.2rem;
+}
+
+.reg_or{
+  margin-top: -1rem;
+}
+
+.reg_or button:nth-last-child(2){
+  margin: 2rem 0;
+}
+#reg_can{
+  margin-left: -1rem;
+}
+
+#show_form .sec_frm{
+   width: 65%!important;
+   height: 80%!important;
+}
+
+#show_sigin .sigin_frm{
+   width: 65%!important;
+   height: 70%!important;
 }
 
 .sigin_bdr p{
-  border-bottom: 1px solid #0B5ED7;
+  font-size: 0.7rem!important;
+  border-bottom: none;
 }
 
-.otp_form  .form-control{
-  border:none;
-  border-bottom: 0.1rem solid grey;
+#show_otp .otp_frm{
+  width: 60%!important;
+   height: 65%!important;
 }
 
-.forget_form .form-control{
-    border: none;
-    border-bottom: 0.1rem solid grey;
-
+#show_forget .forget_frm{
+  width: 60%!important;
+   height: 65%!important;
 }
 
 
+}
+/*----------------LOGIN POP FORM-----------------------------*/
 
+/*#show_reg .fir_frm{
+   width: 60%!important;
+   height: 50%!important;
+}
+
+.reg_con h4{
+  font-size: 1rem!important;
+}
+#show_form .sec_frm{
+   width: 65%!important;
+   height: 60%!important;
+}
+
+#show_sigin .sigin_frm{
+   width: 65%!important;
+   height: 50%!important;
+}
+
+.sigin_bdr p{
+  font-size: 1.2rem!important;
+}
+
+#show_otp .otp_frm{
+  width: 60%!important;
+   height: 35%!important;
+}
+
+#show_forget .forget_frm{
+  width: 60%!important;
+   height: 35%!important;
+}
+*/
 
   
