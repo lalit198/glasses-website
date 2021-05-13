@@ -540,7 +540,7 @@
 
 #show_sigin .sigin_frm{
    width: 33%!important;
-   height: 70%!important;
+   height: 80%!important;
 }
 
 .sigin_bdr p{
@@ -824,8 +824,21 @@
 #show_form .sec_frm{
    width: 65%!important;
    height: 80%!important;
+   margin-left: -2rem;
 }
 
+.form_con h4{
+  font-size: 1rem!important;
+}
+
+.form_con p{
+  font-size: 0.7rem!important;
+}
+
+::placeholder{
+  font-size: 0.8rem;
+  color: red;
+}
 #show_sigin .sigin_frm{
    width: 65%!important;
    height: 70%!important;
@@ -845,42 +858,11 @@
   width: 60%!important;
    height: 65%!important;
 }
-
-
 }
-/*----------------LOGIN POP FORM-----------------------------*/
-
-/*#show_reg .fir_frm{
-   width: 60%!important;
-   height: 50%!important;
+@media only screen and (max-width: 540px) {
+  #show_form .sec_frm{
+   height: 85%!important;
 }
-
-.reg_con h4{
-  font-size: 1rem!important;
 }
-#show_form .sec_frm{
-   width: 65%!important;
-   height: 60%!important;
-}
-
-#show_sigin .sigin_frm{
-   width: 65%!important;
-   height: 50%!important;
-}
-
-.sigin_bdr p{
-  font-size: 1.2rem!important;
-}
-
-#show_otp .otp_frm{
-  width: 60%!important;
-   height: 35%!important;
-}
-
-#show_forget .forget_frm{
-  width: 60%!important;
-   height: 35%!important;
-}
-*/
 
   
