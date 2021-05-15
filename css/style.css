@@ -491,7 +491,7 @@
       top: 0;
       left: 50%;
       transform: translate(-50%);
-      z-index: 99;
+      z-index: 100;
    }
 
     .per_one_drop{
@@ -508,7 +508,7 @@
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    z-index: 99;
+    z-index: 100!important;
     
  }
 
@@ -525,7 +525,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%);
-    z-index: 99;
+    z-index: 100!important;
 }
 
 .per_thr_drop{
@@ -542,7 +542,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%);
-    z-index: 99;
+    z-index: 100!important;
 }
 
 .per_four_drop{
@@ -587,7 +587,7 @@
    position: absolute;
    top: 48%;
    left: 50%;
-   z-index: 100;
+   z-index: 98;
    padding: 0 1rem;
    padding-top: 1rem;
    }
