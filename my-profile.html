@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My profile</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!--Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="header_pro">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 75">
+      <div class="container-fluid text-uppercase p-2">
+        <a class="navbar-brand font-weight-bold text-capitalize" href="#"><span
+            class="text-primary font-weight-bolder">C</span>ool <span
+            class="text-primary font-weight-bolder">W</span>inks</a>
+        <div>
+          <ul class="navbar-nav" style="margin-left: 2rem;">
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="#" id="eyeglassId">EYEGLASSES</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#service_div" id="sunglassId">SUNGLASSES</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#pricing_div" id="lensId">CONTACT LENSES</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#projects_div" id="discoverId">DISCOVER</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form-inline nav_form" action="/action_page.php" style="margin-right: 0.5rem;">
+          <div class="input-group search_main">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" class="form-control search_input" placeholder="What are you looking for?"
+              class="bg-dark">
+          </div>
+        </form>
+
+        <ul class="ml-auto navbar-nav third_icon" style="margin-top: -0.5rem;">
+          <li class="nav-item px-4 text-center">
+            <span id="click_reg" class="nav-link text-dark" href=""><i class="fa fa-user-o" aria-hidden="true"></i>
+              <p class="font-weight-bolder" style="cursor: pointer;">Admin</p>
+            </span>
+          </li>
+
+          <li class="nav-item px-4 text-center">
+            <a class="nav-link text-dark" href=""><i class="fa fa-suitcase" aria-hidden="true"></i>
+              <p class="font-weight-bolder">Cart</p>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+
+    <!-------------- DROP DOWN MENU CODE STARTS ---------------->
+    <div style="position: relative; height: 100%" id="par_drop">
+      <div class="fir_nav_drop" style="visibility: hidden;" id="showOne">
+        <div class="row per_one_drop">
+          <div class="col-xl-3 col-md-3 col-3">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-1 font-weight-bolder">Select Gender</h6>
+              <ul class="pt-4" style="margin-left: -2rem;">
+                <li>
+                  <a href=""><img src="images/men_cat.png" alt="" style="height: 35px;"><span
+                      style="padding-left: 3rem; font-size: 0.8rem;">MEN</a></span>
+                </li>
+                <li class="py-4">
+                  <a href=""><img src="images/women_cat.jpg" alt="" style="height: 35px;"><span
+                      style="padding-left: 2.8rem; font-size: 0.8rem;">WOMEN</a></span>
+                </li>
+                <li>
+                  <a href=""><img src="images/kids_cat.jpg" alt="" style="height: 35px;"><span
+                      style="padding-left: 1.6rem; font-size: 0.8rem;">KIDS</a></span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-3 col-3" style="background-color: #fafafa;">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Collection</h6>
+              <ul class="pt-4">
+                <li class="" style="font-size: 0.8rem;">
+                  <a href="">XSTYL</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">GRAVIATE</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">GRAVIATE FIRST</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">XSTYLE FIRST</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">COMPUTER GLASSES</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">READING GLASSES</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-3 col-3">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Shape</h6>
+              <ul class="pt-4">
+                <li style="font-size: 0.8rem;">
+                  <a href="">HEXAGON</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.6rem;">
+                  <a href="">RETEROSQUARE</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.6rem;">
+                  <a href="">ROUND</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.6rem;">
+                  <a href="">CLUBMASTER</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.6rem;">
+                  <a href="">OVAL</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.6rem;">
+                  <a href="">RECTANGLE</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.6rem;">
+                  <a href="">CATEYE</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.6rem;">
+                  <a href="">PILOT</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-xl-3 col-md-3 col-3" style="background-color: #fafafa;">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Style</h6>
+              <ul class="pt-4">
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">FULL FRAME</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">HALF FRAME</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">RIMLESS</a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="sec_nav_drop mx-auto" style="visibility: hidden;" id="showTwo">
+        <div class="row per_two_drop">
+          <div class="col-xl-3 col-md-3 col-3">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Gender</h6>
+              <ul class="pt-4" style="margin-left: -2rem;">
+                <li>
+                  <a href=""><img src="images/men_cat.png" alt="" style="height: 35px;"><span
+                      style="padding-left: 3rem; font-size: 0.8rem;">MEN</a></span>
+                </li>
+                <li class="py-4">
+                  <a href=""><img src="images/women_cat.jpg" alt="" style="height: 35px;"><span
+                      style="padding-left: 2.8rem; font-size: 0.8rem;">WOMEN</a></span>
+                </li>
+                <li>
+                  <a href=""><img src="images/kids_cat.jpg" alt="" style="height: 35px;"><span
+                      style="padding-left: 1.6rem; font-size: 0.8rem;">KIDS</a></span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-3 col-3" style="background-color: #fafafa;">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Collection</h6>
+              <ul class="pt-2 pl-2">
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">FULL FRAME</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">HALF FRAME</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">RIMLESS</a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-xl-3 col-md-3 col-3">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Shape</h6>
+              <ul class="pt-4 pl-2">
+                <li style="font-size: 0.8rem;">
+                  <a href="">PILOT</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.7rem;">
+                  <a href="">CATEYE</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.7rem;">
+                  <a href="">ROUND</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.7rem;">
+                  <a href="">BUTTERFLY</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.7rem;">
+                  <a href="">CLUBMASTER</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.7rem;">
+                  <a href="">WRAPAROUND</a>
+                </li>
+                <li style="font-size: 0.8rem; padding-top: 0.7rem;">
+                  <a href="">RETEROSQUARE</a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-xl-3 col-md-3 col-3" style="background-color: #fafafa;">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Style</h6>
+              <ul class="pt-2 pl-2">
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">MIRROR</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">GRADIENT</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">TINTED</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">FLASH</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">POLARIZED</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="thr_nav_drop mx-auto" style="visibility: hidden;" id="showThree">
+        <div class="row per_thr_drop">
+          <div class="col-xl-4 col-md-4 col-4">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Usage</h6>
+              <ul class="pt-2 pl-2">
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">DAILY</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">MONTHLY</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-4" style="background-color: #fafafa;">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Color</h6>
+              <ul class="pt-2 pl-2">
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">TRANSAPARENT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 col-4">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Color</h6>
+              <ul class="pt-2 pl-2">
+                <li class="pt-3" style="font-size: 0.8rem;"> <a href="">COOLWINKS COOL CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="four_nav_drop mx-auto" style="visibility: hidden;" id="showFour">
+        <div class="row per_four_drop">
+          <div class="col-xl-4 col-md-4 col-4">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">More Collections</h6>
+              <ul class="pt-4" style="margin-left: -2rem;">
+                <li>
+                  <a href=""><img src="images/power-sunglasses.png" alt="" style="height: 25px;"><span
+                      style="padding-left: 3rem; font-size: 0.8rem;">MEN</a></span>
+                </li>
+                <li class="py-2">
+                  <a href=""><img src="images/reading-eyeglasses-hamburgericon.png" alt="" style="height: 65px;"><span
+                      style="padding-left: 2.8rem; font-size: 0.8rem;">WOMEN</a></span>
+                </li>
+                <li>
+                  <a href=""><img src="images/icon-wipes2.png" alt="" style="height: 25px;"><span
+                      style="padding-left: 2.5rem; font-size: 0.8rem;">KIDS</a></span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-3 col-3" style="background-color: #fafafa;">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">More Links</h6>
+              <ul class="pt-2 pl-2">
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">OFFERS</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">COOLCASH</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">COLLECTIONS</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">FREE EYE TEST CAMP</a>
+                </li>
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href="">KNOWLEDGE CENTER</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-md-5 col-5">
+            <div class="drop_con">
+              <h6 class="text-left pt-3 pl-2 font-weight-bolder">Stay Connected On The Go</h6>
+              <ul class="pt-2 pl-2">
+                <li class="pt-3" style="font-size: 0.8rem;">
+                  <a href=""><img src="images/download-app-menu2-8aug19.jpg" alt="" class="img-fluid"
+                      style="height: 200px;"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <section class="mypr_hero"></section>
+      <div class="mypr_title_con">
+        <h4>MY DASHBOARD</h4>
+      </div>
+      <div>
+        <div class="mypr_grand_con container">
+
+          <div class="row pr_row_main">
+            <div class="col-xl-3 col-md-3 col-3 bg-primary">hey</div>
+            <div class="col-xl-9 col-md-9 col-9 right_Pr">
+              <div class="row_tex">
+                <p>Hello, lalit!</p>
+              </div>
+              <p> Update your personal details here. Select a link below to edit information.</p>
+
+              <div class="row pr_row_child">
+                <div class="col-xl-6 col-md-6 col-sm-12">
+
+                  <div class="card pro_card">
+                    <div class="card-body">
+                      <h4 class="card-title">Jane Doe</h4>
+                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer
+                      </p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12">
+
+                  <div class="card pro_card">
+                    <div class="card-body">
+                      <h4 class="card-title">Jane Doe</h4>
+                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer
+                      </p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row pr_row_child">
+                <div class="col-xl-6 col-md-6 col-sm-12">
+
+                  <div class="card pro_card">
+                    <div class="card-body">
+                      <h4 class="card-title">Jane Doe</h4>
+                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer
+                      </p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12">
+
+                  <div class="card pro_card">
+                    <div class="card-body">
+                      <h4 class="card-title">Jane Doe</h4>
+                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer
+                      </p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer section -->
+
+  <section id="footer" style="margin-top: 4rem;">
+    <div class="container">
+      <div class="row" style="margin-top: -4rem">
+        <div class="col-md-3 font-weight-bolder">
+          <p> <img src="images/footer1.svg" alt="" class="footer-logo"> 100% Genuine Product</p>
+          <p> <img src="images/footer2.svg" alt="" class="footer-logo"> Easy Delivery & Returns</p>
+          <p> <img src="images/footer3.svg" alt="" class="footer-logo"> Cash On Delivery</p>
+          <p> <img src="images/footer4.svg" alt="" class="footer-logo"> 100% Secure Payments</p>
+
+        </div>
+        <div class="col-md-3 foot_two">
+          <h1 class="font-weight-bolder">USEFUL LINKS</h1>
+          <a href="">
+            <p>About Us</p>
+          </a>
+          <a href="contact.html">
+            <p>Contact Us</p>
+          </a>
+          <a href="">
+            <p>Help</p>
+          </a>
+          <a href="">
+            <p>Gift Of Vision</p>
+          </a>
+          <a href="">
+            <p>Offers</p>
+          </a>
+          <a href="">
+            <p>Blog</p>
+          </a>
+          <a href="">
+            <p>CoolCash</p>
+          </a>
+          <a href="">
+            <p>Knowledge Center</p>
+          </a>
+          <a href="">
+            <p>Customer Reviews</p>
+          </a>
+          <a href="">
+            <p>Sitemap</p>
+          </a>
+          <a href="">
+            <p>Free Eye Test Camp</p>
+          </a>
+          <a href="">
+            <p>Collections</p>
+          </a>
+        </div>
+        <div class="col-md-3 foot_three">
+          <h1 class="font-weight-bolder">POLICIES</h1>
+          <a href="">
+            <p> Cancellation & Refund Policy</p>
+          </a>
+          <a href="">
+            <p> Terms Of Use</p>
+          </a>
+          <a href="">
+            <p> Privacy Policy</p>
+          </a>
+          <a href="">
+            <p> Delivery & Shipping Terms</p>
+          </a>
+
+        </div>
+        <div class="col-md-3">
+          <h1 class="font-weight-bolder" style="line-height: 1.3rem">EXPERIENCE COOLWINKS APP ON MOBILE</h1>
+          <div class="">
+            <a href=""><img src="images/google_play.png" class="img-fluid" width="100px"></a>
+            <a href=""><img src="images/apple_store.png" class="img-fluid" width="100px"></a>
+          </div>
+          <p class="pt-3" style="font-size: 0.8rem;">KEEP IN TOUCH</p>
+          <div class="d-flex foot_icon">
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-google"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright © 2021. All Rights Reserved</p>
+    </div>
+  </section>
+  </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+  
+
+
+
+  <script src="js/swiped-events.js"></script>
+  <script src="js/script.js"></script>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+
+
+
+
+    $(document).ready(function () {
+      $('#eyeglassId').mouseenter(function () {
+        $('#showOne,#showTwo,#showThree,showFour').css("visibility", "visible");
+        $('#showTwo,#showThree,#showFour').css("visibility", "hidden");
+
+      });
+
+    });
+
+    $(document).ready(function () {
+      $('#showOne').mouseleave(function () {
+        $('#showOne').css("visibility", "hidden");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#sunglassId').mouseenter(function () {
+        $('#showTwo').css("visibility", "visible");
+        $('#showOne,#showThree,#showFour').css("visibility", "hidden");
+      });
+    });
+
+
+    $(document).ready(function () {
+      $('#showTwo').mouseleave(function () {
+        $('#showTwo').css("visibility", "hidden");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#lensId').mouseenter(function () {
+        $('#showThree').css("visibility", "visible");
+        $('#showTwo,#showOne,#showFour').css("visibility", "hidden");
+      });
+
+    });
+
+    $(document).ready(function () {
+      $('#showThree').mouseleave(function () {
+        $('#showThree').css("visibility", "hidden");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#discoverId').mouseenter(function () {
+        $('#showFour').css("visibility", "visible");
+        $('#showTwo,#showThree,#showOne').css("visibility", "hidden");
+      });
+    });
+
+
+    $(document).ready(function () {
+      $('#showFour').mouseleave(function () {
+        $('#showFour').css("visibility", "hidden");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#click_reg').click(function () {
+        $('#show_reg').css("visibility", "visible");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#reg_can').click(function () {
+        $('#show_reg').css("visibility", "hidden");
+
+      });
+    });
+
+    // ---------------first time registration-----------------------
+
+    // $(document).ready(function(){
+    //   $('#reg_btn').click(function(){
+    //     $('#show_form').css("visibility","visible");
+    //   });
+    // });
+
+    // $(document).ready(function(){
+    //   $('#form_can').click(function(){
+    //     $('#show_form').css("visibility","hidden");
+    //     $('#show_reg').css("visibility","hidden");
+
+    //   });
+    // });
+
+    // ----------Sign In Form--------------------
+
+    $(document).ready(function () {
+      $('#reg_btn').click(function () {
+        $('#show_sigin').css("visibility", "visible");
+        $('#show_reg').css("visibility", "hidden");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#sigin_can').click(function () {
+        $('#show_sigin').css("visibility", "hidden");
+
+
+      });
+    });
+
+    $(document).ready(function () {
+      $('#sigin_btn').click(function () {
+        $('#show_otp').css("visibility", "visible");
+        $('#show_sigin').css("visibility", "hidden");
+        $('#show_reg').css("visibility", "hidden");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#sigin_email').click(function () {
+        $('#show_reg').css("visibility", "visible");
+        $('#show_sigin').css("visibility", "hidden");
+
+      });
+    });
+
+    $(document).ready(function () {
+      $('#sigin_frgtpass').click(function () {
+        $('#show_forget').css("visibility", "visible");
+        $('#show_sigin').css("visibility", "hidden");
+        $('#show_reg').css("visibility", "hidden");
+      });
+    });
+
+    // ----------Otp Form--------------------
+
+    $(document).ready(function () {
+      $('#otp_change').click(function () {
+        $('#show_reg').css("visibility", "visible");
+        $('#show_otp').css("visibility", "hidden");
+
+      });
+    });
+
+    $(document).ready(function () {
+      $('#otp_pass').click(function () {
+        $('#show_sigin').css("visibility", "visible");
+        $('#show_otp').css("visibility", "hidden");
+      });
+    });
+
+
+
+    $(document).ready(function () {
+      $('#otp_can').click(function () {
+        $('#show_otp').css("visibility", "hidden");
+
+
+      });
+    });
+
+    //----------- Forget----------
+
+    $(document).ready(function () {
+      $('#forget_can').click(function () {
+        $('#show_forget').css("visibility", "hidden");
+
+
+      });
+    });
+
+
+
+    $(document).ready(function () {
+      $('#clk_reg').click(function () {
+        $('#show_reg').css("visibility", "visible");
+      });
+    });
+
+
+
+
+
+  </script>
+</body>
+
+</html>

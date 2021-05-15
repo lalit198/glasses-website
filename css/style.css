@@ -2,8 +2,8 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
 .header{
   width: 100%;
-  height: 70vh;
-  background-color: #F2F2F2;
+  height: auto;
+  background-color: #ffffff!important;
   display: flex;
   flex-direction: column;
 }
@@ -61,7 +61,7 @@
   left: 50%;
   transform: translate(-50%);
   z-index: 50;*/
-  top: 8%!important;
+  top: 9%!important;
   left: 40%!important;
 }
 
@@ -76,7 +76,7 @@
   height: 60%;
   background-color: #FFFFFF;
   position: fixed;
-  top: 8%!important;
+  top: 9%!important;
   left: 40%!important;
   transform: translate(-50%);
   z-index: 50;
@@ -93,7 +93,7 @@
   height: 60%;
   background-color: #FFFFFF;
   position: fixed;
-  top: 8%!important;
+  top: 9%!important;
   left: 40%!important;
   transform: translate(-50%);
   z-index: 50;
@@ -110,7 +110,7 @@
   height: 60%;
   background-color: #FFFFFF;
   position: fixed;
-  top: 8%!important;
+  top: 9%!important;
   left: 40%!important;
   transform: translate(-50%);
   z-index: 50;
@@ -136,13 +136,6 @@
   color: #3776A7;
 }
 
-/* 
-.crousel_main{
-    width: 100%;
-    height: 70vh;
-    position: relative;
-    
-    } */
     .crousel_child{
       width: 100%;
       height: 90%;
@@ -564,6 +557,87 @@
 .drop_con ul li a{
     text-decoration: none;
 }
+
+    /*-----------------------------------MY PROFILE PAGE STARTS------------------------------------*/
+
+ .header_pro{
+  width: 100%;
+  height: 70vh;
+  background-color: #ffffff!important;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .mypr_hero{
+  width: 100%;
+  height: 45%;
+  background-image: url('../images/myaccnt_bnr_myinfo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 4rem;
+
+  
+  
+} 
+.row_tex{
+  margin-top: 2rem;
+}
+
+.mypr_title_con{
+   position: absolute;
+   top: 48%;
+   left: 50%;
+   z-index: 100;
+   padding: 0 1rem;
+   padding-top: 1rem;
+   }
+
+   .mypr_title_con h4{
+    font-weight: 800!important;
+   }
+
+.mypr_title_con {
+background: 
+  /* On "top" */
+  repeating-linear-gradient(
+    140deg,
+    transparent,
+    transparent 2.5px,
+    #fff 2.5px,
+    #fff 5px
+  ),
+  /* on "bottom" */
+  linear-gradient(
+    to bottom,
+    #F4F4F4,
+    #F4F4F4
+  );
+}
+
+
+.mypr_grand_con{
+  width: 100%;
+  margin-top: -1.4rem; 
+}
+
+.pro_cardOne{
+  width: 50%;
+  height: 65%!important;
+}
+ .pr_row_main{ 
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+} 
+
+.pr_row_child{
+    margin: 1rem 0 2rem 0;
+}
+
+.right_Pr{
+  background-color: #ffffff;
+}
+
+
+
 
 
 
@@ -1252,4 +1326,6 @@ top: 44%!important;
     font-size: 0.4rem!important;
   }
 }
+
+
 
