@@ -871,6 +871,9 @@
  font-weight: bolder;
  
 }
+.eleven_one{
+  height: auto;
+}
 
 
   
@@ -921,6 +924,13 @@
   #mob_foot{
     height: 45vh;
   }
+  .foot_rg_icon{
+  margin-left: auto!important;
+  
+}
+.rg_con{
+  margin-right: 2rem;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -984,6 +994,9 @@
     height: 60vh;
   }
 
+}
+.foot_rg_icon{
+  margin-left: -0.1rem;
 }
 
 @media only screen and (max-width: 540px) {
@@ -1090,7 +1103,7 @@
   margin-bottom: 5rem;
 }
  #mob_foot{
-    height: 35vh;
+    height: 41vh;
   }
 
 /*----------------LOGIN POP FORM-----------------------------*/
@@ -1205,7 +1218,7 @@ top: 44%!important;
 }
  
 
- }
+ 
 }
 @media only screen and (max-width: 322px) {
   #show_form .sec_frm{
@@ -1235,6 +1248,8 @@ top: 44%!important;
     height: auto;
   }
 
- }
+  .rg_con p{
+    font-size: 0.4rem!important;
+  }
 }
 
