@@ -60,12 +60,12 @@
       </div>
     </nav>
     <div style="position: relative; height: 100%" id="par_drop">
-     <div class="fir_nav_drop mx-auto" style="visibility: hidden;" id="showOne">
+     <div class="fir_nav_drop" style="visibility: hidden;" id="showOne">
       <div class="row per_one_drop">
         <div class="col-xl-3 col-md-3 col-3">
           <div class="drop_con">
             <h6 class="text-left pt-3 pl-1 font-weight-bolder">Select Gender</h6>
-            <ul class="pt-4">
+            <ul class="pt-4" style="margin-left: -2rem;">
               <li>
                 <a href=""><img src="images/men_cat.png" alt="" style="height: 35px;"><span style="padding-left: 3rem; font-size: 0.8rem;">MEN</a></span> 
               </li>
@@ -165,7 +165,7 @@
         <div class="col-xl-3 col-md-3 col-3">
           <div class="drop_con">
             <h6 class="text-left pt-3 pl-2 font-weight-bolder">Select Gender</h6>
-            <ul class="pt-4">
+            <ul class="pt-4" style="margin-left: -2rem;">
               <li>
                 <a href=""><img src="images/men_cat.png" alt="" style="height: 35px;"><span style="padding-left: 3rem; font-size: 0.8rem;">MEN</a></span> 
               </li>
@@ -294,7 +294,7 @@
     <div class="col-xl-4 col-md-4 col-4">
       <div class="drop_con">
         <h6 class="text-left pt-3 pl-2 font-weight-bolder">More Collections</h6>
-        <ul class="pt-4">
+        <ul class="pt-4" style="margin-left: -2rem;">
           <li>
             <a href=""><img src="images/power-sunglasses.png" alt="" style="height: 25px;"><span style="padding-left: 3rem; font-size: 0.8rem;">MEN</a></span> 
           </li>
@@ -1321,7 +1321,7 @@
       <div class="col-md-3 foot_two">
         <h1 class="font-weight-bolder">USEFUL LINKS</h1>
         <a href=""><p>About Us</p></a>
-        <a href=""><p>Contact Us</p></a>
+        <a href="contact.html"><p>Contact Us</p></a>
         <a href=""><p>Help</p></a>
         <a href=""><p>Gift Of Vision</p></a>
         <a href=""><p>Offers</p></a>
@@ -2017,8 +2017,11 @@ z-index: 2001; visibility: hidden;">
 
                  $(document).ready(function(){
                    $('#eyeglassId').mouseenter(function(){
-                     $('#showOne').css("visibility","visible");
+                     $('#showOne,#showTwo,#showThree,showFour').css("visibility","visible");
+                     $('#showTwo,#showThree,#showFour').css("visibility","hidden");
+                     
                    });
+                 
                  });
 
                  $(document).ready(function(){
@@ -2030,6 +2033,7 @@ z-index: 2001; visibility: hidden;">
                  $(document).ready(function(){
                    $('#sunglassId').mouseenter(function(){
                      $('#showTwo').css("visibility","visible");
+                      $('#showOne,#showThree,#showFour').css("visibility","hidden");
                    });
                  });
 
@@ -2043,6 +2047,7 @@ z-index: 2001; visibility: hidden;">
                  $(document).ready(function(){
                    $('#lensId').mouseenter(function(){
                      $('#showThree').css("visibility","visible");
+                      $('#showTwo,#showOne,#showFour').css("visibility","hidden");
                    });
 
                  });
@@ -2056,6 +2061,7 @@ z-index: 2001; visibility: hidden;">
                  $(document).ready(function(){
                    $('#discoverId').mouseenter(function(){
                      $('#showFour').css("visibility","visible");
+                      $('#showTwo,#showThree,#showOne').css("visibility","hidden");
                    });
                  });
 

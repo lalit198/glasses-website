@@ -55,12 +55,14 @@
 .fir_nav_drop{
   width: 57%;
   height: 60%;
-  background-color: #ffffff;
+  background-color: red;
   position: fixed;
-  top: 0;
+  /*top: 0;
   left: 50%;
   transform: translate(-50%);
-  z-index: 50;
+  z-index: 50;*/
+  top: 8%!important;
+  left: 40%!important;
 }
 
 .per_one_drop{
@@ -74,8 +76,8 @@
   height: 60%;
   background-color: #FFFFFF;
   position: fixed;
-  top: 0;
-  left: 50%;
+  top: 8%!important;
+  left: 40%!important;
   transform: translate(-50%);
   z-index: 50;
 
@@ -91,8 +93,8 @@
   height: 60%;
   background-color: #FFFFFF;
   position: fixed;
-  top: 0%;
-  left: 50%;
+  top: 8%!important;
+  left: 40%!important;
   transform: translate(-50%);
   z-index: 50;
 }
@@ -108,8 +110,8 @@
   height: 60%;
   background-color: #FFFFFF;
   position: fixed;
-  top: 0%;
-  left: 50%;
+  top: 8%!important;
+  left: 40%!important;
   transform: translate(-50%);
   z-index: 50;
 }
@@ -122,9 +124,16 @@
 
 .drop_con ul{
   list-style: none;
+
 }
 .drop_con ul li a{
   text-decoration: none;
+  color: #000000;
+}
+
+.drop_con ul li a:hover{
+  text-decoration: none;
+  color: #3776A7;
 }
 
 /* 
@@ -313,6 +322,251 @@
     border-radius: 50%;
     border: 1px solid black;
     }*/
+
+/*-------------------CONTACT PAGE START*--------------------------/
+
+/* ***************************Contect middle seiontion************************************** */
+
+#google_map{
+    width: 100%;
+/* padding: 12px; */
+    
+    
+}
+
+.contact_heading{
+    font-size: 1.8rem ;
+    font-family: Playfair Display;
+    color: #262626;
+    font-weight: 400;
+    line-height: 2.2rem;
+    margin: 20px;
+}
+.info{
+    padding: 30px 12px;
+    overflow: hidden;
+}
+
+.from_heading{
+    font-size: 1.8rem;
+    font-weight: 700 ;
+    line-height: 2.2rem;
+    font-family: Playfair Display;
+
+}
+.contact_form{
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+.contact_form .form-control{
+    margin: 20px 0 20px 20px;
+    font-size: .8rem;
+    line-height: 1rem;
+
+    
+}
+.contact_form input{
+    background: 0 0;
+    border: 1px solid #ababab;
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    color: #262626;
+    z-index: 999;
+    outline: 0;
+}
+
+ .information_heading{
+     font-weight: 700;
+     font-size: 1.8rem;
+     color: #262626;
+     line-height: 2.2rem;
+     font-family: Playfair Display;
+
+ }
+.information{
+    margin-top: 40px !important;
+}
+
+.info_heading{
+    font-size: .8rem;
+    font-weight: 600;
+    color: #212529;
+    /* float: left;
+    width: auto;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #035391; */
+}
+
+ .social{    color: #2c2c2c;
+    font-size: 26px;
+    margin-right: 3px;}
+
+.details{
+    /* float: left;  */
+    font-size: 0.7rem; 
+    line-height: 1.2rem; 
+}
+.descrpition{
+    font-weight: 900 !important;
+}
+
+
+
+@media only screen and (max-width: 540px){
+
+    iframe{
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .contact_heading{
+        font-size: 1.1rem;
+        border-bottom: 4px solid #2e2e2e;
+        width: 20vh;
+        margin: 0 auto;
+    }
+
+    .smallheading{
+        font-size: 1.1rem;
+    }
+}
+
+/* *************************************contect middle section end */
+
+
+.header{
+    width: 100%;
+    
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .nav_bar_main ul li a{
+       font-size: 0.9rem;
+       font-weight: bolder;
+       color: #000000!important;
+   }
+
+   .search_main{
+       position: relative;
+   }
+   .search_main .fa-search{
+       position: absolute;
+       top: 40%;
+       left: 4%;
+       transform: translate(-40%);
+       z-index: 99;
+       padding-left: 0.5rem;
+       color: #B4B5C0;
+       font-size: 0.8rem;
+
+   }
+   .search_main input{
+    background-color: #F5F5F6;
+   }
+
+   .search_input::placeholder{
+       font-size: 0.7rem;
+       padding-left: 1rem;
+       color: #000000!important;
+   }
+   .search_input{
+    font-size: 0.8rem;
+   }
+
+  
+
+   .third_icon li p{
+       font-size: 0.8rem;
+       color: #000000;
+   }
+
+   .third_icon{
+       height: 3rem!important;
+   }
+
+   .fir_nav_drop{
+      width: 57%;
+      height: 60%;
+      background-color: #ffffff;
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: 99;
+   }
+
+    .per_one_drop{
+       
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+   } 
+
+   .sec_nav_drop{
+    width: 57%;
+    height: 60%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+    
+ }
+
+ .per_two_drop{
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+} 
+
+.thr_nav_drop{
+    width: 57%;
+    height: 60%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
+
+.per_thr_drop{
+
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+} 
+
+.four_nav_drop{
+    width: 57%;
+    height: 60%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
+
+.per_four_drop{
+
+       padding: 4.5rem 0 0 2rem;
+       height: 100%;
+} 
+
+.drop_con ul{
+    list-style: none;
+}
+.drop_con ul li a{
+    text-decoration: none;
+}
+
+
+
 
     /*-----------------------------------DESKTOP END------------------------------------*/
 
@@ -612,6 +866,13 @@
   .sec_frm{
     height: 50%!important;
   }
+  .nav_bar_main ul li a{
+ font-size: 0.7rem!important;
+ font-weight: bolder;
+ 
+}
+
+
   
 
   /*----------------LOGIN POP FORM-----------------------------*/
@@ -646,18 +907,24 @@
   width: 50%!important;
   height: 30%!important;
 }
-
-
-
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 994px){
   .desktop{
     display: none;
   }
   .mobile{
     display: block!important;
   }
+  #mob_foot{
+    height: 45vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
   /*----------------LOGIN POP FORM-----------------------------*/
   #show_reg{
     top: 50%!important;
@@ -713,6 +980,9 @@
   height: 35%!important;
 }
 
+ #mob_foot{
+    height: 60vh;
+  }
 
 }
 
@@ -819,6 +1089,9 @@
   padding-left: 0.2rem;
   margin-bottom: 5rem;
 }
+ #mob_foot{
+    height: 35vh;
+  }
 
 /*----------------LOGIN POP FORM-----------------------------*/
 #show_reg{
@@ -922,15 +1195,15 @@
  #show_sigin{
 top: 24%!important;
 
-  {
+  }
 #show_otp{
     top: 55%!important;
 
-  {
+  }
 #show_forget{
 top: 44%!important;
-
-  {
+}
+ 
 
  }
 }
@@ -949,15 +1222,18 @@ top: 44%!important;
  #show_sigin{
 top: 0%!important;
 
-  {
+  }
 #show_otp{
     top: 55%!important;
 
-  {
+  }
 #show_forget{
 top: 44%!important;
 
-  {
+  }
+   #mob_foot{
+    height: auto;
+  }
 
  }
 }
