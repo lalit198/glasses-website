@@ -22,7 +22,9 @@
 
 <body>
   <div class="header_pro">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 500;">
+    <!----------------- DESKTOP NAVBAR SECTION START -------------->
+    <div class="desktop">
+     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 500;">
       <div class="container-fluid text-uppercase p-2">
         <a class="navbar-brand font-weight-bold text-capitalize" href="index.html"><span
             class="text-primary font-weight-bolder">C</span>ool <span
@@ -67,7 +69,219 @@
         </ul>
 
       </div>
+    </nav> 
+    </div>
+<!----------------- DESKTOP NAVBAR SECTION END -------------->
+
+
+<!----------------- MOBILE NAVBAR SECTION START -------------->
+    <div class="mobile" style="display: none;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top main-navigation">
+      <div class="container-fluid">
+
+        <a class="navbar-brand font-weight-bold order-2 mx-auto" href="#"><span class="text-primary"
+            style="font-size: 2rem;">C</span>ool <span class="text-primary"
+            style="font-size: 2rem;">W</span>inks</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="icons order-3 pr-3">
+          <ul class="ml-auto navbar-nav third_icon">
+            <li class="nav-item  text-center">
+              <span class="nav-link text-dark"><i class="fa fa-user-o" aria-hidden="true"
+                  style="font-size: 2rem;"></i></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="icons order-4" style="margin-right: 20px;">
+          <ul class="ml-auto navbar-nav third_icon">
+            <li class="nav-item  text-center">
+              <a class="nav-link text-dark" href=""><i class="fa fa-suitcase" aria-hidden="true"
+                  style="font-size: 2rem;"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="overlay d-flex d-lg-none"></div>
+
+        <div class="order-lg-2 bg-light d-lg-flex w-100 sidebar pb-3 pb-lg-0">
+
+          <ul class="navbar-nav mr-lg-auto mb-2 mb-lg-0">
+            <li class="nav-item welcome d-flex" style="background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
+              <div class="left"><i class="fa fa-user-o" aria-hidden="true"
+                  style="border-radius: 50%; margin-top: 12px; color: white; font-size: 3rem;"></i></div>
+              <!-- <img src="images/men_cat.png " style="border-radius: 50%; margin-top: 12px; color: white;" alt="" width="40px" height="50px" class="mx-4 text-center"> -->
+              <div class="right" id="clk_reg">
+                <span class="nav-link px-3 px-lg-2 text-white">Welcome!
+                  <p class="my-1 text-white" style="font-size: .8rem;">Sign In/Sign Up</p>
+                </span>
+              </div>
+
+            </li>
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#"><img
+                  src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-home.svg" alt="">Home</a>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-eyeglasses.png" alt=""> Eyeglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Pilot Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Cateye Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Retrosquare Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Clubmaster Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Round Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Full Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Half Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Men Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Eyeglasses</a></li>
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-sunglasses.png" alt=""> Sunglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Mirror Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Tinted Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Polarized Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Flash Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Gradient Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Men Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Sunglasses</a></li>
+
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/contact-lense/cl-hamburger.png"
+                  alt="">Contact lens</a>
+            </li>
+
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-powersunglasses.png" alt="">
+                Precription Sunglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Men Power Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Power Sunglasses</a></li>
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/kids-eyeglasses.png" alt=""> Kids Glasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Kids Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Kids Sunglasses</a></li>
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-computer.svg"
+                  alt="">Computer Glasses</a>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/site-images/reading-eyeglasses-hamburgericon.png"
+                  alt="">Rreading Glasses</a>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/site-images/icon-wipes.svg" alt="">Lens Clearing
+                Wipes</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-color-blindness.svg"
+                  alt="">Color Blind Glasses</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-color-changable-frames.png"
+                  alt="">Color Changing Frame</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-offers.svg"
+                  alt="">Offers</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/eyetesticon.svg" alt="">Free Eye
+                Testing Camp</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-recentlyViewed.svg"
+                  alt="">Recent Viewed</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-help.svg" alt="">Help</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-chat-with-us.svg"
+                  alt="">Chat With Us</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-help.svg" alt="">Contact
+                Us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
     </nav>
+  </div>
+ <!----------------- MOBILE NAVBAR SECTION START -------------->
 
 
     <!-------------- DROP DOWN MENU CODE STARTS ---------------->
@@ -364,6 +578,7 @@
           </div>
         </div>
       </div>
+      
 
 
       <section class="mypr_hero"></section>
@@ -386,7 +601,7 @@
                 <div class="col-xl-12 col-md-12 col-12 child_left_pr">
                   <a href="">
                     <i class="fa fa-bar-chart" aria-hidden="true" style="transform: rotate(90deg);"></i>
-                     <span> ORDERS</span></a>
+                    <span> ORDERS</span></a>
                 </div>
 
                 <div class="col-xl-12 col-md-12 col-12 child_left_pr">
@@ -420,18 +635,20 @@
 
                   <div class="card pro_card" style="box-shadow: 0 0 2px grey;">
                     <div class="pr_title_one">
-                      <p class="card-title">MY PROFILE</p>
+                      <div class="pr_head_one"><i class="fa fa-user" aria-hidden="true"></i> <span class="card-title">MY PROFILE</span>
+                      <a href="#"><span><i class="fa fa-pencil" aria-hidden="true"></i>Edit</span></a></div>
                     </div>
+                    
 
                     <div class="card-body pr_body_one">
                       <pre><p class="card-text">
 Personal Information
-Name     :  <span> lalit</span>
-Email      :  <span> lalit92bora@gmail.com</span>
-Contact  :  <span> 7982107600</span>
+Name     :  <span> Lalit</span>
+Email      :  <span> xyz@gmail.com</span>
+Contact  :  <span> 9316549875</span>
 DOB        :  <span></span>
 Gender   :  <span></span> </p>
-<a href="#" class=""><i class="fa fa-key" aria-hidden="true"></i> Change Password</a></pre>
+<a href="#"><i class="fa fa-key" aria-hidden="true"></i> <span>Change Password</span></a></pre>
                     </div>
                   </div>
                 </div>
@@ -439,7 +656,7 @@ Gender   :  <span></span> </p>
 
                   <div class="card pro_card" style="box-shadow: 0 0 2px grey;">
                     <div class="pr_title_two">
-                      <p class="card-title">NEWS LETTER</p>
+                      <div class="pr_head_sec"><i class="fa fa-envelope" aria-hidden="true"></i> <span class="card-title">NEWS LETTER</span></div>
                     </div>
                     <div class="card-body pr_body_lig">
                       <p class="card-text">You are not subscribed to any newsletter</p>
@@ -452,8 +669,8 @@ Gender   :  <span></span> </p>
                 <div class="col-xl-6 col-md-6 col-sm-12">
 
                   <div class="card pro_card pro_card_sec" style="box-shadow: 0 0 2px grey;">
-                    <div class="pr_title_one">
-                      <p class="card-title">BILLING ADDRESS</p>
+                    <div class="pr_title_three">
+                      <div class="pr_head_third"><i class="fa fa-home" aria-hidden="true"></i> <span class="card-title">BILLING ADDRESS</span></div>
                     </div>
 
                     <div class="card-body pr_body_lig">
@@ -466,7 +683,7 @@ Gender   :  <span></span> </p>
 
                   <div class="card pro_card pro_card_sec" style="box-shadow: 0 0 2px grey;">
                     <div class="pr_title_two">
-                      <p class="card-title">SHIPPING ADDRESS</p>
+                     <div class="pr_head_fourth"><i class="fa fa-truck" aria-hidden="true"></i><span class="card-title">SHIPPING ADDRESS</span></div> 
                     </div>
                     <div class="card-body pr_body_lig">
                       <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer
@@ -477,7 +694,7 @@ Gender   :  <span></span> </p>
               </div>
 
 
-             
+
 
 
             </div>
@@ -485,8 +702,8 @@ Gender   :  <span></span> </p>
         </div>
       </div>
 
-      <!-- footer section -->
-
+      <!----------------- DESKTOP FOOTER SECTION START -------------->
+       <div class="desktop">
       <section id="footer" style="margin-top: 4rem;">
         <div class="container">
           <div class="row" style="margin-top: -4rem">
@@ -571,6 +788,54 @@ Gender   :  <span></span> </p>
           <p class="copyright">Copyright © 2021. All Rights Reserved</p>
         </div>
       </section>
+      </div>
+<!----------------- DESKTOP FOOTER SECTION END -------------->
+
+<!------------------ MOBILE FOOTER SECTION START ------------------>
+       <div class="mobile" style="display: none;">
+      <footer id="mob_foot">
+        <div class="container-fluid pt-4">
+          <h5 class="text-white font-weight-bolder foot_fir">Need Help?</h5>
+          <div class="foot_main_icon">
+  
+  
+            <div class="foot_lf_icon d-flex">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="lf_con">
+              <p>Email</p>
+              <p>support@coolwink.com</p>
+            </div>
+  
+  
+            <div class="foot_rg_icon d-flex">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="rg_con">
+              <p>Call us at</p>
+              <p>24122-66563</p>
+            </div>
+  
+          </div>
+  
+          <hr>
+          <div class="foot_about">
+            <p>More About Coolwinks</p>
+          </div>
+          <hr>
+          <div class="foot_social">
+            <p>FOLLOW US ON</p>
+            <div class="d-flex foot_icn">
+              <div class="foot_rnd"><a href=""><i class="fa fa-youtube-play text-white px-2"></i></a></div>
+              <div class="foot_rnd"><a href=""><i class="fa fa-facebook-official text-white px-2"></i></a></div>
+              <div class="foot_rnd"><a href=""><i class="fa fa-google text-white px-2"></i></a></div>
+              <div class="foot_rnd"><a href=""><i class="fa fa-twitter text-white px-2"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+<!------------- MOBILE FOOTER CODE END  -------------------->
     </div>
   </div>
 

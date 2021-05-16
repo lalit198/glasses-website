@@ -562,7 +562,7 @@
 
  .header_pro{
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background-color: #ffffff!important;
   display: flex;
   flex-direction: column;
@@ -591,7 +591,7 @@
 .child_left_pr {
   border-bottom: 0.5px solid #ffffff;
   border-top: 0.5px solid #ffffff;
-  padding: 0.8rem 0;
+  padding: 1.5rem 0;
 }
 
 .child_left_pr a{
@@ -671,7 +671,9 @@ background:
   padding: 2rem 0;
   position: relative;
   margin: 2rem 0;
-
+}
+.port_card:hover .pr_title_one{
+  background-color: rgba(117, 161, 195,0.9);
 }
 .pro_card_sec{
   height: 100%;
@@ -685,6 +687,7 @@ background:
     margin: 0.5rem 0 2rem 0;
     height: 35%;
 }
+
 .pr_row_sec{
   margin-top: 3rem!important;
 }
@@ -701,48 +704,134 @@ background:
   position: absolute;
   top: 0;
   width: 100%;
-  border: 1px solid black;
-  background-color: grey!important;
+  height: 15%;
+  background-color: #E9E9E9!important;
+  padding-top: 0.5rem;
+}
+.pr_title_one .fa-user{
+  font-size: 1.5rem;
+  color: grey;
 }
 .pr_title_one p{
-  font-size: 1.2rem;
+ font-size: 1.5rem;
   font-weight: bolder;
+  color: grey;
 }
+.pr_head_one{
+  position: absolute;
+  left: 1rem;
+}
+.pr_head_one span{
+  padding-left: 1rem;
+}
+.pr_head_one a{
+  text-decoration: none;
+}
+.pr_head_one a:hover{
+  text-decoration: none;
+}
+.pr_head_one .fa-pencil{
+  padding-left: 10rem;
+}
+.pr_body_one a{
+ text-decoration: none;
+}
+.pr_body_one a:hover{
+  text-decoration: none;
+ }
 
 .pr_title_two{
   position: absolute;
   top: 0;
   width: 100%;
-  border: 1px solid black;
-  background-color: grey!important;
+  height: 15%;
+  background-color: #E9E9E9;
+  padding-top: 0.5rem;
+}
+.pr_title_two .fa-envelope{
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.pr_head_sec{
+  position: absolute;
+  left: 1rem;
 }
 .pr_title_two p{
   font-size: 1.2rem;
   font-weight: bolder;
+  color: grey;
+}
+.pr_head_two{
+  position: absolute;
+  left: 1rem!important;
+}
+.pr_head_sec span{
+  padding-left: 1rem;
 }
 
 .pr_title_three{
   position: absolute;
   top: 0;
   width: 100%;
-  border: 1px solid black;
-  background-color: grey!important;
+  height: 15%;
+  background-color: #E9E9E9!important;
+  padding-top: 0.5rem;
 }
+
 .pr_title_three p{
   font-size: 1.2rem;
   font-weight: bolder;
+  color: grey;
+}
+
+.pr_head_third{
+  position: absolute;
+  left: 1rem;
+}
+.pr_head_third span{
+  padding-left: 1rem;
+}
+.pr_title_three .fa-home{
+  font-size: 1.5rem;
+  color: grey;
+}
+.pr_head_three{
+  position: absolute;
+  left: 1rem!important;
+
 }
 
 .pr_title_four{
   position: absolute;
   top: 0;
   width: 100%;
-  border: 1px solid black;
-  background-color: grey!important;
+  height: 15%;
+  background-color: #E9E9E9!important;
+  padding-top: 0.5rem;
+}
+
+.pr_head_fourth{
+  position: absolute;
+  left: 1rem;
+}
+.pr_head_fourth span{
+  padding-left: 1rem;
+}
+
+.pr_title_two .fa-truck{
+  font-size: 1.5rem;
+  color: grey;
 }
 .pr_title_four p{
   font-size: 1.2rem;
   font-weight: bolder;
+  color: grey;
+}
+.pr_head_four{
+  position: absolute;
+  left: 1rem!important;
+
 }
 
 
@@ -1203,6 +1292,9 @@ background:
   margin-left: -0.1rem;
 }
 
+
+
+
 @media only screen and (max-width: 540px) {
 
   .desktop{
@@ -1310,6 +1402,11 @@ background:
     height: 41vh;
   }
 
+  .pro_card{
+    width: 80%;
+   
+  }
+
 /*----------------LOGIN POP FORM-----------------------------*/
 #show_reg{
   top: 35%!important;
@@ -1398,6 +1495,9 @@ background:
 }
 }
 @media only screen and (max-width: 384px) {
+  html{
+    font-size: 8px;
+  }
   #show_form .sec_frm{
     width: 80%!important;
    height: 94%!important;
@@ -1420,11 +1520,18 @@ top: 24%!important;
 #show_forget{
 top: 44%!important;
 }
+
+.pr_row_child{
+  height: auto;
+}
  
 
  
 }
 @media only screen and (max-width: 322px) {
+  html{
+    font-size: 7px;
+  }
   #show_form .sec_frm{
     width: 90%!important;
    height: 100%!important;
