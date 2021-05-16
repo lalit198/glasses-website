@@ -575,10 +575,43 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-top: 4rem;
+}
 
-  
-  
-} 
+.left_pr{
+  width: 100%;
+  height: auto;
+  /* padding: 1rem; */
+  background-color: #F4F4F4;
+}
+.child_left_pr:hover{
+  background-color: rgba(108, 132, 168,0.3);
+  cursor: pointer;
+}
+
+.child_left_pr {
+  border-bottom: 0.5px solid #ffffff;
+  border-top: 0.5px solid #ffffff;
+  padding: 0.8rem 0;
+}
+
+.child_left_pr a{
+ text-decoration: none;
+ margin-left: 1rem;
+ color: #000000;
+}
+.child_left_pr span{
+ font-size: 0.9rem;
+ margin-left: 0.5rem;
+}
+.child_left_pr a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.child_left_pr .cash{
+  color: green!important;
+}
+
+
 .row_tex{
   margin-top: 2rem;
 }
@@ -590,6 +623,7 @@
    z-index: 98;
    padding: 0 1rem;
    padding-top: 1rem;
+   transform: skew(170deg);
    }
 
    .mypr_title_con h4{
@@ -614,27 +648,123 @@ background:
   );
 }
 
+.pr_shape{
+  width: 21%;
+	height: 10%;
+	transform: skew(160deg);
+	background: rgba(117, 161, 195,0.9);
+  position: absolute;
+  top: 44%;
+  left: 48.7%;
+
+}
+
 
 .mypr_grand_con{
   width: 100%;
   margin-top: -1.4rem; 
 }
 
-.pro_cardOne{
-  width: 50%;
-  height: 65%!important;
+.pro_card{
+  width: 100%;
+  height: 75%;
+  padding: 2rem 0;
+  position: relative;
+  margin: 2rem 0;
+
 }
+.pro_card_sec{
+  height: 100%;
+}
+
  .pr_row_main{ 
   box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 } 
 
 .pr_row_child{
-    margin: 1rem 0 2rem 0;
+    margin: 0.5rem 0 2rem 0;
+    height: 35%;
+}
+.pr_row_sec{
+  margin-top: 3rem!important;
 }
 
 .right_Pr{
   background-color: #ffffff;
+  margin-top: -1rem;
 }
+
+
+
+
+.pr_title_one{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 1px solid black;
+  background-color: grey!important;
+}
+.pr_title_one p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.pr_title_two{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 1px solid black;
+  background-color: grey!important;
+}
+.pr_title_two p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.pr_title_three{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 1px solid black;
+  background-color: grey!important;
+}
+.pr_title_three p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.pr_title_four{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 1px solid black;
+  background-color: grey!important;
+}
+.pr_title_four p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+
+.pr_body_one p{
+  font-size: 0.9rem;
+  font-weight: bolder;
+  line-height: 1.5rem;
+}
+.pr_body_one span{
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+.pr_body_one a{
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.pr_body_lig p{
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
 
 
 
