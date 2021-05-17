@@ -654,7 +654,7 @@ background:
 	transform: skew(160deg);
 	background: rgba(117, 161, 195,0.9);
   position: absolute;
-  top: 44%;
+  top: 45%;
   left: 48.7%;
 
 }
@@ -675,6 +675,7 @@ background:
 .port_card:hover .pr_title_one{
   background-color: rgba(117, 161, 195,0.9);
 }
+
 .pro_card_sec{
   height: 100%;
 }
@@ -1146,6 +1147,91 @@ background:
 
 
 /*------------------------MEDIA QUERIES----------------*/
+@media only screen and (max-width: 1295px) {
+  .pr_shape{
+    width: 24%;
+   }
+}
+   @media only screen and (max-width: 1202px) {
+    .pr_head_one .fa-pencil{
+      padding-left: 4rem;
+    }
+  }
+
+   
+@media only screen and (max-width: 1195px) {
+  .pr_shape{
+    width: 25%;
+   }
+}
+@media only screen and (max-width: 1095px) {
+  .pr_shape{
+    width: 27%;
+   }
+}
+@media only screen and (max-width: 995px) {
+  .pr_shape{
+    width: 28%;
+   }
+   .pr_head_one .fa-pencil{
+    padding-left: 1rem;
+  }
+}
+@media only screen and (max-width: 895px) {
+  .pr_shape{
+    width: 32%;
+   }
+}
+@media only screen and (max-width: 795px) {
+  .pr_shape{
+    width: 35%;
+   }
+}
+@media only screen and (max-width: 700px) {
+  .pr_shape{
+    width: 39%;
+   }
+}
+@media only screen and (max-width: 655px) {
+  .pr_shape{
+    width: 42%;
+   }
+}
+@media only screen and (max-width: 575px) {
+  .pr_shape{
+    width: 45%;
+   }
+}
+@media only screen and (max-width: 540px) {
+  .pr_shape{
+    width: 31%;
+   }
+}
+@media only screen and (max-width: 485px) {
+  .pr_shape{
+    width: 33%;
+   }
+}
+ @media only screen and (max-width: 469px) {
+  .pr_shape{
+    width: 35%;
+   }
+}
+@media only screen and (max-width: 429px) {
+  .pr_shape{
+    width: 37%;
+   }
+}
+
+/*
+.mypr_title_con{
+  left: 48%;
+}
+@media only screen and (max-width: 423px) {
+  .pr_shape{
+    width: 50.3%;
+   }
+} */
 
 
 
@@ -1207,7 +1293,7 @@ background:
 
 
 
-@media only screen and (max-width: 994px){
+@media only screen and (max-width: 992px){
   .desktop{
     display: none;
   }
@@ -1224,6 +1310,10 @@ background:
 .rg_con{
   margin-right: 2rem;
 }
+.child_left_pr span{
+  font-size: 0.7rem;
+  margin-left: 0.4rem;
+ }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1296,6 +1386,9 @@ background:
 
 
 @media only screen and (max-width: 540px) {
+  html{
+    font-size: 10px;
+  }
 
   .desktop{
     display: none;
@@ -1493,6 +1586,8 @@ background:
   width: 80%!important;
   height: 65%!important;
 }
+
+
 }
 @media only screen and (max-width: 384px) {
   html{
@@ -1566,3 +1661,4 @@ top: 44%!important;
 
 
 
+   
