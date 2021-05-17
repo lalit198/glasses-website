@@ -689,9 +689,10 @@ background:
     height: 35%;
 }
 
-.pr_row_sec{
-  /* margin-top: -3rem; */
-} 
+ .pr_row_sec{
+   margin-bottom: 5rem;
+   margin-top: -5rem!important;
+}  
 
 .right_Pr{
   background-color: #ffffff;
@@ -1152,6 +1153,10 @@ background:
   .pr_shape{
     width: 24%;
    }
+   .mypr_title_con{
+    top: 46.5%;
+    left: 51.5%;
+    }
 }
    @media only screen and (max-width: 1202px) {
     .pr_head_one .fa-pencil{
@@ -1390,7 +1395,10 @@ background:
 
 @media only screen and (max-width: 767px) {
 
-  
+  .news_col{
+    padding-top: -8rem;
+  }
+
   .bill_col{
     margin-top: 3rem!important;
   }
@@ -1636,6 +1644,11 @@ top: 44%!important;
 .pr_row_child{
   height: auto;
 }
+
+.mypr_title_con{
+  top: 46.5%;
+  left: 53%;
+  }
  
 
  
