@@ -858,6 +858,200 @@ background:
 }
 
 
+/*-------------------FAVOURITE PAGE START--------------------------- */
+
+
+.fav-name{
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+   
+.fav-price{
+  font-size: 1.125rem;
+  color: #1C7BBE;
+  font-weight: 600;
+}
+
+
+.like{
+ color: red; 
+ 
+
+}
+
+.fav-desc{
+  font-size: .8rem;
+}
+
+.coool{
+  padding: 30px;
+}
+
+
+.offer_banner{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.offer-nav a{
+  text-decoration: none;
+  color: #454545;
+  font-size: .75rem;
+}
+
+
+.offer_banner p{
+  padding: 24px 0;
+}
+
+.offer-button ul{
+  list-style: none;
+}
+
+.offer-button .btn{
+  font-size: .75rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #F7F7F7;
+    padding: 0 15px;
+    line-height: 35px;
+    border: 1px solid #ccc;
+    margin: 0 12px;
+}
+
+.offer-button .btn:hover{
+  background: #1C7BBE;
+  color: white;
+}
+
+#offers{
+  width: 100%;
+  padding: 50px 20px;
+  /* background-color: #FBFBFB;
+  border: 1px solid #e6e6e6; */
+}
+
+
+
+
+#offfers .card{
+  background-color: #FBFBFB;
+  border: 1px solid #e6e6e6 !important;
+  
+}
+
+
+
+#offers .card-title{
+  text-align: left;
+  color: #035391;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+}
+#offers ol{
+  padding: 20px;
+}
+
+#offers ol li{
+  color: #212529;
+  font-size: .8rem;
+  line-height: 1.3rem;
+  margin-bottom: 7px;
+  text-align: left;
+  }
+
+  .offer_image{
+   
+  overflow: hidden;
+  height: auto;
+  margin: 0 auto;
+  }
+  .offer_image img{
+    transition: transform .8s;
+   
+  }
+
+  
+  #offers .card img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+  .description_heading{
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    font-size: .9rem;
+    color: #727272;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 0;
+    border-top: 1px solid #eaeff3;
+    border-bottom: 1px solid #eaeff3;
+}
+  
+.description_para{
+    font-size: .7rem;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    float: left;
+    text-align: left;
+    width: 100%;
+    color: #727272;
+    line-height: 20px;
+}
+.description_heading2{
+  /* margin: 10px 0 10px 0; */
+  width: 100%;
+  text-align: left;
+  font-size: .9rem;
+  color: #727272;
+  text-transform: uppercase;
+  font-weight: 700;
+ 
+
+}
+#description {
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+}
+
+
+#description .table{
+  border:  1px solid #eaeff3;
+  margin: 50px 0;
+}
+
+#description .table th{
+  font-size: .7rem !important;
+  font-weight: 700;
+  color: #727272;
+}
+
+
+#description .table td{
+  font-size: .7rem !important;
+
+  color: #727272;
+}
+
+
+/*---------------------- OFFERS SECTION START------------------------ */
+
+.off_heg{
+  display: flex;
+  align-items: stretch;
+}
+
+
+
+
+
+
 
 
 
