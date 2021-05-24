@@ -558,6 +558,41 @@
     text-decoration: none;
 }
 
+
+.main_myaccount{
+  width: 100%;
+}
+
+.child_myaccount{
+  border-bottom: 0.5px solid #ffffff;
+  border-top: 0.5px solid #ffffff;
+  padding: .5rem 0;
+  
+}
+
+.child_myaccount:hover{
+  background-color: rgba(108, 132, 168,0.3);
+  cursor: pointer;
+}
+
+.child_myaccount a{
+ text-decoration: none;
+ margin-left: 1rem;
+ color: #000000;
+}
+.child_myaccount span{
+ font-size: 0.8rem;
+ margin-left: 0.3rem;
+}
+.child_myaccount a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.child_myaccount .cash{
+  color: green!important;
+}
+
+
     /*-----------------------------------MY PROFILE PAGE STARTS------------------------------------*/
 
  .header_pro{

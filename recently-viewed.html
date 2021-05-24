@@ -25,7 +25,7 @@
     
     <!----------------- DESKTOP NAVBAR SECTION START -------------->
     <div class="desktop">
-     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 500;">
+     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 5000;">
       <div class="container-fluid text-uppercase p-2">
         <a class="navbar-brand font-weight-bold text-capitalize" href="index.html"><span
             class="text-primary font-weight-bolder">C</span>ool <span
@@ -812,6 +812,49 @@
       </div>
 <!----------------- DESKTOP FOOTER SECTION END -------------->
 
+
+<!----------------- POPUP MY ACCOUNT PAGES STARTS -------------->
+<div class="my_account" style="width: 15%; height: 58%; position: absolute; top: 7%; left: 79.4%;
+z-index: 2001; background-color: white; visibility: hidden;">
+     <div class="row main_myaccount mx-auto pt-4">
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href="my-profile.html"><i class="fa fa-user" aria-hidden="true"></i><span>PROFILE</span></a>
+        </div>
+
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href="">
+            <i class="fa fa-bar-chart" aria-hidden="true" style="transform: rotate(90deg);"></i>
+            <span> ORDERS</span></a>
+        </div>
+
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href="my-favourite.html"><i class="fa fa-heart" aria-hidden="true"></i><span>MY FAVOURITES</span></a>
+        </div>
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href=""><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>MY PRESCRIPRION</span></a>
+        </div>
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href="recently-viewed.html"><i class="fa fa-eye" aria-hidden="true"></i><span>RECENTLY VIEWED</span></a>
+        </div>
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href="offers.html"><i class="fa fa-percent" aria-hidden="true"></i><span>MY OFFERS</span></a>
+        </div>
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href=""><i class="fa fa-money cash" aria-hidden="true"></i><span>COOLCASH WALLET</span></a>
+        </div>
+        <div class="col-xl-12 col-md-12 col-12 child_myaccount">
+          <a href=""><i class="fa fa-lock" aria-hidden="true"></i> <span>LOGOUT</span></a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<!----------------- POPUP MY ACCOUNT PAGES END -------------->
+
+
+
 <!------------------ MOBILE FOOTER SECTION START ------------------>
        <div class="mobile" style="display: none;">
       <footer id="mob_foot">
@@ -1065,7 +1108,16 @@
       });
     });
 
+     
+    $(document).ready(function () {
+      $('#click_reg,.my_account').mouseenter(function () {
+       $('.my_account').css("visibility", "visible")
+      }); 
 
+      $('#click_reg,.my_account').mouseleave(function () {
+       $('.my_account').css("visibility", "hidden")
+      });
+    });
 
 
 
