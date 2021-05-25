@@ -1178,9 +1178,9 @@ background:
 
     .welcome{
       border-bottom: .1px solid #ddd  ;
-      padding: 10px 8px 10px 16px;
+      padding: 14px 8px 10px 22px;
       overflow: hidden;
-      font-size: 1.2rem;
+      font-size: 2.2rem;
       font-weight: 900;
       text-decoration: none;
       text-align: center;
@@ -1193,9 +1193,12 @@ background:
       width: 25px;
       margin: 0 5px;
     }
+    .mobilenav{
+      font-size: 1.5rem;
+    }
 
     .mobilenav .dropdown-item{
-      font-size: .8rem;
+      font-size: 1.5rem;
       background-color: #F2F2F2;
       border-bottom: .1px solid #ddd  ;
       padding: 10px 8px 10px 16px;
