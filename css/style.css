@@ -895,6 +895,14 @@ background:
 
 /*-------------------FAVOURITE PAGE START--------------------------- */
 
+.myfav_hero{
+  width: 100%;
+  height: 45%;
+  background-image: url('../images/myaccnt_bnr_my_account.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 4rem;
+}
 
 .fav-name{
   color: #000;
@@ -923,6 +931,8 @@ background:
   padding: 30px;
 }
 
+
+/*---------------------- OFFERS SECTION START------------------------ */
 
 .offer_banner{
   width: 100%;
@@ -1075,12 +1085,62 @@ background:
 }
 
 
-/*---------------------- OFFERS SECTION START------------------------ */
-
 .off_heg{
   display: flex;
   align-items: stretch;
 }
+
+/*--------------------------- RECENTLY VIEWED SECTION SRARTS ------------------------------*/
+.myrecvw_hero{
+  width: 100%;
+  height: 45%;
+  background-image: url('../images/myaccnt_bnr_my_account.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 4rem;
+}
+
+
+/*--------------------------- CASH WALLET SECTION SRARTS ------------------------------*/
+
+.mycashwall_hero{
+  width: 100%;
+  height: 45%;
+  background-image: url('../images/Banner_29_05_18.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 4rem;
+}
+
+.cash_right .cash_rig_txt{
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.cash_rig_txt_sec{
+  color: grey;
+  font-size: .9rem;
+  font-weight: 800;
+}
+.cash_rig_txt_spn{
+  color: blue;
+  font-size: .9rem;
+  font-weight: 800;
+  border: 1px dotted blue;
+  padding: .4rem 1.4rem;
+  border-radius: 8%;
+}
+
+.cash_rig_txtpra{
+  font-size: 0.9rem;
+}
+
+.cash_rig_amt p{
+ font-size: .9rem;
+ text-align: center;
+}
+
+
 
 
 
