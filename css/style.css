@@ -1254,11 +1254,11 @@ background:
       margin: 0 5px;
     }
     .mobilenav{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .mobilenav .dropdown-item{
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       background-color: #F2F2F2;
       border-bottom: .1px solid #ddd  ;
       padding: 10px 8px 10px 16px;
@@ -1292,12 +1292,12 @@ background:
 
     .foot_fir{
      padding-left: 1.4rem;
-     font-size: 1.1rem;
+     font-size: 1.6rem;
    }
 
    .foot_main_icon{
     display: flex;
-    margin-top: 1.5rem;
+    margin-top: 2.2rem;
     padding-left: 1rem;
   }
 
@@ -1324,46 +1324,48 @@ background:
 
   .lf_con{
     padding-left: 1.3rem;
+    line-height: 1.7rem;
   }
 
   .lf_con p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #FFCC80;
   }
 
   .lf_con p:nth-last-child(1){
     color: white;
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .rg_con{
-    padding-left: 1.3rem;
+    padding-left: 1rem;
+    line-height: 1.7rem;
   }
 
   .rg_con p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #FFCC80;
   }
 
   .rg_con p:nth-last-child(1){
     color: white;
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .foot_about{
     padding-left: 1.1rem;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   .foot_social p{
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: white;
     padding-left: 1.1rem;
   }
 
   .foot_icn{
 
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
     padding-left: 1rem;
   }
@@ -1594,6 +1596,9 @@ background:
 
 
 @media only screen and (max-width: 992px){
+  html{
+    font-size: 13px;
+  }
   .desktop{
     display: none;
   }
@@ -1704,7 +1709,7 @@ background:
 
 @media only screen and (max-width: 540px) {
   html{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .desktop{
@@ -1729,12 +1734,12 @@ background:
 
   .foot_fir{
    padding-left: 0.2rem;
-   font-size: 1rem;
+   font-size: 1.7rem;
  }
 
  .foot_main_icon{
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 2.2rem;
   padding-left: 0.2rem;
 }
 
@@ -1755,46 +1760,45 @@ background:
 }
 
 .lf_con{
-  padding-left: 0.2rem;
-  margin-top: 0.8rem;
-  line-height: 0.2rem
+  padding-left: .5rem;
+  line-height: 1.6rem
 }
 
 
 .lf_con p{
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #FFCC80;
 }
 
 .lf_con p:nth-last-child(1){
   color: white;
-  font-size: 0.7rem;
+  font-size: 1.3rem;
 }
 
+
 .rg_con{
-  padding-left: 0.8rem;
-  margin-top: 0.8rem;
-  line-height: 0.2rem
+  padding-left: .5rem;
+  line-height: 1.6rem;
 }
 
 .rg_con p{
-  font-size: 0.9rem;
+  font-size: 1.8;
   color: #FFCC80;
 }
 
 .rg_con p:nth-last-child(1){
   color: white;
-  font-size: 0.7rem;
+  font-size: 1.5rem;
 }
 
 .foot_about{
   padding-left: 0.2rem;
   color: white;
-  font-size: 0.9rem;
+  font-size: 1.6rem;
   margin-top: -0.5rem;
 }
 .foot_social p{
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: white;
   padding-left: 0.2rem;
   margin-top: -0.5rem;
@@ -1803,7 +1807,7 @@ background:
 
 .foot_icn{
 
-  font-size: 1.3rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   padding-left: 0.2rem;
   margin-bottom: 5rem;
@@ -1906,9 +1910,80 @@ background:
 
 
 }
+
+@media only screen and (max-width: 445px) {
+ 
+ 
+
+ 
+ .foot_lf_icon{
+   width: 2.5rem;
+   height: 2.5rem;
+   font-size: 1.1rem;
+   padding: 0.5rem 0.4rem;
+ }
+ 
+ .foot_rg_icon{
+   width: 2.5rem;
+   height: 2.5rem;
+   font-size: 1.1rem;
+   padding: 0.7rem 0.5rem;
+   margin-left: 3rem;
+ 
+ }
+ 
+ .lf_con{
+   padding-left: .5rem;
+   line-height: 1.6rem
+ }
+ 
+
+ 
+ .lf_con p:nth-last-child(1){
+   color: white;
+   font-size: 1.1rem;
+ }
+ 
+ 
+ .rg_con{
+   padding-left: .5rem;
+   line-height: 1.6rem;
+   margin-right: .5rem;
+ }
+ 
+ 
+ .rg_con p:nth-last-child(1){
+   color: white;
+   font-size: 1.3rem;
+ }
+ 
+ .foot_about{
+   padding-left: 0.2rem;
+   color: white;
+   font-size: 1.6rem;
+   margin-top: -0.5rem;
+ }
+ .foot_social p{
+   font-size: 1.5rem;
+   color: white;
+   padding-left: 0.2rem;
+   margin-top: -0.5rem;
+ 
+ }
+ 
+ .foot_icn{
+ 
+   font-size: 2.2rem;
+   margin-bottom: 1rem;
+   padding-left: 0.2rem;
+   margin-bottom: 5rem;
+ }
+ 
+}
+
 @media only screen and (max-width: 384px) {
   html{
-    font-size: 8px;
+    font-size: 11px;
   }
   #show_form .sec_frm{
     width: 80%!important;
