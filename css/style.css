@@ -933,7 +933,10 @@ background:
 
 
 /*---------------------- OFFERS SECTION START------------------------ */
-
+#main_offers{
+  width: 100%;
+  height: auto!important;
+}
 .offer_banner{
   width: 100%;
   padding: 0;
@@ -973,7 +976,7 @@ background:
 
 #offers{
   width: 100%;
-  padding: 50px 20px;
+  padding: 2rem 1rem;
   /* background-color: #FBFBFB;
   border: 1px solid #e6e6e6; */
 }
@@ -1061,8 +1064,8 @@ background:
 
 }
 #description {
-  margin-bottom: 80px;
-  padding-bottom: 20px;
+  margin-bottom: 10rem;
+
 }
 
 
@@ -1292,7 +1295,7 @@ background:
 
     .foot_fir{
      padding-left: 1.4rem;
-     font-size: 1.6rem;
+     font-size: 1.4rem;
    }
 
    .foot_main_icon{
@@ -1328,13 +1331,13 @@ background:
   }
 
   .lf_con p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #FFCC80;
   }
 
   .lf_con p:nth-last-child(1){
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .rg_con{
@@ -1343,13 +1346,13 @@ background:
   }
 
   .rg_con p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #FFCC80;
   }
 
   .rg_con p:nth-last-child(1){
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .foot_about{
@@ -1557,6 +1560,7 @@ background:
 }
 
 
+
   
 
   /*----------------LOGIN POP FORM-----------------------------*/
@@ -1734,7 +1738,7 @@ background:
 
   .foot_fir{
    padding-left: 0.2rem;
-   font-size: 1.7rem;
+   font-size: 1.5rem;
  }
 
  .foot_main_icon{
@@ -1766,13 +1770,13 @@ background:
 
 
 .lf_con p{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #FFCC80;
 }
 
 .lf_con p:nth-last-child(1){
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 
@@ -1782,13 +1786,13 @@ background:
 }
 
 .rg_con p{
-  font-size: 1.8;
+  font-size: 1.4;
   color: #FFCC80;
 }
 
 .rg_con p:nth-last-child(1){
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .foot_about{
