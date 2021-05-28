@@ -1373,6 +1373,23 @@ background:
     padding-left: 1rem;
   }
 
+ .mob_cash_wall{
+   width: 100%;
+   height: auto;
+ }
+
+ .cash_rig_txtpra{
+   line-height: 2.6rem;
+ }
+
+ .mob_cash_rig_txt_spn{
+   color: #ffff;
+   background-color:#007FE1;
+   padding: 0.3rem 1.1rem 0.5rem 1.1rem;
+   border-radius: 10%;
+ }
+
+
   /*----------------LOGIN POP FORM-----------------------------*/
 
   #show_reg .fir_frm{
