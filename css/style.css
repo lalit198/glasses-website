@@ -936,6 +936,7 @@ background:
 #main_offers{
   width: 100%;
   height: auto!important;
+  margin-bottom: 7rem;
 }
 .offer_banner{
   width: 100%;
@@ -946,7 +947,7 @@ background:
 .offer-nav a{
   text-decoration: none;
   color: #454545;
-  font-size: .75rem;
+  font-size: .7rem;
 }
 
 
@@ -1001,15 +1002,20 @@ background:
   line-height: 1.6rem;
 }
 #offers ol{
-  padding: 20px;
+  padding: 1.5rem;
 }
 
 #offers ol li{
   color: #212529;
-  font-size: .8rem;
-  line-height: 1.3rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   margin-bottom: 7px;
   text-align: left;
+  }
+
+  #offers .ord_title{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
   }
 
   .offer_image{
@@ -1033,7 +1039,7 @@ background:
     margin: 10px 0;
     width: 100%;
     text-align: left;
-    font-size: .9rem;
+    font-size: 1rem;
     color: #727272;
     text-transform: uppercase;
     font-weight: 700;
@@ -1043,7 +1049,7 @@ background:
 }
   
 .description_para{
-    font-size: .7rem;
+    font-size: .9rem;
     margin-bottom: 15px;
     padding-bottom: 20px;
     float: left;
@@ -1056,7 +1062,7 @@ background:
   /* margin: 10px 0 10px 0; */
   width: 100%;
   text-align: left;
-  font-size: .9rem;
+  font-size: 1rem;
   color: #727272;
   text-transform: uppercase;
   font-weight: 700;
@@ -1075,14 +1081,14 @@ background:
 }
 
 #description .table th{
-  font-size: .7rem !important;
-  font-weight: 700;
+  font-size: .9rem !important;
+  font-weight: 900;
   color: #727272;
 }
 
 
 #description .table td{
-  font-size: .7rem !important;
+  font-size: .9rem !important;
 
   color: #727272;
 }
