@@ -702,7 +702,7 @@ background:
 
 .pro_card{
   width: 100%;
-  height: 75%;
+  height: 72%;
   padding: 2rem 0;
   position: relative;
   margin: 2rem 0;
@@ -1405,11 +1405,22 @@ background:
 
  .mob_pr_head span{
    padding-left: 1rem;
+   font-size: 1.2rem;
  }
  .card_plus_icn{
    position: absolute;
    left: 90%;
  }
+
+ .mob_pr_con p{
+   font-size: 1.1rem;
+ }
+ .mob_pr_con a{
+  font-size: 1.1rem;
+}
+.mob_pr_con span{
+  font-size: 1.1rem;
+}
 
 
  .mob_cash_wall{
