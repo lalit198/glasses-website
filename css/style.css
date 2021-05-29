@@ -1401,6 +1401,17 @@ background:
     padding-left: 1rem;
   }
 
+
+
+ .mob_pr_head span{
+   padding-left: 1rem;
+ }
+ .card_plus_icn{
+   position: absolute;
+   left: 90%;
+ }
+
+
  .mob_cash_wall{
    width: 100%;
    height: auto;
