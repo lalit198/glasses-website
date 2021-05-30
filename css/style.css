@@ -908,12 +908,14 @@ background:
   color: #000;
   font-size: 1.1rem;
   font-weight: 500;
+  margin-left: 2.5rem;
 }
-   
+
 .fav-price{
   font-size: 1.125rem;
   color: #1C7BBE;
   font-weight: 600;
+  margin-top: -.2rem;
 }
 
 
@@ -925,6 +927,7 @@ background:
 
 .fav-desc{
   font-size: .8rem;
+  margin-top: -1rem!important;
 }
 
 .coool{
@@ -1165,6 +1168,10 @@ background:
 
 .order_date{
  font-size: 0.75rem;
+}
+
+.order_green{
+  font-size: 1.5rem;
 }
 
 /*--------------------------- RECENT VIEWED SECTION SRARTS ------------------------------*/
@@ -1446,6 +1453,50 @@ background:
    border-radius: 10%;
  }
 
+/* -------------MOBILE FAVOURITE SECTION----------------- */
+
+ .mob_fav-name{
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 1.7rem;
+}
+
+.mob_rg_fav-name{
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 1.7rem;
+  margin-top: 1.3rem;
+}
+/* .mob_fav-price{
+  font-size: 1.3rem;
+  color: #1C7BBE;
+  font-weight: 600;
+  margin-top: -.2rem;
+  margin-left: 1.7rem;
+}
+ .mob_rg_fav-price{
+  font-size: 1.2rem;
+  color: #1C7BBE;
+  font-weight: 600;
+  margin-top: -.2rem;
+  margin-left: 1.7rem;
+ }  */
+
+
+.mob_fav-desc{
+  font-size: 1rem;
+  margin-top: -1rem!important;
+  margin-left: 1.7rem;
+}
+
+.mob_rg_fav-desc{
+  font-size: 1rem;
+  margin-top: -1rem!important;
+  margin-left: 1.7rem;
+}
+
 
   /*----------------LOGIN POP FORM-----------------------------*/
 
@@ -1605,6 +1656,21 @@ background:
     width: 39%;
    }
   
+   .order_total .total_child_two{
+     left: 86%!important;
+   }
+   .order_price p{
+     left: 50%!important;
+   }
+}
+@media only screen and (max-width: 600px) {
+  .order_total .total_child_two{
+    left: 83%!important;
+  }
+  .order_price p{
+    left: 35%!important;
+  }
+  
 }
 @media only screen and (max-width: 655px) {
   .pr_shape{
@@ -1621,21 +1687,108 @@ background:
   .pr_shape{
     width: 31%;
    }
+
+   .mob_fav-name{
+    font-size: 1.1rem;
+    
+  }
+  
+  .mob_rg_fav-name{
+
+    font-size: 1.1rem;
+  }
+
+   .mob_fav-desc{
+    font-size: .9rem;
+  
+  }
+  
+  .mob_rg_fav-desc{
+    font-size: .9rem;
+   
+  }
+
+   .order_green{
+    font-size: 1.3rem;
+  }
 }
 @media only screen and (max-width: 485px) {
   .pr_shape{
     width: 33%;
    }
+   .order_green{
+    font-size: 1.1rem;
+  }
+
+   .order_total .total_child_two{
+    left: 80%!important;
+  }
+  .order_price p{
+    left: 26%!important;
+  }
 }
  @media only screen and (max-width: 469px) {
   .pr_shape{
     width: 35%;
    }
+
+   .mob_fav-name{
+    font-size: 1rem;
+    
+  }
+  
+  .mob_rg_fav-name{
+
+    font-size: 1rem;
+  }
+
+   .mob_fav-desc{
+    font-size: .8rem;
+  
+  }
+  
+  .mob_rg_fav-desc{
+    font-size: .8rem;
+   
+  }
 }
 @media only screen and (max-width: 429px) {
   .pr_shape{
     width: 37%;
    }
+   .mob_fav-name{
+    font-size: 1rem;
+    
+  }
+  
+  .mob_rg_fav-name{
+
+    font-size: 1rem;
+  }
+
+   .mob_fav-desc{
+    font-size: .7rem;
+  
+  }
+  
+  .mob_rg_fav-desc{
+    font-size: .7rem;
+   
+  }
+}
+
+@media only screen and (max-width: 367px) {
+  
+
+   .order_total .total_child_two{
+    left: 78%!important;
+  }
+  .order_price p{
+    left: 20%!important;
+  }
+  .order_green{
+    font-size: 1rem;
+  }
 }
 
 /*
@@ -2134,7 +2287,7 @@ top: 44%!important;
 
  
 }
-@media only screen and (max-width: 322px) {
+@media only screen and (max-width: 332px) {
   html{
     font-size: 7px;
   }
@@ -2167,6 +2320,26 @@ top: 44%!important;
 
   .rg_con p{
     font-size: 0.4rem!important;
+  }
+
+  .mob_fav-name{
+    font-size: 1rem;
+    
+  }
+  
+  .mob_rg_fav-name{
+
+    font-size: 1rem;
+  }
+
+   .mob_fav-desc{
+    font-size: 1rem;
+  
+  }
+  
+  .mob_rg_fav-desc{
+    font-size: 1rem;
+   
   }
 }
 
