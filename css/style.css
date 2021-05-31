@@ -1469,31 +1469,18 @@ background:
   margin-left: 1.7rem;
   margin-top: 1.3rem;
 }
-/* .mob_fav-price{
-  font-size: 1.3rem;
-  color: #1C7BBE;
-  font-weight: 600;
-  margin-top: -.2rem;
-  margin-left: 1.7rem;
-}
- .mob_rg_fav-price{
-  font-size: 1.2rem;
-  color: #1C7BBE;
-  font-weight: 600;
-  margin-top: -.2rem;
-  margin-left: 1.7rem;
- }  */
+
 
 
 .mob_fav-desc{
-  font-size: 1rem;
-  margin-top: -1rem!important;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
   margin-left: 1.7rem;
 }
 
 .mob_rg_fav-desc{
-  font-size: 1rem;
-  margin-top: -1rem!important;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
   margin-left: 1.7rem;
 }
 
@@ -1682,12 +1669,6 @@ background:
   .pr_shape{
     width: 45%;
    }
-}
-@media only screen and (max-width: 540px) {
-  .pr_shape{
-    width: 31%;
-   }
-
    .mob_fav-name{
     font-size: 1.1rem;
     
@@ -1699,14 +1680,19 @@ background:
   }
 
    .mob_fav-desc{
-    font-size: .9rem;
+    font-size: 1rem;
   
   }
   
   .mob_rg_fav-desc{
-    font-size: .9rem;
+    font-size: 1rem;
    
   }
+}
+@media only screen and (max-width: 540px) {
+  .pr_shape{
+    width: 31%;
+   }
 
    .order_green{
     font-size: 1.3rem;
@@ -1743,13 +1729,14 @@ background:
   }
 
    .mob_fav-desc{
-    font-size: .8rem;
-  
+    font-size: .9rem;
+    margin-top: .9rem;
+
   }
   
   .mob_rg_fav-desc{
-    font-size: .8rem;
-   
+    font-size: .9rem;
+    margin-top: .9rem;  
   }
 }
 @media only screen and (max-width: 429px) {
@@ -1767,12 +1754,12 @@ background:
   }
 
    .mob_fav-desc{
-    font-size: .7rem;
+    font-size: .9rem;
   
   }
   
   .mob_rg_fav-desc{
-    font-size: .7rem;
+    font-size: .9rem;
    
   }
 }
@@ -1791,15 +1778,7 @@ background:
   }
 }
 
-/*
-.mypr_title_con{
-  left: 48%;
-}
-@media only screen and (max-width: 423px) {
-  .pr_shape{
-    width: 50.3%;
-   }
-} */
+
 
 
 
@@ -2250,7 +2229,7 @@ background:
 
 @media only screen and (max-width: 384px) {
   html{
-    font-size: 11px;
+    font-size: 12px;
   }
   #show_form .sec_frm{
     width: 80%!important;
@@ -2322,25 +2301,25 @@ top: 44%!important;
     font-size: 0.4rem!important;
   }
 
-  .mob_fav-name{
-    font-size: 1rem;
+   .mob_fav-name{
+    font-size: 1.5rem;
     
   }
   
   .mob_rg_fav-name{
 
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
    .mob_fav-desc{
-    font-size: 1rem;
+    font-size: 1.4rem;
   
   }
   
   .mob_rg_fav-desc{
-    font-size: 1rem;
+    font-size: 1.4rem;
    
-  }
+   } 
 }
 
 
