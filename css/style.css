@@ -726,7 +726,7 @@ background:
 
  .pr_row_sec{
    margin-bottom: 5rem;
-   margin-top: -5rem!important;
+   margin-top: -6.7rem!important;
 }  
 
 .right_Pr{
@@ -1785,6 +1785,8 @@ background:
 
 
 
+
+
 @media only screen and (max-width: 1024px) {
   .header{
     height: 30vh;
@@ -2262,10 +2264,53 @@ top: 44%!important;
   top: 46.5%;
   left: 53%;
   }
- 
 
- 
+  .mob_fav-name{
+    font-size: 1rem;
+    
+  }
+  
+  .mob_rg_fav-name{
+
+    font-size: 1rem;
+  }
+
+   .mob_fav-desc{
+    font-size: .9rem;
+  
+  }
+  
+  .mob_rg_fav-desc{
+    font-size: .9rem;
+   
+   } 
 }
+
+@media only screen and (max-width: 344px) {
+
+  .mob_fav-name{
+    font-size: .9rem;
+    
+  }
+  
+  .mob_rg_fav-name{
+
+    font-size: .9rem;
+  }
+
+   .mob_fav-desc{
+    font-size: .8rem;
+  
+  }
+  
+  .mob_rg_fav-desc{
+    font-size: .8rem;
+   
+   } 
+  
+}
+
+
 @media only screen and (max-width: 332px) {
   html{
     font-size: 7px;
@@ -2301,7 +2346,7 @@ top: 44%!important;
     font-size: 0.4rem!important;
   }
 
-   .mob_fav-name{
+  .mob_fav-name{
     font-size: 1.5rem;
     
   }
@@ -2320,6 +2365,7 @@ top: 44%!important;
     font-size: 1.4rem;
    
    } 
+  
 }
 
 
