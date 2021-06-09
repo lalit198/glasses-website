@@ -1227,6 +1227,89 @@ background:
   font-size: .8rem;
 }
 
+/*--------------------------- PRESCRIPTION SECTION SRARTS ------------------------------*/
+
+  .filter_left{
+  position: relative;
+}  
+.btn_filter:focus{
+  outline: none!important;
+  box-shadow: 0 0 10px #ffffff!important;
+}
+
+.btn_filter{
+  width: 90%;
+  padding-left: 0!important;
+  border-top: 1px solid grey!important;
+  /* border-bottom: 1px solid grey!important; */
+  border-radius: 0!important;
+  padding-top: .7rem!important;
+}
+
+.dropdown-toggle::after{
+  position: absolute;
+  left: 85%!important;
+  top: 45%;
+}
+
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 15%;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+ .fil_four .dropdown ul{
+  width: 91%!important;
+  border-radius: 0!important;
+  border: none!important;
+
+} 
+
+.fil_four .dropdown ul label{
+ cursor: pointer;
+
+} 
+
+.form-check label{
+  cursor: pointer;
+}
+
+.rim_div{
+  border: 1px solid gray;
+}
+
+.rim_div img,p{
+ cursor: pointer;
+ color: grey;
+}
+
+
+
+@media (max-width: 1320px) {
+  .filter_left{
+       width: 25%!important;
+  }
+  .filter_right{
+    width: 75%!important;
+}
+}
+@media (max-width: 1320px) {
+  .filter_left{
+       width: 30%!important;
+  }
+  .filter_right{
+    width: 70%!important;
+}
+}
+
+
 
 
 
