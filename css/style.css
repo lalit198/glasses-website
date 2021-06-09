@@ -1265,6 +1265,20 @@ background:
   cursor: pointer;
 }
 
+.fil_thr , .fil_two, .fil_one h6{
+  color: #666666;
+}
+
+.rim_div p{
+  color: #AFAEAE;
+}
+.fil_thr label{
+  color: #AFAEAE;
+}
+.fil_thr label:hover{
+  color: #000000;
+}
+
  .fil_four .dropdown ul{
   width: 91%!important;
   border-radius: 0!important;
@@ -1274,33 +1288,70 @@ background:
 
 .fil_four .dropdown ul label{
  cursor: pointer;
+ color: #AFAEAE;
 
 } 
+
+.fil_four .dropdown ul label:hover{
+  cursor: pointer;
+  color: #000000;
+ 
+ } 
+ 
+
+.fil_four button{
+  color: #666666;
+}
+.fil_four button:hover{
+  color: #666666;
+}
+
 
 .form-check label{
   cursor: pointer;
 }
 
 .rim_div{
-  border: 1px solid gray;
+  border: 1px solid #BEBEBE;
 }
 
 .rim_div img,p{
  cursor: pointer;
- color: grey;
+ color: #BEBEBE;
 }
+
+/* .option value:hover{
+  background-color: gray!important;
+} */
 
 
 
 @media (max-width: 1320px) {
   .filter_left{
-       width: 25%!important;
+       width: 22%!important;
   }
   .filter_right{
-    width: 75%!important;
+    width: 78%!important;
 }
 }
-@media (max-width: 1320px) {
+@media (max-width: 1280px) {
+  .filter_left{
+       width: 24%!important;
+  }
+  .filter_right{
+    width: 76%!important;
+}
+}
+@media (max-width: 1200px) {
+  .filter_left{
+       width: 27%!important;
+  }
+  .filter_right{
+    width: 73%!important;
+}
+}
+
+@media (max-width: 1112px) {
   .filter_left{
        width: 30%!important;
   }
