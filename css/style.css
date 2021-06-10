@@ -1320,9 +1320,7 @@ background:
  color: #BEBEBE;
 }
 
-/* .option value:hover{
-  background-color: gray!important;
-} */
+
 
 
 
@@ -1661,6 +1659,12 @@ background:
   font-size: 1.1rem;
   margin-top: 1.5rem;
   margin-left: 1.7rem;
+}
+
+/*---------------- Filter Page --------------------------*/
+.btn:focus{
+  outline: none!important;
+  box-shadow: 0 0 10px #ffffff!important;
 }
 
 
