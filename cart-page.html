@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart-Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!--Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="desktop">
+    <!----------------- DESKTOP NAVBAR SECTION START -------------->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 5000;">
+        <div class="container-fluid text-uppercase p-2">
+          <a class="navbar-brand font-weight-bold text-capitalize ml-5" href="index.html"><span
+              class="text-primary font-weight-bolder">C</span>ool <span
+              class="text-primary font-weight-bolder">W</span>inks</a>
+      
+
+
+          <ul class="ml-auto navbar-nav third_icon" style="margin-top: -0.5rem;">
+            <li class="nav-item px-4 text-center">
+              <span id="click_reg" class="nav-link text-dark" href=""><i class="fa fa-user-o" aria-hidden="true"></i>
+                <p class="font-weight-bolder" style="cursor: pointer;">Admin</p>
+              </span>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+      <!----------------- DESKTOP NAVBAR SECTION END -------------->
+<section class="" style="min-height:100vh; background-color: #E5E5E5; padding-top: 7rem;">
+    <div class="container-fluid d-flex justify-content-between mx-auto" style="width: 91%;">
+        <div style="width: 64%;">
+            <h4 style="font-weight: 600;">Review order</h4>
+            <div class="p-3" style="height: auto; background-color: #ffffff;">
+                <div class="row">
+                    <div class="col-xl-3 col-md-3 col-3">
+                        <div style="border: 1.5px solid #DADADA;" class="py-3">
+                        <img src="images/favrouite.jpg" alt="" class="img-fluid">
+                    </div>
+                    </div>
+
+                    <div class="col-xl-9 col-md-9 col-9">
+                        <div class="d-flex justify-content-between" style="width: 100%;">
+                            <div>
+                                <h6>JRS</h6>
+                            </div>
+
+                            <div>
+                                <h6>₹ 990</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="width: 34%;">
+            <h5 style="font-weight: 600;">Price Summary</h5>
+            <div style="height: 40vh; background-color: #ffffff;">
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+
+
+
+  <!----------------- MOBILE NAVBAR SECTION START -------------->
+  <div class="mobile" style="display: none;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top main-navigation">
+      <div class="container-fluid">
+
+        <a class="navbar-brand font-weight-bold order-2 mx-auto" href="#"><span class="text-primary"
+            style="font-size: 2rem;">C</span>ool <span class="text-primary" style="font-size: 2rem;">W</span>inks</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="icons order-3 pr-3">
+          <ul class="ml-auto navbar-nav third_icon">
+            <li class="nav-item  text-center">
+              <span class="nav-link text-dark"><i class="fa fa-user-o" aria-hidden="true"
+                  style="font-size: 2rem;"></i></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="icons order-4" style="margin-right: 20px;">
+          <ul class="ml-auto navbar-nav third_icon">
+            <li class="nav-item  text-center">
+              <a class="nav-link text-dark" href=""><i class="fa fa-suitcase" aria-hidden="true"
+                  style="font-size: 2rem;"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="overlay d-flex d-lg-none"></div>
+
+        <div class="order-lg-2 bg-light d-lg-flex w-100 sidebar pb-3 pb-lg-0">
+
+          <ul class="navbar-nav mr-lg-auto mb-2 mb-lg-0">
+            <li class="nav-item welcome d-flex" style="background-color: #7f53ac;
+background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
+              <div class="left"><i class="fa fa-user-o" aria-hidden="true"
+                  style="border-radius: 50%; margin-top: 12px; color: white; font-size: 3rem;"></i></div>
+              <!-- <img src="images/men_cat.png " style="border-radius: 50%; margin-top: 12px; color: white;" alt="" width="40px" height="50px" class="mx-4 text-center"> -->
+              <div class="right" id="clk_reg">
+                <span class="nav-link px-3 px-lg-2 text-white">Welcome!
+                  <p class="my-1 text-white" style="font-size: .8rem;">Sign In/Sign Up</p>
+                </span>
+              </div>
+
+            </li>
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#"><img
+                  src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-home.svg" alt="">Home</a>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-eyeglasses.png" alt=""> Eyeglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="my-profile.html">Pilot Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Cateye Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Retrosquare Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Clubmaster Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Round Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Full Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Half Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Men Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Eyeglasses</a></li>
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-sunglasses.png" alt=""> Sunglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Mirror Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Tinted Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Polarized Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Flash Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Gradient Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Men Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Sunglasses</a></li>
+
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/contact-lense/cl-hamburger.png"
+                  alt="">Contact lens</a>
+            </li>
+
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/app-menu-powersunglasses.png" alt="">
+                Precription Sunglasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Men Power Sunglasses</a></li>
+                <li><a class="dropdown-item" href="#">Women Power Sunglasses</a></li>
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mobilenav">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img src="https://djgn3cwvdf3zo.cloudfront.net/appimages/kids-eyeglasses.png" alt=""> Kids Glasses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Kids Eyeglasses</a></li>
+                <li><a class="dropdown-item" href="#">Kids Sunglasses</a></li>
+
+
+              </ul>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-computer.svg" alt="">Computer
+                Glasses</a>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/site-images/reading-eyeglasses-hamburgericon.png"
+                  alt="">Rreading Glasses</a>
+            </li>
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/site-images/icon-wipes.svg" alt="">Lens Clearing
+                Wipes</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-color-blindness.svg"
+                  alt="">Color Blind Glasses</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-color-changable-frames.png"
+                  alt="">Color Changing Frame</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-offers.svg" alt="">Offers</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/eyetesticon.svg" alt="">Free Eye
+                Testing Camp</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-recentlyViewed.svg"
+                  alt="">Recent Viewed</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-help.svg" alt="">Help</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-chat-with-us.svg" alt="">Chat
+                With Us</a>
+            </li>
+
+
+            <li class="nav-item mobilenav">
+              <a class="nav-link  px-lg-2 " href="#">
+                <img src="https://cwcdn.coolwinks.com/mobile/mobile-site-content/menu-icon-help.svg" alt="">Contact
+                Us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+    <!----------------- MOBILE NAVBAR SECTION END -------------->
+
+
+    <!--------------------------- MOBILE CART CONTENT SECTION STARTS ------------------------------>
+
+
+
+
+
+
+
+
+
+  <script src="js/swiped-events.js"></script>
+  <script src="js/script.js"></script>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

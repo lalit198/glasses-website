@@ -2500,6 +2500,12 @@ top: 44%!important;
   
 }
 
+@media only screen and (max-width: 360px) {
+   #mob_foot{
+    height: 45vh!important;
+  }
+}
+
 
 @media only screen and (max-width: 332px) {
   html{
@@ -2529,7 +2535,7 @@ top: 44%!important;
 
   }
    #mob_foot{
-    height: auto;
+    height: 33vh!important;
   }
 
   .rg_con p{
