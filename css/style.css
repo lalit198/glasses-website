@@ -1227,7 +1227,7 @@ background:
   font-size: .8rem;
 }
 
-/*--------------------------- PRESCRIPTION SECTION SRARTS ------------------------------*/
+/*--------------------------- FILTER SECTION SRARTS ------------------------------*/
 
   .filter_left{
   position: relative;
@@ -1318,6 +1318,23 @@ background:
 .rim_div img,p{
  cursor: pointer;
  color: #BEBEBE;
+}
+
+.desk_pdt_main{
+  position: relative;
+ 
+
+}
+
+.desk_pdt_sub{
+  position: absolute;
+  right: 4%;
+  color: #ffffff!important;
+  font-size: .755rem;
+  border-radius: 15%;
+  background-color: #28C7BF;
+  padding: .1rem .4rem;
+
 }
 
 
