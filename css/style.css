@@ -908,30 +908,36 @@ background:
   color: #000;
   font-size: 1.1rem;
   font-weight: 500;
-  margin-left: 2.5rem;
+  /* margin-left: 2.5rem; */
 }
 
 .fav-price{
   font-size: 1.125rem;
   color: #1C7BBE;
   font-weight: 600;
-  margin-top: -.2rem;
+  margin-top: -.3rem;
 }
 
 
-.like{
- color: red; 
- 
-
-}
+.like .fa-heart-o{
+ color: gray!important;
+ font-size: 1.1rem;
+ cursor: pointer; 
+ }
+  .like .fa-heart{
+  color: red!important;
+  font-size: 1.1rem;
+  cursor: pointer; 
+  } 
 
 .fav-desc{
-  font-size: .8rem;
+  font-size: .9555rem;
   margin-top: -1rem!important;
 }
 
+
 .coool{
-  padding: 30px;
+  padding: 35px;
 }
 
 
@@ -1320,6 +1326,17 @@ background:
  color: #BEBEBE;
 }
 
+
+.fav-size{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: -1rem!important;
+}
+
+.filtr_main_sec:hover{
+  box-shadow: 0 0 10px 4px #DCDBD4;
+}
+
 .desk_pdt_main{
   position: relative;
  
@@ -1333,7 +1350,7 @@ background:
   font-size: .755rem;
   border-radius: 15%;
   background-color: #28C7BF;
-  padding: .1rem .4rem;
+  padding: .2rem .5rem!important;
 
 }
 
@@ -1375,6 +1392,69 @@ background:
 }
 }
 
+
+@media (max-width: 992px) {
+.mob_rg_fav-name{
+  font-size: 3rem!important;
+}
+.mob_rg_fav-desc{
+  font-size: 2rem!important;
+
+}
+
+.like .fa-heart-o{
+  font-size: 2rem;
+  }
+   .like .fa-heart{
+   font-size: 2rem;
+   } 
+
+
+.desk_pdt_sub{
+  right: 4%;
+  font-size: 1.5rem;
+  padding: .6rem 1.4rem!important;
+
+}
+.fil_con_clr span{
+  width: 2rem!important;
+  height: 2rem!important;
+
+}
+}
+
+
+@media (max-width: 578px) {
+  .mob_rg_fav-name{
+    font-size: 2rem!important;
+  }
+  .mob_rg_fav-desc{
+    font-size: 1.4rem!important;
+  
+  }
+  
+  .like .fa-heart-o{
+    font-size: 1.5rem;
+    }
+     .like .fa-heart{
+     font-size: 1.5rem;
+     } 
+  
+  
+  .desk_pdt_sub{
+    right: 4%;
+    font-size: 1.2rem;
+    padding: .4rem 1rem!important;
+  
+  }
+  .fil_con_clr span{
+    width: 1.5rem!important;
+    height: 1.5rem!important;
+  
+  }
+  }
+  
+  
 
 
 
