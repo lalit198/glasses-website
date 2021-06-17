@@ -1343,7 +1343,7 @@ background:
 
 .filtr_main_sec:hover{
   box-shadow: 0 0 20px 1px #ebebeb;
-  border: 1px solid #ebebeb;
+  border: 1px solid rgba(255, 255, 255,.2);
 }
 
 .desk_pdt_main{
