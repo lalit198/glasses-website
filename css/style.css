@@ -906,13 +906,13 @@ background:
 
 .fav-name{
   color: #000;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 500;
   /* margin-left: 2.5rem; */
 }
 
 .fav-price{
-  font-size: 1.125rem;
+  font-size: 1.1555rem;
   color: #1C7BBE;
   font-weight: 600;
   margin-top: -.3rem;
@@ -932,7 +932,7 @@ background:
 
 .fav-desc{
   font-size: .9555rem;
-  margin-top: -1rem!important;
+  margin-top: -.9rem!important;
 }
 
 
@@ -1242,6 +1242,10 @@ background:
   outline: none!important;
   box-shadow: 0 0 10px #ffffff!important;
 }
+.form-check-input{
+  outline: none!important;
+  box-shadow: 0 0 10px #ffffff!important;
+}
 
 .btn_filter{
   width: 90%;
@@ -1320,6 +1324,10 @@ background:
 .rim_div{
   border: 1px solid #BEBEBE;
 }
+.rim_div:hover{
+  border: 1px solid #000000;
+}
+
 
 .rim_div img,p{
  cursor: pointer;
@@ -1329,27 +1337,29 @@ background:
 
 .fav-size{
   font-size: 1rem;
-  font-weight: 700;
-  margin-top: -1rem!important;
+  font-weight: 600;
+  margin-top: -.7rem!important;
 }
 
 .filtr_main_sec:hover{
-  box-shadow: 0 0 10px 4px #DCDBD4;
+  box-shadow: 0 0 20px 1px #ebebeb;
+  border: 1px solid #ebebeb;
 }
 
 .desk_pdt_main{
   position: relative;
+  margin-top: -.5rem;
  
 
 }
 
 .desk_pdt_sub{
   position: absolute;
-  right: 4%;
+  right: 5%;
   color: #ffffff!important;
   font-size: .755rem;
   border-radius: 15%;
-  background-color: #28C7BF;
+  background-color: #2332f3;
   padding: .2rem .5rem!important;
 
 }

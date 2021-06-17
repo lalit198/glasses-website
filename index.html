@@ -24,7 +24,6 @@
   <!---------------- DESKTOP NAVBAR START ---------------------------------->
 
   <div class="desktop">
-    <div class="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 75">
         <div class="container-fluid text-uppercase p-2">
           <a class="navbar-brand font-weight-bold text-capitalize" href="index.html"><span
@@ -366,47 +365,8 @@
         </div>
 
 
-        <div class="crousel_child container-fluid">
-          <div id="demo" class="carousel slide" data-ride="carousel">
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators" style="visibility: hidden;">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/caraousal.jpg" alt="error" class="img-fluid">
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousal2.jpg" alt="error" class="img-fluid">
-              </div>
-              <div class="carousel-item">
-                <img src="images/caroual3.jpg" alt="error" class="img-fluid">
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousal4.jpg" alt="error" class="img-fluid">
-              </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          </div>
-
-
-        </div>
       </div>
-
-    </div>
   </div>
 
 
@@ -671,6 +631,45 @@
 
   <!---------------- NEXT SECTION ----------------------->
   <div class="desktop">
+    <div class="header">
+    <div class="crousel_child container-fluid" style="margin-top: -3%;">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators" style="visibility: hidden;">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/caraousal.jpg" alt="error" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousal2.jpg" alt="error" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="images/caroual3.jpg" alt="error" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousal4.jpg" alt="error" class="img-fluid">
+          </div>
+        </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev" style="margin-top: -15rem;">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next" style="margin-top: -15rem;">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+  </div>
+
     <section id="eyeglass">
       <div class="container eyeglass">
         <div class="row">
@@ -2004,10 +2003,9 @@
   <!----------------------------- MOBILE FOOTER END ------------------------------------->
 
 
-
-  <!------------------------COMMON LOGIN POP-UP FORM START FOR BOTH DESKTOP AND MOBILE  ---------------->
+  <!------------COMMON LOGIN POP-UP FORM START FOR DESKTOP AND MOBILE  ---------------->
   <div id="show_reg" style="width: 100%; height: 100vh; position: absolute; top: 0;
-  z-index: 2001; visibility: hidden;">
+  z-index: 2001;  display: none;">
     <div style="background-color: white; position: absolute; left: 32%; top: 5%;" class="fir_frm">
       <div style="position: absolute;" class="container-fluid text-center">
         <div id="reg_can"><i class="fa fa-times ml-auto mt-2" aria-hidden="true"
@@ -2044,7 +2042,7 @@
   <!-- 2 -->
   <!------------------------- first time registration --------------------->
 
-  <!--   <div id="show_form" style="width: 100%; height: 100vh; position: absolute; top: 0; z-index: 2001; visibility: hidden;">
+  <!--   <div id="show_form" style="width: 100%; height: 100vh; position: absolute; top: 0; z-index: 2001;  display: none;">
         <div style="width: 33%; height: 90%; background-color: white; position: absolute; left: 32%; top: 5%;" class="sec_frm">
           <div style="position: absolute;" class="container-fluid text-center">
           <div id="form_can"><i class="fa fa-times ml-auto mt-2" aria-hidden="true" style="position: absolute; left: 95%; cursor: pointer;"></i></div>
@@ -2093,8 +2091,7 @@ offers and stylish frames</p></pre>
      -->
 
   <!-- 3 -->
-  <div id="show_sigin"
-    style="width: 100%; height: 100vh; position: absolute; top: 0;z-index: 2001; visibility: hidden;">
+  <div id="show_sigin" style="width: 100%; height: 100vh; position: absolute; top: 0;z-index: 2001; display: none;">
     <div style="background-color: white; position: absolute; left: 32%; top: 5%;" class="sigin_frm">
       <div style="position: absolute;" class="container-fluid text-center">
         <div id="sigin_can"><i class="fa fa-times ml-auto mt-2" aria-hidden="true"
@@ -2130,7 +2127,7 @@ offers and stylish frames</p></pre>
   <!-- 4  -->
 
   <div id="show_otp" style="width: 100%; height: 100vh; position: absolute; top: 0;
-   z-index: 2001; visibility: hidden;">
+   z-index: 2001; display: none;">
     <div style="width: 33%; height: 53%; background-color: white; position: absolute; left: 32%; top: 5%;"
       class="otp_frm">
       <div style="position: absolute;" class="container-fluid text-center">
@@ -2165,7 +2162,7 @@ offers and stylish frames</p></pre>
 
   <!-- 5  -->
   <div id="show_forget" style="width: 100%; height: 100vh; position: absolute; top: 0;
-z-index: 2001; visibility: hidden;">
+z-index: 2001; display: none;">
     <div style="width: 33%; height: 55%; background-color: white; position: absolute; left: 32%; top: 5%;"
       class="forget_frm">
       <div style="position: absolute;" class="container-fluid text-center">
@@ -2191,7 +2188,9 @@ z-index: 2001; visibility: hidden;">
       </div>
     </div>
   </div>
+
   <!-------------- LOGIN POPUP FORM END --------------------------->
+
 
 
 
@@ -2277,15 +2276,19 @@ z-index: 2001; visibility: hidden;">
       });
     });
 
+
+
+    // LOGIN POPUP 
+
     $(document).ready(function () {
       $('#click_reg').click(function () {
-        $('#show_reg').css("visibility", "visible");
+        $('#show_reg').css("display", "block");
       });
     });
 
     $(document).ready(function () {
       $('#reg_can').click(function () {
-        $('#show_reg').css("visibility", "hidden");
+        $('#show_reg').css("display", "none");
 
       });
     });
@@ -2304,20 +2307,20 @@ z-index: 2001; visibility: hidden;">
     //     $('#show_reg').css("visibility","hidden");
 
     //   });
-    // });
+    // }); 
 
     // ----------Sign In Form--------------------
 
     $(document).ready(function () {
       $('#reg_btn').click(function () {
-        $('#show_sigin').css("visibility", "visible");
-        $('#show_reg').css("visibility", "hidden");
+        $('#show_sigin').css("display", "block");
+        $('#show_reg').css("display", "none");
       });
     });
 
     $(document).ready(function () {
       $('#sigin_can').click(function () {
-        $('#show_sigin').css("visibility", "hidden");
+        $('#show_sigin').css("display", "none");
 
 
       });
@@ -2325,25 +2328,25 @@ z-index: 2001; visibility: hidden;">
 
     $(document).ready(function () {
       $('#sigin_btn').click(function () {
-        $('#show_otp').css("visibility", "visible");
-        $('#show_sigin').css("visibility", "hidden");
-        $('#show_reg').css("visibility", "hidden");
+        $('#show_otp').css("display", "block");
+        $('#show_sigin').css("display", "none");
+        $('#show_reg').css("display", "none");
       });
     });
 
     $(document).ready(function () {
       $('#sigin_email').click(function () {
-        $('#show_reg').css("visibility", "visible");
-        $('#show_sigin').css("visibility", "hidden");
+        $('#show_reg').css("display", "block");
+        $('#show_sigin').css("display", "none");
 
       });
     });
 
     $(document).ready(function () {
       $('#sigin_frgtpass').click(function () {
-        $('#show_forget').css("visibility", "visible");
-        $('#show_sigin').css("visibility", "hidden");
-        $('#show_reg').css("visibility", "hidden");
+        $('#show_forget').css("display", "block");
+        $('#show_sigin').css("display", "none");
+        $('#show_reg').css("display", "none");
       });
     });
 
@@ -2351,16 +2354,16 @@ z-index: 2001; visibility: hidden;">
 
     $(document).ready(function () {
       $('#otp_change').click(function () {
-        $('#show_reg').css("visibility", "visible");
-        $('#show_otp').css("visibility", "hidden");
+        $('#show_reg').css("display", "block");
+        $('#show_otp').css("display", "none");
 
       });
     });
 
     $(document).ready(function () {
       $('#otp_pass').click(function () {
-        $('#show_sigin').css("visibility", "visible");
-        $('#show_otp').css("visibility", "hidden");
+        $('#show_sigin').css("display", "block");
+        $('#show_otp').css("display", "none");
       });
     });
 
@@ -2368,7 +2371,7 @@ z-index: 2001; visibility: hidden;">
 
     $(document).ready(function () {
       $('#otp_can').click(function () {
-        $('#show_otp').css("visibility", "hidden");
+        $('#show_otp').css("display", "none");
 
 
       });
@@ -2378,17 +2381,33 @@ z-index: 2001; visibility: hidden;">
 
     $(document).ready(function () {
       $('#forget_can').click(function () {
-        $('#show_forget').css("visibility", "hidden");
+        $('#show_forget').css("display", "none");
 
 
       });
     });
 
 
-
     $(document).ready(function () {
       $('#clk_reg').click(function () {
-        $('#show_reg').css("visibility", "visible");
+        $('#show_reg').css("display", "block");
+      });
+    });
+
+
+    $(document).ready(function () {
+      $('#show_four').click(function () {
+        $('#dis_fil_lf').css("display", "block");
+        $('#show_four').css("display", "none");
+        $('#show_2four').css("display", "block");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#show_2four').click(function () {
+        $('#dis_fil_lf').css("display", "none");
+        $('#show_four').css("display", "block");
+        $('#show_2four').css("display", "none");
       });
     });
 
