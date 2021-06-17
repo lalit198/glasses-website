@@ -1289,24 +1289,29 @@ background:
   color: #000000;
 }
 
- .fil_four .dropdown ul{
+  .fil_four .drop_down .dropdown_menu{
   width: 91%!important;
   border-radius: 0!important;
   border: none!important;
 
-} 
+}  
 
-.fil_four .dropdown ul label{
+
+.fil_four .drop_down .dropdown_menu label{
  cursor: pointer;
  color: #AFAEAE;
 
 } 
 
-.fil_four .dropdown ul label:hover{
+.fil_four .drop_down .dropdown_menu label:hover{
   cursor: pointer;
   color: #000000;
  
- } 
+ }
+ 
+ .dropdown_menu{
+   padding-left: 1.5rem!important;
+ }
  
 
 .fil_four button{
@@ -1362,8 +1367,6 @@ background:
   padding: .2rem .5rem!important;
 
 }
-
-
 
 
 
@@ -2669,6 +2672,8 @@ top: 44%!important;
    } 
   
 }
+
+
 
 
 
