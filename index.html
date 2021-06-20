@@ -1867,7 +1867,7 @@
 
   <!---------------------------------- DESKTOP FOOTER START------------------------------------->
   <div class="desktop">
-    <section id="footer" style="margin-top: auto;">
+    <footer id="footer" style="margin-top: auto;">
       <div class="container">
         <div class="row" style="margin-top: -4rem">
           <div class="col-md-3 font-weight-bolder">
@@ -1949,8 +1949,11 @@
         </div>
         <hr>
         <p class="copyright">Copyright © 2021. All Rights Reserved</p>
+        <div class="scrolltop float-right">
+        <i class="fa fa-chevron-up" onclick="topFunction()" id="myBtn" style="background-color: #232F3E"></i>
+        </div>
       </div>
-    </section>
+    </footer>
   </div>
   <!--------------------DESKTOP Footer End ------------------------>
 
@@ -2193,7 +2196,7 @@ z-index: 2001; display: none;">
 
 
 
-
+  <script src="/js/my.js"></script>
   <script src="js/swiped-events.js"></script>
   <script src="js/script.js"></script>
 
@@ -2207,6 +2210,8 @@ z-index: 2001; display: none;">
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <!--Main jQuery External -->
+   <script src="js/my.js"></script>
 
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -2217,205 +2222,30 @@ z-index: 2001; display: none;">
   <script>
 
 
+    //------------------ SCROLL TOP FUNCTIONALITY CODE---------------------
+
+    // Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // when the user scroll down 20px from the top of the document,show the btton
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myBtn.style.display = "block";
+      } else {
+        myBtn.style.display = "none";
+      }
+    }
+
+    //When user click on the button,scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
 
 
-    $(document).ready(function () {
-      $('#eyeglassId').mouseenter(function () {
-        $('#showOne,#showTwo,#showThree,showFour').css("visibility", "visible");
-        $('#showTwo,#showThree,#showFour').css("visibility", "hidden");
-
-      });
-
-    });
-
-    $(document).ready(function () {
-      $('#showOne').mouseleave(function () {
-        $('#showOne').css("visibility", "hidden");
-      });
-    });
-
-    $(document).ready(function () {
-      $('#sunglassId').mouseenter(function () {
-        $('#showTwo').css("visibility", "visible");
-        $('#showOne,#showThree,#showFour').css("visibility", "hidden");
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('#showTwo').mouseleave(function () {
-        $('#showTwo').css("visibility", "hidden");
-      });
-    });
-
-    $(document).ready(function () {
-      $('#lensId').mouseenter(function () {
-        $('#showThree').css("visibility", "visible");
-        $('#showTwo,#showOne,#showFour').css("visibility", "hidden");
-      });
-
-    });
-
-    $(document).ready(function () {
-      $('#showThree').mouseleave(function () {
-        $('#showThree').css("visibility", "hidden");
-      });
-    });
-
-    $(document).ready(function () {
-      $('#discoverId').mouseenter(function () {
-        $('#showFour').css("visibility", "visible");
-        $('#showTwo,#showThree,#showOne').css("visibility", "hidden");
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('#showFour').mouseleave(function () {
-        $('#showFour').css("visibility", "hidden");
-      });
-    });
-
-
-
-    // LOGIN POPUP 
-
-    $(document).ready(function () {
-      $('#click_reg').click(function () {
-        $('#show_reg').css("display", "block");
-      });
-    });
-
-    $(document).ready(function () {
-      $('#reg_can').click(function () {
-        $('#show_reg').css("display", "none");
-
-      });
-    });
-
-    // ---------------first time registration-----------------------
-
-    // $(document).ready(function(){
-    //   $('#reg_btn').click(function(){
-    //     $('#show_form').css("visibility","visible");
-    //   });
-    // });
-
-    // $(document).ready(function(){
-    //   $('#form_can').click(function(){
-    //     $('#show_form').css("visibility","hidden");
-    //     $('#show_reg').css("visibility","hidden");
-
-    //   });
-    // }); 
-
-    // ----------Sign In Form--------------------
-
-    $(document).ready(function () {
-      $('#reg_btn').click(function () {
-        $('#show_sigin').css("display", "block");
-        $('#show_reg').css("display", "none");
-      });
-    });
-
-    $(document).ready(function () {
-      $('#sigin_can').click(function () {
-        $('#show_sigin').css("display", "none");
-
-
-      });
-    });
-
-    $(document).ready(function () {
-      $('#sigin_btn').click(function () {
-        $('#show_otp').css("display", "block");
-        $('#show_sigin').css("display", "none");
-        $('#show_reg').css("display", "none");
-      });
-    });
-
-    $(document).ready(function () {
-      $('#sigin_email').click(function () {
-        $('#show_reg').css("display", "block");
-        $('#show_sigin').css("display", "none");
-
-      });
-    });
-
-    $(document).ready(function () {
-      $('#sigin_frgtpass').click(function () {
-        $('#show_forget').css("display", "block");
-        $('#show_sigin').css("display", "none");
-        $('#show_reg').css("display", "none");
-      });
-    });
-
-    // ----------Otp Form--------------------
-
-    $(document).ready(function () {
-      $('#otp_change').click(function () {
-        $('#show_reg').css("display", "block");
-        $('#show_otp').css("display", "none");
-
-      });
-    });
-
-    $(document).ready(function () {
-      $('#otp_pass').click(function () {
-        $('#show_sigin').css("display", "block");
-        $('#show_otp').css("display", "none");
-      });
-    });
-
-
-
-    $(document).ready(function () {
-      $('#otp_can').click(function () {
-        $('#show_otp').css("display", "none");
-
-
-      });
-    });
-
-    //----------- Forget----------
-
-    $(document).ready(function () {
-      $('#forget_can').click(function () {
-        $('#show_forget').css("display", "none");
-
-
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('#clk_reg').click(function () {
-        $('#show_reg').css("display", "block");
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('#show_four').click(function () {
-        $('#dis_fil_lf').css("display", "block");
-        $('#show_four').css("display", "none");
-        $('#show_2four').css("display", "block");
-      });
-    });
-
-    $(document).ready(function () {
-      $('#show_2four').click(function () {
-        $('#dis_fil_lf').css("display", "none");
-        $('#show_four').css("display", "block");
-        $('#show_2four').css("display", "none");
-      });
-    });
-
-
-
-
-
-  </script>
+     </script>
 </body>
 
 </html>

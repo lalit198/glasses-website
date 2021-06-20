@@ -1465,6 +1465,38 @@ background:
   
   }
   }
+
+
+
+ .main_indic .carousel-control-prev-icon,
+.main_indic .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #C1C1C1;
+  background-image: none;
+}
+
+.main_indic .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 1.5rem;
+  color: #C1C1C1;
+}
+
+.main_indic .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 1.5rem;
+  color: #C1C1C1;
+}
+
+
+.single_prd_com:hover{
+  background-color: #C6DDF2!important;
+}
+
   
   
 
