@@ -660,17 +660,20 @@
               
                         <!-- The slideshow -->
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
+                          <div class="carousel-item active" id="show_1caro_single_prd">
                             <img src="images/E208507-5.webp" alt="error" class="img-fluid" style="height: 400px;">
                           </div>
-                          <div class="carousel-item">
+                          <div class="carousel-item" id="show_2caro_single_prd">
                             <img src="images/E208507-4.webp" alt="error" class="img-fluid" style="height: 400px;">
                           </div>
-                          <div class="carousel-item">
+                          <div class="carousel-item" id="show_3caro_single_prd">
                             <img src="images/E208507-5.webp" alt="error" class="img-fluid" style="height: 400px;">
                           </div>
-                          <div class="carousel-item">
+                          <div class="carousel-item" id="show_4caro_single_prd">
                             <img src="images/E208507-4.webp" alt="error" class="img-fluid" style="height: 400px;">
+                          </div>
+                          <div class="carousel-item" id="show_5caro_single_prd">
+                            <img src="images/E208507-5.webp" alt="error" class="img-fluid" style="height: 400px;">
                           </div>
                         </div>
                       </div>
@@ -690,19 +693,19 @@
                </div>
 
                <div class="d-flex justify-content-between mt-2">
-                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3">
+                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3" id="click_1caro_single_prd">
                     <img src="images/E208507-5.webp" alt="" class="img-fluid">
                 </div>
-                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2">
+                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2" id="click_2caro_single_prd">
                     <img src="images/E208507-4.webp" alt="" class="img-fluid">
                 </div>
-                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2">
+                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2" id="click_3caro_single_prd">
                     <img src="images/E208507-5.webp" alt="" class="img-fluid">
                 </div>
-                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2">
+                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2" id="click_4caro_single_prd">
                     <img src="images/E208507-4.webp" alt="" class="img-fluid">
                 </div>
-                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2">
+                <div style="border:1px solid #ECEAEA; cursor: pointer;" class="py-3 ml-2" id="click_5caro_single_prd">
                     <img src="images/E208507-5.webp" alt="" class="img-fluid">
                 </div>
             </div>
@@ -837,13 +840,14 @@
             <img src="images/rocket.png" alt="" class="img-fluid ml-3" style="height: 60px;">
           </div>
             <div>
-            <h6 style="font-size: .9rem; font-weight: 700; color: #2e2e2e;">Place order now and get it delivered by</h6>
-            <h6 style="margin-top: -.2rem; font-size: .95rem; font-weight: 700; color: #035391;">2021-06-25</h6>
-            <p style="margin-top: -.4rem; font-size: .8rem; font-weight: 400; color: #ff2121;"><span style="font-weight: 700;width: 60%;">Note:</span> Delivery might take longer than usual due to COVID-19 situation in your area</p>
+            <h6 style="font-size: .9rem; font-weight: 700; color: #2e2e2e; font-style: italic;">Place order now and get it delivered by</h6>
+            <h6 style="margin-top: -.2rem; font-size: .95rem; font-weight: 700; color: #035391; font-style: italic;">2021-06-25</h6>
+            <p style="font-size: .8rem; font-weight: 400; color: #ff2121;"><span style="font-weight: 700;width: 60%;">Note:</span> Delivery might take longer than usual due to COVID-19 situation in your area</p>
           </div>
           <div style=" width: 10%;">
-          <i class="fa fa-info-circle ml-auto" aria-hidden="true"></i>
+          <i class="fa fa-info-circle ml-auto" aria-hidden="true" style="color:#27629b; cursor:pointer" data-toggle="tooltip" data-placement="top" title=""></i>
         </div>
+
           </div>
           <div class="d-flex justify-content-between mt-5 px-4">
             <p style="margin-top: -.4rem; font-size: .85rem; font-weight: 400; color: #C2C2C3;" id="single_prd_click_feature">FEATURES</p>
@@ -939,12 +943,12 @@
          </div>
         </div>
 
-        <div class="fifth_one container" style="margin-top: 5rem;">
+        <div class="fifth_one container" style="margin-top: 7rem;">
           <div class="fourth_head">
             <h4 class="text-center" style="font-weight: 700; color: #000000;">SIMILAR PRODUCTS</h4>
           </div>
         
-          <div class="row pr_row_child">
+          <!-- <div class="row pr_row_child">
          <div class="col-xl-4 col-lg-4 col-md-6 col-6 px-4 coool"> <img src="images/favrouite4.jpg "
             class="img img-fluid" alt="">
           <h3 class="text-center fav-name">GRAVIATE
@@ -986,7 +990,136 @@
       <p class="text-center fav-price">Rs.700</p>
       <p class="text-center fav-desc">Including basic lenses</p>
     </div>
+  </div> -->
+
+  <div id="demo_single_prd" class="carousel slide" data-ride="carousel" style="position: relative;">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row pr_row_child">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-6 px-4 coool"> <img src="images/E15B6386-1.webp"
+             class="img img-fluid" alt="" style="height: 200px;">
+           <h3 class="text-center fav-name ml-4">GRAVIATE
+             <span class="like pull-right mr-3">
+               <i class="fa fa-heart-o" aria-hidden="true" id="click_hrt"></i>
+             </span>
+             <span class="like pull-right mr-3">
+               <i class="fa fa-heart" aria-hidden="true" style="display: none;" id="show_hrt"></i>
+             </span>
+           </h3>
+           <div class="d-flex justify-content-center">
+            <p class="text-center fav-price">Rs.700</p>
+            <strike><p style="font-size: .95rem; font-weight: 400; color: #a3a3a3;" class="ml-3">Rs. 1980</p></strike></div>
+           <p class="text-center fav-desc">Including basic lenses</p>
+         </div>
+ 
+         <div class="col-xl-4 col-lg-4 col-md-6 col-6 px-4 coool"> <img src="images/E18B7009-1.webp"
+           class="img img-fluid" alt="" style="height: 200px;">
+         <h3 class="text-center fav-name ml-4">GRAVIATE
+           <span class="like pull-right mr-3">
+             <i class="fa fa-heart-o" aria-hidden="true" id="click_hrt"></i>
+           </span>
+           <span class="like pull-right mr-3">
+             <i class="fa fa-heart" aria-hidden="true" style="display: none;" id="show_hrt"></i>
+           </span>
+         </h3>
+         <div class="d-flex justify-content-center">
+          <p class="text-center fav-price">Rs.700</p>
+          <strike><p style="font-size: .95rem; font-weight: 400; color: #a3a3a3;" class="ml-3">Rs. 1980</p></strike></div>
+         <p class="text-center fav-desc">Including basic lenses</p>
+       </div>
+ 
+       <div class="col-xl-4 col-lg-4 col-md-6 col-6 px-4 coool"> <img src="images/E15B6386-1.webp"
+         class="img img-fluid" alt="" style="height: 200px;">
+       <h3 class="text-center fav-name ml-4">GRAVIATE
+         <span class="like pull-right mr-3">
+           <i class="fa fa-heart-o" aria-hidden="true" id="click_hrt"></i>
+         </span>
+         <span class="like pull-right mr-3">
+           <i class="fa fa-heart" aria-hidden="true" style="display: none;" id="show_hrt"></i>
+         </span>
+       </h3>
+       <div class="d-flex justify-content-center">
+        <p class="text-center fav-price">Rs.700</p>
+        <strike><p style="font-size: .95rem; font-weight: 400; color: #a3a3a3;" class="ml-3">Rs. 1980</p></strike></div>
+       <p class="text-center fav-desc">Including basic lenses</p>
+     </div>
+   </div>       
+      </div>
+      <div class="carousel-item">
+        <div class="row pr_row_child">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-6 px-4 coool"> <img src="images/E18B7009-1.webp"
+             class="img img-fluid" alt="" style="height: 200px;">
+           <h3 class="text-center fav-name ml-4">GRAVIATE
+             <span class="like pull-right mr-3">
+               <i class="fa fa-heart-o" aria-hidden="true" id="click_hrt"></i>
+             </span>
+             <span class="like pull-right mr-3">
+               <i class="fa fa-heart" aria-hidden="true" style="display: none;" id="show_hrt"></i>
+             </span>
+           </h3>
+           <div class="d-flex justify-content-center">
+            <p class="text-center fav-price">Rs.700</p>
+            <strike><p style="font-size: .95rem; font-weight: 400; color: #a3a3a3;" class="ml-3">Rs. 1980</p></strike></div>
+           <p class="text-center fav-desc">Including basic lenses</p>
+         </div>
+ 
+         <div class="col-xl-4 col-lg-4 col-md-6 col-6 px-4 coool"> <img src="images/E15B6386-1.webp"
+           class="img img-fluid" alt="" style="height: 200px;">
+         <h3 class="text-center fav-name ml-4">GRAVIATE
+           <span class="like pull-right mr-3">
+             <i class="fa fa-heart-o" aria-hidden="true" id="click_hrt"></i>
+           </span>
+           <span class="like pull-right mr-3">
+             <i class="fa fa-heart" aria-hidden="true" style="display: none;" id="show_hrt"></i>
+           </span>
+         </h3>
+         <div class="d-flex justify-content-center">
+          <p class="text-center fav-price">Rs.700</p>
+          <strike><p style="font-size: .95rem; font-weight: 400; color: #a3a3a3;" class="ml-3">Rs. 1980</p></strike></div>
+         <p class="text-center fav-desc">Including basic lenses</p>
+       </div>
+ 
+       <div class="col-xl-4 col-lg-4 col-md-6 col-6 px-4 coool"> <img src="images/E15B6386-1.webp"
+         class="img img-fluid" alt="" style="height: 200px;">
+       <h3 class="text-center fav-name ml-4">GRAVIATE
+         <span class="like pull-right mr-3">
+           <i class="fa fa-heart-o" aria-hidden="true" id="click_hrt"></i>
+         </span>
+         <span class="like pull-right mr-3">
+           <i class="fa fa-heart" aria-hidden="true" style="display: none;" id="show_hrt"></i>
+         </span>
+       </h3>
+       <div class="d-flex justify-content-center">
+       <p class="text-center fav-price">Rs.700</p>
+       <strike><p style="font-size: .95rem; font-weight: 400; color: #a3a3a3;" class="ml-3">Rs. 1980</p></strike></div>
+       <p class="text-center fav-desc">Including basic lenses</p>
+     </div>
+   </div>       
+      </div>
+
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev single_prd_icon" href="#demo_single_prd" data-slide="prev" style="position: absolute; left: 82%;">
+      <!-- <span class="carousel-control-prev-icon" style="position: absolute; top: 0; color: black;"></span> -->
+      <i class="fa fa-angle-left" aria-hidden="true" style="position: absolute; top: 0; font-size: 2.2rem; color: #494949;"></i>
+
+    </a>
+    <a class="carousel-control-next single_prd_icon" href="#demo_single_prd" data-slide="next" style="position: absolute; left: 88%;">
+      <!-- <span class="carousel-control-next-icon" style="position: absolute; top: 0; color: black;"></span> -->
+      <i class="fa fa-angle-right" aria-hidden="true" style="position: absolute; top: 0; font-size: 2.2rem; color: #494949;"></i>
+    </a>
   </div>
+  
     
          
     
