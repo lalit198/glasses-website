@@ -1757,7 +1757,9 @@
           transform: translateX(-50%); top: 7%;">
             <div class="d-flex justify-content-between mx-auto py-3" style="width: 98%;">
               <div style="width: 100%;">
-                <button id="main_sort_btn" class="btn w-100 text-white" style="background-color: #18CFA8; padding-top: .9rem; padding-bottom: .9rem; font-weight: 700;">SORT & FILTER
+                <button id="main_sort_btn" class="btn w-100 text-white"
+                  style="background-color: #18CFA8; padding-top: .9rem; padding-bottom: .9rem; font-weight: 700;">SORT &
+                  FILTER
                   BY</button>
               </div>
               <!-- <div style="width: 69.5%;">
@@ -2843,14 +2845,15 @@
     <div id="main_show_prod_sort" style="display: none;">
       <div class="py-3" style="width: 100%; background-color: #232F3E;">
         <div class="container d-flex ">
-        <i id="main_sort_can_btn" class="fa fa-times ml-2" aria-hidden="true" style="font-size: 2rem; font-weight: 100; color: white;"></i>
-        <h1 class="ml-5 text-white">Filters</h1>
-      </div>
+          <i id="main_sort_can_btn" class="fa fa-times ml-2" aria-hidden="true"
+            style="font-size: 2rem; font-weight: 100; color: white;"></i>
+          <h1 class="ml-5 text-white">Filters</h1>
+        </div>
       </div>
 
       <div class="mobile_filtr_main d-flex" style="width: 100%;">
-         <div style="width: 38%;">
-       <!-- <div class="mobile_filtr_left">
+        <div style="width: 38%;">
+          <!-- <div class="mobile_filtr_left">
           <p class="py-3 pl-3" style="background-color: #18CFA8; font-weight: 400; color: #ffffff; font-size: 1.7rem!important;">Sort</p>
         </div>
         <div class="mobile_filtr_left">
@@ -2860,440 +2863,987 @@
         <div class="mobile_filtr_left">
           <p class="py-3 pl-3" style="background-color: #18CFA8; font-weight: 400; color: #ffffff; font-size: 1.7rem!important;">Sort</p>
         </div> -->
-        <ul class="mobile_filtr_left">
-          <li><p>Sort</p></li>
-          <li><p>Frame Type</p></li>
-          <li><p>Frame Shape</p></li>
-          <li><p>Frame Color</p></li>
-          <li><p>Brands</p></li>
-          <li><p>Frame Size</p></li>
-          <li><p>Price</p></li>
-          <li><p>Gender</p></li>
-          <li><p>Material</p></li>
-          <li><p>Weight Group</p></li>
-          <li><p>Prescription Type</p></li>
-          <li><p>Collection</p></li>
-          <li><p>Grass Color</p></li>
-          <li><p style="margin-bottom: 6rem;">Frame Width</p></li>
-        </ul>
+          <ul class="mobile_filtr_left">
+            <li>
+              <p id="mobile_srt" style="background-color: #18CFA8; color: #ffff;">Sort</p>
+            </li>
+            <li>
+              <p id="mobile_frm_typ">Frame Type</p>
+            </li>
+            <li>
+              <p id="mobile_frm_shp">Frame Shape</p>
+            </li>
+            <li>
+              <p id="mobile_frm_clr">Frame Color</p>
+            </li>
+            <li>
+              <p id="mobile_brnd">Brands</p>
+            </li>
+            <li>
+              <p id="mobile_frm_siz">Frame Size</p>
+            </li>
+            <li>
+              <p id="mobile_prc">Price</p>
+            </li>
+            <li>
+              <p id="mobile_gndr">Gender</p>
+            </li>
+            <li>
+              <p id="mobile_matrl">Material</p>
+            </li>
+            <li>
+              <p id="mobile_wght_grp">Weight Group</p>
+            </li>
+            <li>
+              <p id="mobile_pres_typ">Prescription Type</p>
+            </li>
+            <li>
+              <p id="mobile_coll">Collection</p>
+            </li>
+            <li>
+              <p id="mobile_grs_clr">Grass Color</p>
+            </li>
+            <li>
+              <p style="margin-bottom: 6rem;" id="mob_frame_wid">Frame Width</p>
+            </li>
+          </ul>
 
-      </div>
+        </div>
 
-        
+
         <div class="mobile_filtr_right" style="width: 62%; background-color: #EAEFF4; position: relative;">
+          <div>
+          <!-- 1. Sort filter -->
+          <ul class="dropdown_menu" id="show_mobile_srt"
+            style="padding-left: 0!important; background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Most Viewed
+                    </label>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="position: absolute; right: 8%; padding: .6rem!important">
+
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Biggest Saving
+                    </label>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Price - Low to High
+                    </label>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Price - High to Low
+                    </label>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+              <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Best Seller
+                    </label>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Newest First
+                    </label>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+
+          <!-- 2. Frame type Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_frm_typ"
+            style="padding-left: 0!important; background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+              <div class="mobile_fltr_sub_one">
+                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                    Full Rim (786)
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                    style="position: absolute; right: 8%; padding: .6rem!important">
+                </div>
+              </div>
+            </a></p>
+
+            <p><a href="#">
+              <div class="mobile_fltr_sub_one">
+                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                    Half Rim (100)
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                    style="position: absolute; right: 8%; padding: .6rem!important">
+                </div>
+              </div>
+            </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Rimless (43)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+         </ul>
           
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important; background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; display: none;">
+          <!-- 3. Frame shape Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_frm_shp"
+            style="padding-left: 0!important; background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
             <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Lenskart Air Computer Glasses <br>(320)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Rectangle (385)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
                 </div>
-              </div>
               </a></p>
 
             <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    John Jacobs Computer Glasses <br> (147)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Round (159)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
                 </div>
-              </div>
               </a></p>
 
             <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Vincent Chase Computer Glasses(52)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Cat Eye (103)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
                 </div>
-              </div>
               </a></p>
 
             <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Lenskart Blu (16)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Square (103)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
                 </div>
-              </div>
-              </a></p>
-          </ul>
-
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Extra Narrow (37)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Narrow (100)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Medium (244)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Wide (134)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
               </a></p>
 
               <p><a href="#">
                 <div class="mobile_fltr_sub_one">
                   <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                     Extra Wide (20)
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Aviator (61)
                     </label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
                   </div>
                 </div>
-                </a></p>
-          </ul>
-
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Rs. 1000 - Rs. 1999 (391)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Rs. 2000 - Rs. 2999 (147)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-          </ul>
-
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Unisex (493)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Women (43)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Men (2)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-          </ul>
-
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    TR90 (Flexible Light-Weight) (194)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Stainles Steel (Simple Matte & <br> Shiny) (111)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Acetate (Vintage Regular (98)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Italian Acetate (Vintage Premium) <br> (13)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
               </a></p>
 
               <p><a href="#">
                 <div class="mobile_fltr_sub_one">
                   <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                     Ultem (Vintage Light Weight) (9)
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Wayfarer (53)
                     </label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
                   </div>
                 </div>
-                </a></p>
-          </ul>
-
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Light (384)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Aveage (142)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Feather Light (8)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-          </ul>
-
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Biofocal / Progressive (42)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Single Vision (1)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-          </ul>
-
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Air Classic (119)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Air Flex (88)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Air Signia (84)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Classic Acetate (25)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
               </a></p>
 
               <p><a href="#">
                 <div class="mobile_fltr_sub_one">
                   <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                     Sleek Steel (19)
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Hexagonal (50)
                     </label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
                   </div>
                 </div>
-                </a></p>
+              </a></p>
 
-                <p><a href="#">
-                  <div class="mobile_fltr_sub_one">
-                    <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                      <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                       Air Sports (15)
-                      </label>
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                    </div>
+              <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Clubmaster (3)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
                   </div>
-                  </a></p>
+                </div>
+              </a></p>
+          </ul>
 
-                  <p><a href="#">
-                    <div class="mobile_fltr_sub_one">
-                      <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                        <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                         Air Silicon (10)
-                        </label>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                      </div>
-                    </div>
-                    </a></p>
-
-                    <p><a href="#">
-                      <div class="mobile_fltr_sub_one">
-                        <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                          <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                           Blend Edit (5)
-                          </label>
-                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                        </div>
-                      </div>
-                      </a></p>
-
-                      <p><a href="#">
-                        <div class="mobile_fltr_sub_one">
-                          <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                            <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                             Clip On (3)
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                          </div>
-                        </div>
-                        </a></p>
-
-                        <p><a href="#">
-                          <div class="mobile_fltr_sub_one">
-                            <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                              <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                               Hd Acetate (2)
-                              </label>
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                            </div>
-                          </div>
-                          </a></p>
-                </ul>
-
-                
-          <ul class="dropdown_menu" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%; display: none;">
+           <!-- 4. Frame color Filter -->
+          <ul class="dropdown_menu pb-5" id="show_mobile_frm_clr"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%;  height: 90vh; overflow-y: scroll; display: none;">
             <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Grey (2)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Black (275)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
                 </div>
-              </div>
               </a></p>
 
             <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    Brown (1)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Brown (121)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
                 </div>
-              </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Blue (103)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Grey (61)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Golden (59)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Gunmental (53)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Tortoise (48)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Transparent (38)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Silver (34)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Green (33)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Red (33)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Pink (13)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Gold (12)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Purple (8)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Rose Gold (7)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Orqange (3)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Yellow (3)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Maroon (3)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      White (2)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Cooper (1)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+          
+          <!-- 5. Brands Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_brnd"
+            style="padding-left: 0!important; background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Lenskart Air Computer <br> Glasses (320)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      John Jacobs Computer <br> Glasses (147)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Vincent Chase Computer Glasses(52)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Lenskart Blu (16)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+
+          <!-- 6. Frame size Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_frm_siz"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Extra Narrow (37)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Narrow (100)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Medium (244)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Wide (134)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Extra Wide (20)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+
+          <!-- 7. Price Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_prc"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Rs. 1000 - Rs. 1999 (391)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Rs. 2000 - Rs. 2999 (147)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+           
+          <!-- 8. Gender Brands Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_gndr"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Unisex (493)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Women (43)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Men (2)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+
+          <!-- 9. Materials Brands Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_matrl"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      TR90 (Flexible Light- <br>Weight) (194)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Stainles Steel (Simple Matte <br> & Shiny) (111)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Acetate (Vintage Regular <br> (98)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Italian Acetate (Vintage Premium) (13)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Ultem (Vintage Light - <br> Weight) (9)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+
+          <!-- 10. Weight group Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_wght_grp"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Light (384)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Aveage (142)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Feather Light (8)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+
+          <!-- 11. Prescription Type Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_pres_typ"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Biofocal / Progressive (42)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Single Vision (1)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+
+          <!-- 12. Collection Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_coll"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Air Classic (119)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Air Flex (88)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Air Signia (84)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Classic Acetate (25)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Sleek Steel (19)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Air Sports (15)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Air Silicon (10)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Blend Edit (5)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Clip On (3)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Hd Acetate (2)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 3%;">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+           
+          <!-- 13. Glass color Filter -->
+
+          <ul class="dropdown_menu" id="show_mobile_grs_clr"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%; display: none;">
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Grey (2)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      Brown (1)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
               </a></p>
           </ul>
 
@@ -3320,253 +3870,275 @@
               </div>
               </a></p>
           </ul> -->
+           
+          <!-- 14. Mobile frame width Filter -->
 
-          <ul class="dropdown_menu pb-5" id="show_first_item" style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid grey; width: 100%;  height: 90vh; overflow-y: scroll;">
+          <ul class="dropdown_menu pb-5" id="show_mob_frame_wid"
+            style="padding-left: 0!important;  background-color: #ffffff; position: absolute; top: 0; border-bottom: 1px solid #DCDCDC; width: 100%;  height: 90vh; overflow-y: scroll; display: none;">
             <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    127 mm (2)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    128 mm (19)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    129 mm (5)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-            <p><a href="#">
-              <div class="mobile_fltr_sub_one">
-                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                    130 mm (16)
-                  </label>
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                </div>
-              </div>
-              </a></p>
-
-              <p><a href="#">
                 <div class="mobile_fltr_sub_one">
                   <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                      131 mm (16)
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      127 mm (2)
                     </label>
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
                   </div>
                 </div>
-                </a></p>
+              </a></p>
 
-                <p><a href="#">
-                  <div class="mobile_fltr_sub_one">
-                    <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                      <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                        132 mm (45)
-                      </label>
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                    </div>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      128 mm (19)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
                   </div>
-                  </a></p>
+                </div>
+              </a></p>
 
-                  <p><a href="#">
-                    <div class="mobile_fltr_sub_one">
-                      <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                        <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                          133 mm (23)
-                        </label>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                      </div>
-                    </div>
-                    </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      129 mm (5)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                    <p><a href="#">
-                      <div class="mobile_fltr_sub_one">
-                        <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                          <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                            134 mm (62)
-                          </label>
-                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                        </div>
-                      </div>
-                      </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      130 mm (16)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                      <p><a href="#">
-                        <div class="mobile_fltr_sub_one">
-                          <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                            <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                              135 mm (93)
-                            </label>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                          </div>
-                        </div>
-                        </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      131 mm (16)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                        <p><a href="#">
-                          <div class="mobile_fltr_sub_one">
-                            <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                              <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                136 mm (59)
-                              </label>
-                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                            </div>
-                          </div>
-                          </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      132 mm (45)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                          <p><a href="#">
-                            <div class="mobile_fltr_sub_one">
-                              <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                  137 mm (28)
-                                </label>
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                              </div>
-                            </div>
-                            </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      133 mm (23)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                            <p><a href="#">
-                              <div class="mobile_fltr_sub_one">
-                                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                    138 mm (52)
-                                  </label>
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                </div>
-                              </div>
-                              </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      134 mm (62)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                              <p><a href="#">
-                                <div class="mobile_fltr_sub_one">
-                                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                      139 mm (36)
-                                    </label>
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                  </div>
-                                </div>
-                                </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      135 mm (93)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                                <p><a href="#">
-                                  <div class="mobile_fltr_sub_one">
-                                    <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                      <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                        140 mm (28)
-                                      </label>
-                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                    </div>
-                                  </div>
-                                  </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      136 mm (59)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                                  <p><a href="#">
-                                    <div class="mobile_fltr_sub_one">
-                                      <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                        <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                          141 mm (18)
-                                        </label>
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                      </div>
-                                    </div>
-                                    </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      137 mm (28)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                                    <p><a href="#">
-                                      <div class="mobile_fltr_sub_one">
-                                        <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                          <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                            142 mm (10)
-                                          </label>
-                                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                        </div>
-                                      </div>
-                                      </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      138 mm (52)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                                      <p><a href="#">
-                                        <div class="mobile_fltr_sub_one">
-                                          <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                            <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                              143 mm (4)
-                                            </label>
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                          </div>
-                                        </div>
-                                        </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      139 mm (36)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                                        <p><a href="#">
-                                          <div class="mobile_fltr_sub_one">
-                                            <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                              <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                                144 mm (1)
-                                              </label>
-                                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                            </div>
-                                          </div>
-                                          </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      140 mm (28)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                                          <p><a href="#">
-                                            <div class="mobile_fltr_sub_one">
-                                              <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                                <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                                  145 mm (1)
-                                                </label>
-                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                              </div>
-                                            </div>
-                                            </a></p>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      141 mm (18)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-                                            <p><a href="#">
-                                              <div class="mobile_fltr_sub_one">
-                                                <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
-                                                  <label class="form-check-label" for="defaultCheck1" style="font-size: 1rem; color: black;">
-                                                    146 mm (4)
-                                                  </label>
-                                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="position: absolute; right: 3%;">
-                                                </div>
-                                              </div>
-                                              </a></p>
-                </ul>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      142 mm (10)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-         
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      143 mm (4)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      144 mm (1)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      145 mm (1)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
 
-
-
-        </div>
-     </div>
+            <p><a href="#">
+                <div class="mobile_fltr_sub_one">
+                  <div class="form-check mb-2" style="padding-left: .6rem; padding-right: .6rem; position: relative;">
+                    <label class="form-check-label" for="defaultCheck1" style="font-size: 1.1rem; color: black;">
+                      146 mm (4)
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                      style="position: absolute; right: 8%; padding: .6rem!important">
+                  </div>
+                </div>
+              </a></p>
+          </ul>
+          </div>
+          
+      </div>
+      </div>
 
       <div style="width: 97%; position: fixed; z-index: 100; left: 50%;
     transform: translateX(-50%); top: 93%; background-color: #EAEFF4;">
         <div class="d-flex justify-content-between mx-auto py-3" style="width: 98%;">
           <div style="width: 38%;">
-            <button id="" class="btn text-white" style="background-color: #18CFA8; padding-top: .8rem; padding-bottom: .8rem; font-weight: 700; width: 98%;">RESET ALL</button>
+            <button id="" class="btn text-white"
+              style="background-color: #18CFA8; padding-top: .8rem; padding-bottom: .8rem; font-weight: 700; width: 98%;">RESET
+              ALL</button>
           </div>
           <div style="width: 62%;">
-            <button id="" class="btn text-white ml-2" style="background-color: #18CFA8; padding-top: .8rem; padding-bottom: .8rem; font-weight: 700; width: 98%;">APPLY FILTER</button>
+            <button id="" class="btn text-white ml-2"
+              style="background-color: #18CFA8; padding-top: .8rem; padding-bottom: .8rem; font-weight: 700; width: 98%;">APPLY
+              FILTER</button>
           </div>
         </div>
       </div>
 
     </div>
   </div>
-  
+
   <!----------------------- MOBILE SECTIONS END ------------------------>
 
   <!---------------------------------- DESKTOP FOOTER START------------------------------------->
@@ -3899,7 +4471,7 @@ z-index: 2001; display: none;">
   </div>
 
   <!-------------- LOGIN POPUP FORM END --------------------------->
-   
+
 
   <script src="js/swiped-events.js"></script>
   <script src="js/script.js"></script>
@@ -3951,7 +4523,7 @@ z-index: 2001; display: none;">
 
 
 
-   
+
   </script>
 </body>
 

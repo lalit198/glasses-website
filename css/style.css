@@ -1901,7 +1901,7 @@ background:
   background-color: #ffffff;
   overflow-y: scroll;
   height: 90vh;
-  border-right: 1px solid grey;
+  border-right: 1px solid #DCDCDC;
 }
 
 .mobile_filtr_left li p {
@@ -1923,7 +1923,7 @@ background:
 }
 
 .mobile_fltr_sub_one:hover{
-  background-color: gray!important;
+  background-color: #F5F5F5!important;
 }
 
 
