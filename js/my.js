@@ -468,7 +468,7 @@ $(document).ready(function () {
   $('#mobile_srt').click(function () {
     $('#mobile_srt').css({ "background-color": "#18CFA8", "color": "white" });
 
-    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
     $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
     $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
     $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
@@ -1062,11 +1062,18 @@ $(document).ready(function () {
 });
 
 
-$(".mobile_fltr_sub_one").click(function () { 
-  var checkBox = $('input[name=markerType]', this);
+// $(".mobile_fltr_sub_one").click(function () { 
+//   var checkBox = $('input[name=markerType]', this);
 
-  $(checkBox).prop('checked', !checkBox.is(':checked'));
-});
+//   $(checkBox).prop('checked', !checkBox.is(':checked'));
+// });
+
+// $(document).ready(function() {
+//   $('.radio-option').click(function () {
+//       $(this).not(this).removeClass('click');
+//       $(this).toggleClass("click");
+//   });
+// });
 
 
 
