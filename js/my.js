@@ -1062,6 +1062,13 @@ $(document).ready(function () {
 });
 
 
+$(".mobile_fltr_sub_one").click(function () { 
+  var checkBox = $('input[name=markerType]', this);
+
+  $(checkBox).prop('checked', !checkBox.is(':checked'));
+});
+
+
 
 
 
