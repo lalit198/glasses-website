@@ -1890,7 +1890,7 @@ background:
   color: #80CFA8!important;
 }
 
-/* FILTER MOBILE PAGE */
+/*--------------------- FILTER MOBILE PAGE----------------------------- */
 
 .mobile_filtr_left {
   height: auto;
@@ -1924,6 +1924,31 @@ background:
 
 .mobile_fltr_sub_one:hover{
   background-color: #F5F5F5!important;
+}
+
+/* cross button css in show filter page */
+.close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.close:before, .close:after {
+  position: absolute;
+   top: 100%; 
+  left: 1.6rem;
+  content: ' ';
+  height: 2rem;
+  width: 2px;
+  background-color: white;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
 }
 
 
