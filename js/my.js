@@ -346,377 +346,626 @@ $(document).ready(function () {
 
 //MOBILE FILTER PAGE 
 
-   $(document).ready(function () {
-//   $('#main_filt_btn').click(function () {
-//     $('.main_filt_con').css("display", "none");
-//     $('#main_show_prod_filt').css("display", "block");
-//   });
+$(document).ready(function () {
+  //   $('#main_filt_btn').click(function () {
+  //     $('.main_filt_con').css("display", "none");
+  //     $('#main_show_prod_filt').css("display", "block");
+  //   });
 
-//   $('#main_filt_can_btn').click(function () {
-//     $('#main_show_prod_filt').css("display", "none");
-//     $('.main_filt_con').css("display", "block");
-//   });
+  //   $('#main_filt_can_btn').click(function () {
+  //     $('#main_show_prod_filt').css("display", "none");
+  //     $('.main_filt_con').css("display", "block");
+  //   });
 
-// });
+  // });
 
-// $(document).ready(function () {
-//   $('#sec_btn_flt').click(function () {
-//     $('#mob_fr_shp_show').css("display", "block");
-//     $('#sec_btn_flt').css("display", "none");
-//     $('#sec_btn_flt_ls').css("display", "block");
-//   });
+  // $(document).ready(function () {
+  //   $('#sec_btn_flt').click(function () {
+  //     $('#mob_fr_shp_show').css("display", "block");
+  //     $('#sec_btn_flt').css("display", "none");
+  //     $('#sec_btn_flt_ls').css("display", "block");
+  //   });
 
-//   $('#sec_btn_flt_ls').click(function () {
-//     $('#mob_fr_shp_show').css("display", "none");
-//     $('#sec_btn_flt').css("display", "block");
-//     $('#sec_btn_flt_ls').css("display", "none");
+  //   $('#sec_btn_flt_ls').click(function () {
+  //     $('#mob_fr_shp_show').css("display", "none");
+  //     $('#sec_btn_flt').css("display", "block");
+  //     $('#sec_btn_flt_ls').css("display", "none");
 
-//   });
+  //   });
 
-// });
+  // });
 
 
-// $(document).ready(function () {
-//   $('#thr_btn_flt_mor').click(function () {
-//     $('#thr_fr_shp_show').css("display", "block");
-//     $('#thr_btn_flt_mor').css("display", "none");
-//     $('#thr_btn_flt_ls').css("display", "block");
-//   });
+  // $(document).ready(function () {
+  //   $('#thr_btn_flt_mor').click(function () {
+  //     $('#thr_fr_shp_show').css("display", "block");
+  //     $('#thr_btn_flt_mor').css("display", "none");
+  //     $('#thr_btn_flt_ls').css("display", "block");
+  //   });
 
-//   $('#thr_btn_flt_ls').click(function () {
-//     $('#thr_fr_shp_show').css("display", "none");
-//     $('#thr_btn_flt_mor').css("display", "block");
-//     $('#thr_btn_flt_ls').css("display", "none");
+  //   $('#thr_btn_flt_ls').click(function () {
+  //     $('#thr_fr_shp_show').css("display", "none");
+  //     $('#thr_btn_flt_mor').css("display", "block");
+  //     $('#thr_btn_flt_ls').css("display", "none");
 
-//   });
+  //   });
 
-// });
+  // });
 
-// $(document).ready(function () {
-//   $('#four_btn_flt_mor').click(function () {
-//     $('#four_fr_shp_show').css("display", "block");
-//     $('#four_btn_flt_mor').css("display", "none");
-//     $('#four_btn_flt_ls').css("display", "block");
-//   });
+  // $(document).ready(function () {
+  //   $('#four_btn_flt_mor').click(function () {
+  //     $('#four_fr_shp_show').css("display", "block");
+  //     $('#four_btn_flt_mor').css("display", "none");
+  //     $('#four_btn_flt_ls').css("display", "block");
+  //   });
 
-//   $('#four_btn_flt_ls').click(function () {
-//     $('#four_fr_shp_show').css("display", "none");
-//     $('#four_btn_flt_mor').css("display", "block");
-//     $('#four_btn_flt_ls').css("display", "none");
+  //   $('#four_btn_flt_ls').click(function () {
+  //     $('#four_fr_shp_show').css("display", "none");
+  //     $('#four_btn_flt_mor').css("display", "block");
+  //     $('#four_btn_flt_ls').css("display", "none");
 
-//   });
-// });
+  //   });
+  // });
 
-// $(document).ready(function () {
-//   $('#five_btn_flt_mor').click(function () {
-//     $('#five_fr_shp_show').css("display", "block");
-//     $('#five_btn_flt_mor').css("display", "none");
-//     $('#five_btn_flt_ls').css("display", "block");
-//   });
+  // $(document).ready(function () {
+  //   $('#five_btn_flt_mor').click(function () {
+  //     $('#five_fr_shp_show').css("display", "block");
+  //     $('#five_btn_flt_mor').css("display", "none");
+  //     $('#five_btn_flt_ls').css("display", "block");
+  //   });
 
-//   $('#five_btn_flt_ls').click(function () {
-//     $('#five_fr_shp_show').css("display", "none");
-//     $('#five_btn_flt_mor').css("display", "block");
-//     $('#five_btn_flt_ls').css("display", "none");
+  //   $('#five_btn_flt_ls').click(function () {
+  //     $('#five_fr_shp_show').css("display", "none");
+  //     $('#five_btn_flt_mor').css("display", "block");
+  //     $('#five_btn_flt_ls').css("display", "none");
 
-//   });
-// });
+  //   });
+  // });
 
-// $(document).ready(function () {
-//   $('#six_btn_flt_mor').click(function () {
-//     $('#six_fr_shp_show').css("display", "block");
-//     $('#six_btn_flt_mor').css("display", "none");
-//     $('#six_btn_flt_ls').css("display", "block");
-//   });
+  // $(document).ready(function () {
+  //   $('#six_btn_flt_mor').click(function () {
+  //     $('#six_fr_shp_show').css("display", "block");
+  //     $('#six_btn_flt_mor').css("display", "none");
+  //     $('#six_btn_flt_ls').css("display", "block");
+  //   });
 
-//   $('#six_btn_flt_ls').click(function () {
-//     $('#six_fr_shp_show').css("display", "none");
-//     $('#six_btn_flt_mor').css("display", "block");
-//     $('#six_btn_flt_ls').css("display", "none");
+  //   $('#six_btn_flt_ls').click(function () {
+  //     $('#six_fr_shp_show').css("display", "none");
+  //     $('#six_btn_flt_mor').css("display", "block");
+  //     $('#six_btn_flt_ls').css("display", "none");
 
-//   });
-// });
+  //   });
+  // });
 
-// $(document).ready(function () {
-//   $('#sev_btn_flt_mor').click(function () {
-//     $('#sev_fr_shp_show').css("display", "block");
-//     $('#sev_btn_flt_mor').css("display", "none");
-//     $('#sev_btn_flt_ls').css("display", "block");
-//   });
+  // $(document).ready(function () {
+  //   $('#sev_btn_flt_mor').click(function () {
+  //     $('#sev_fr_shp_show').css("display", "block");
+  //     $('#sev_btn_flt_mor').css("display", "none");
+  //     $('#sev_btn_flt_ls').css("display", "block");
+  //   });
 
-//   $('#sev_btn_flt_ls').click(function () {
-//     $('#sev_fr_shp_show').css("display", "none");
-//     $('#sev_btn_flt_mor').css("display", "block");
-//     $('#sev_btn_flt_ls').css("display", "none");
+  //   $('#sev_btn_flt_ls').click(function () {
+  //     $('#sev_fr_shp_show').css("display", "none");
+  //     $('#sev_btn_flt_mor').css("display", "block");
+  //     $('#sev_btn_flt_ls').css("display", "none");
 
-//   });
-// });
+  //   });
+  // });
 
-// $(document).ready(function () {
-//   $('#click_hrt').click(function () {
-//     $('#show_hrt').css("display", "block");
-//     $('#click_hrt').css("display", "none");
-//   });
+  // $(document).ready(function () {
+  //   $('#click_hrt').click(function () {
+  //     $('#show_hrt').css("display", "block");
+  //     $('#click_hrt').css("display", "none");
+  //   });
 
-//   $('#show_hrt').click(function () {
-//     $('#click_hrt').css("display", "block");
-//     $('#show_hrt').css("display", "none");
-//   });
+  //   $('#show_hrt').click(function () {
+  //     $('#click_hrt').css("display", "block");
+  //     $('#show_hrt').css("display", "none");
+  //   });
 
-$('#mobile_srt').click(function () {
-  $('#mobile_srt').css({"background-color": "#18CFA8" , "color": "white"});
-  $('#show_mobile_srt').css("display","block");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_matrl').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
+  // 1 filter
+
+  $('#mobile_srt').click(function () {
+    $('#mobile_srt').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_srt').css("display", "block");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 2 filter
+
+  $('#mobile_frm_typ').click(function () {
+    $('#mobile_frm_typ').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#show_mobile_frm_typ').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 3 filter
+  $('#mobile_frm_shp').click(function () {
+    $('#mobile_frm_shp').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_frm_shp').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 4 filter
+
+  $('#mobile_frm_clr').click(function () {
+    $('#mobile_frm_clr').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_frm_clr').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 5 filter
+
+  $('#mobile_brnd').click(function () {
+    $('#mobile_brnd').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_brnd').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 6 filter
+
+  $('#mobile_frm_siz').click(function () {
+    $('#mobile_frm_siz').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_frm_siz').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 7 filter
+
+  $('#mobile_prc').click(function () {
+    $('#mobile_prc').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_prc').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 8 filter
+
+  $('#mobile_gndr').click(function () {
+    $('#mobile_gndr').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_gndr').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 9 filter
+  $('#mobile_matrl').click(function () {
+    $('#mobile_matrl').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+
+    $('#show_mobile_matrl').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 10 filter
+
+  $('#mobile_wght_grp').click(function () {
+    $('#mobile_wght_grp').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_wght_grp').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 11 filter
+
+  $('#mobile_pres_typ').click(function () {
+    $('#mobile_pres_typ').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_pres_typ').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 12 filter
+
+  $('#mobile_coll').click(function () {
+    $('#mobile_coll').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+
+    $('#show_mobile_coll').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 13 Filter
+  $('#mobile_grs_clr').click(function () {
+    $('#mobile_grs_clr').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mob_frame_wid').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mobile_grs_clr').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_mtrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mob_frame_wid').css("display", "none");
+  });
+
+  // 14 filter
+  $('#mob_frame_wid').click(function () {
+    $('#mob_frame_wid').css({ "background-color": "#18CFA8", "color": "white" });
+
+    $('#mobile_srt').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_shp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_clr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_brnd').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_frm_siz').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_prc').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_gndr').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_matrl').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_wght_grp').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_pres_typ').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_coll').css({ "background-color": "transparent", "color": "black" });
+    $('#mobile_grs_clr').css({ "background-color": "transparent", "color": "black" });
+
+
+    $('#show_mob_frame_wid').css("display", "block");
+    $('#show_mobile_srt').css("display", "none");
+    $('#show_mobile_frm_typ').css("display", "none");
+    $('#show_mobile_frm_shp').css("display", "none");
+    $('#show_mobile_frm_clr').css("display", "none");
+    $('#show_mobile_brnd').css("display", "none");
+    $('#show_mobile_frm_siz').css("display", "none");
+    $('#show_mobile_prc').css("display", "none");
+    $('#show_mobile_gndr').css("display", "none");
+    $('#show_mobile_matrl').css("display", "none");
+    $('#show_mobile_wght_grp').css("display", "none");
+    $('#show_mobile_pres_typ').css("display", "none");
+    $('#show_mobile_coll').css("display", "none");
+    $('#show_mobile_grs_clr').css("display", "none");
+  });
+
 });
-
-$('#mobile_frm_typ').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_frm_typ').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_matrl').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-  
-
- $('#mobile_frm_shp').click(function () {
-   $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-   $('#show_mobile_frm_shp').css("display","block");
-   $('#show_mobile_srt').css("display","none");
-   $('#show_mobile_frm_typ').css("display","none");
-   $('#show_mobile_frm_clr').css("display","none");
-   $('#show_mobile_brnd').css("display","none");
-   $('#show_mobile_frm_siz').css("display","none");
-   $('#show_mobile_prc').css("display","none");
-   $('#show_mobile_gndr').css("display","none");
-   $('#show_mobile_matrl').css("display","none");
-   $('#show_mobile_wght_grp').css("display","none");
-   $('#show_mobile_pres_typ').css("display","none");
-   $('#show_mobile_coll').css("display","none");
-   $('#show_mobile_grs_clr').css("display","none");
-   $('#show_mob_frame_wid').css("display","none");
- });
-
- $('#mobile_frm_clr').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_frm_clr').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_matrl').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_brnd').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_brnd').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_matrl').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_frm_siz').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_frm_siz').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_matrl').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_prc').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_prc').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_matrl').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_gndr').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_gndr').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_matrl').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_matrl').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_matrl').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_wght_grp').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_wght_grp').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_pres_typ').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_pres_typ').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_coll').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_coll').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mobile_grs_clr').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mobile_grs_clr').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mob_frame_wid').css("display","none");
-});
-
-$('#mob_frame_wid').click(function () {
-  $('#mobile_srt').css({"background-color": "transparent" , "color": "black"});
-  $('#show_mob_frame_wid').css("display","block");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_frm_typ').css("display","none");
-  $('#show_mobile_frm_shp').css("display","none");
-  $('#show_mobile_frm_clr').css("display","none");
-  $('#show_mobile_brnd').css("display","none");
-  $('#show_mobile_frm_siz').css("display","none");
-  $('#show_mobile_prc').css("display","none");
-  $('#show_mobile_gndr').css("display","none");
-  $('#show_mobile_srt').css("display","none");
-  $('#show_mobile_wght_grp').css("display","none");
-  $('#show_mobile_pres_typ').css("display","none");
-  $('#show_mobile_coll').css("display","none");
-  $('#show_mobile_grs_clr').css("display","none");
-});
-
- });
 
 
 //MOBILE SORT PAGE
@@ -808,8 +1057,8 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();   
+$(document).ready(function () {
+  $('[data-toggle="tooltip"]').tooltip();
 });
 
 
