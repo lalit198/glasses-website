@@ -967,6 +967,13 @@ $(document).ready(function () {
 
 });
 
+$('input[type=radio]').click(function(){
+  if (this.previous) {
+      this.checked = false;
+  }
+  this.previous = this.checked;
+});
+
 
 //MOBILE SORT PAGE
 $(document).ready(function () {
@@ -1062,18 +1069,7 @@ $(document).ready(function () {
 });
 
 
-// $(".mobile_fltr_sub_one").click(function () { 
-//   var checkBox = $('input[name=markerType]', this);
 
-//   $(checkBox).prop('checked', !checkBox.is(':checked'));
-// });
-
-// $(document).ready(function() {
-//   $('.radio-option').click(function () {
-//       $(this).not(this).removeClass('click');
-//       $(this).toggleClass("click");
-//   });
-// });
 
 
 
