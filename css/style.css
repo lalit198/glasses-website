@@ -1476,7 +1476,7 @@ background:
   outline: black;
   background-size: 100%, 100%;
   border-radius: 50%;
-  border: 1px solid #C1C1C1;
+  border: 1px solid #212529;
   background-image: none;
 }
 
@@ -1484,14 +1484,52 @@ background:
 {
   content: '>';
   font-size: 1.5rem;
-  color: #C1C1C1;
+  color: #212529;
 }
 
 .main_indic .carousel-control-prev-icon:after {
   content: '<';
   font-size: 1.5rem;
-  color: #C1C1C1;
+  color: #212529;
 }
+
+.pro_bought_wrap{
+    
+  background: #024781;
+  border-radius: 0 6px 6px 0;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  left: -15px;
+  padding: 13px 22px 13px 15px;
+  position: absolute;
+  top: 5%;
+  z-index: 78;
+  box-shadow: 0 0 4px rgb(0 0 0 / 50%);
+}
+
+.pro_bought_wrap:after, .pro_bought_wrap:before {
+      width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #012b4c;
+  left: 0;
+  content: '';
+  position: absolute;
+}
+
+
+.pro_bought_wrap:before {
+  border-width: 0 15px 13px 0;
+  bottom: -13px;
+}
+
+.pro_bought_wrap:after {
+border-width: 13px 15px 0 0;
+  top: -13px;
+}
+
+
 
 
 .single_prd_com:hover{
@@ -1501,6 +1539,34 @@ background:
 .single_prd_rmr:hover{
   color: #000!important;
   text-decoration: none;
+}
+
+.owl-prev, .owl-next {
+  outline: none;
+  border:none;
+ width: 15px;
+ height: 100px;
+ position: absolute;
+ top: 0;
+ right: 50%;
+ transform: translateY(-50%);
+ display: block !important;
+
+}
+
+
+
+
+ .owl-prev { left: 87%; }
+.owl-next { right: 60px; }
+.owl-prev i, .owl-next i {transform : scale(2,2); } 
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  color: #4A4A4A!important;
+}
+
+.owl-next , .owl-prev:hover{
+  background-color: transparent!important;
 }
 
 
