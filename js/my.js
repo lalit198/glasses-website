@@ -1000,21 +1000,21 @@ $(document).ready(function () {
 
 
 
-// $(document).ready(function(){
-//   $(".like").click(function(){
-//     $(this).toggleClass("show_hrt");
+$(document).ready(function(){
+  $(".like").click(function(){
+    $(this).toggleClass("show_hrt");
 
-//   });
+  });
 
-// });
+});
 
-// $(document).ready(function(){
-//   $(".rim_div").click(function(){
-//     $(this).toggleClass("show_rim");
+$(document).ready(function(){
+  $(".rim_div").click(function(){
+    $(this).toggleClass("show_rim");
 
-//   });
+  });
 
-// });
+});
 
 
 $(document).ready(function(){
