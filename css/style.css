@@ -1649,7 +1649,7 @@ border-width: 13px 15px 0 0;
 }
 
 .sing_like{
-  position: absolute; top: 3%; right: 1%; height: 1.5rem; width: 1.5rem; border-radius: 50%; box-shadow: 0 0 7px rgb(0 0 0 / 20%); display: flex; justify-content: center; align-items: center; padding: 1.2rem 1.2rem; z-index: 2000;
+  position: absolute; top: 3%; right: 1%; height: 1.5rem; width: 1.5rem; border-radius: 50%; box-shadow: 0 0 7px rgb(0 0 0 / 20%); display: flex; justify-content: center; align-items: center; padding: 1.2rem 1.2rem; z-index: 2;
   
 }
 
