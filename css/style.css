@@ -1510,24 +1510,43 @@ background:
 .main_indic .carousel-control-next-icon {
   height: 30px;
   width: 30px;
-  outline: black;
   background-size: 100%, 100%;
   border-radius: 50%;
-  border: 1px solid #212529;
+  border: 2px solid #BDBDBE;
   background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_indic .carousel-control-prev-icon:hover,
+.main_indic .carousel-control-next-icon:hover {
+  
+  border: 2px solid #AFAFAF;
+
 }
 
 .main_indic .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 1.2rem;
-  color: #212529;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #BDBDBE;
+}
+
+.main_indic .carousel-control-next-icon:hover:after
+{
+  color: #AFAFAF;
 }
 
 .main_indic .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 1.2rem;
-  color: #212529;
+  font-size: 1.3rem;
+  color: #BDBDBE;
+  font-weight: 600;
+}
+
+.main_indic .carousel-control-prev-icon:hover:after {
+  color: #AFAFAF;
 }
 
 .pro_bought_wrap{
