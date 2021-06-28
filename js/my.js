@@ -1024,3 +1024,53 @@ $(document).ready(function(){
   });
 
 });
+
+$(document).ready(function () {
+  $('.mobile_click_feature').click(function () {
+    $('.mobile_click_feature p').css("color", "#fff");
+    $('.mobile_click_feature').css("background-color", "#797979");
+    $('.mobile_click_desc p').css("color", "#bebebe");
+    $('.mobile_click_table p').css("color", "#bebebe");
+    $('.mobile_click_desc').css("background-color", "#fff");
+    $('.mobile_click_table').css("background-color", "#fff");
+    $('.mobile_show_feature').css("display", "inline-block");
+    $('.mobile_show_desc').css("display", "none");
+    $('.mobile_show_table').css("display", "none");
+  });
+
+  $('.mobile_click_desc').click(function () {
+    $('.mobile_click_desc p').css("color", "#fff");
+    $('.mobile_click_desc').css("background-color", "#797979");
+    $('.mobile_click_feature p').css("color", "#bebebe");
+    $('.mobile_click_table p').css("color", "#bebebe");
+    $('.mobile_click_feature').css("background-color", "#fff");
+    $('.mobile_click_table').css("background-color", "#fff");
+    $('.mobile_show_desc').css("display", "block");
+    $('.mobile_show_feature').css("display", "none");
+    $('.mobile_show_table').css("display", "none");
+  });
+
+  $('.mobile_click_table').click(function () {
+    $('.mobile_click_table p').css("color", "#fff");
+    $('.mobile_click_table').css("background-color", "#797979");
+    $('.mobile_click_desc p').css("color", "#bebebe");
+    $('.mobile_click_feature p').css("color", "#bebebe");
+    $('.mobile_click_feature').css("background-color", "#fff");
+    $('.mobile_click_desc').css("background-color", "#fff");
+    $('.mobile_show_table').css("display", "block");
+    $('.mobile_show_feature').css("display", "none");
+    $('.mobile_show_desc').css("display", "none");
+  });
+});
+
+$(document).ready(function(){
+  $('.mobile_single_buy_click').click(function(){
+    $('.mobile_single_buy_show').css("display","block")
+  });
+});
+
+$(document).ready(function(){
+  $('.mobile_single_buy_cancel').click(function(){
+    $('.mobile_single_buy_show').css("display","none")
+  });
+});

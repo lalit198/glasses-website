@@ -1549,6 +1549,7 @@ background:
   color: #AFAFAF;
 }
 
+
 .pro_bought_wrap{
     
   background: #024781;
@@ -1648,10 +1649,15 @@ border-width: 13px 15px 0 0;
   background-color: transparent!important;
 }
 
-.sing_like{
-  position: absolute; top: 3%; right: 1%; height: 1.5rem; width: 1.5rem; border-radius: 50%; box-shadow: 0 0 7px rgb(0 0 0 / 20%); display: flex; justify-content: center; align-items: center; padding: 1.2rem 1.2rem; z-index: 2;
-  
-}
+
+
+
+
+
+input,textarea:focus {
+  outline: none!important;
+  box-shadow: 0 0 10px #ffffff!important;
+  }
 
 
 
@@ -2099,6 +2105,82 @@ border-width: 13px 15px 0 0;
 }
 .close:after {
   transform: rotate(-45deg);
+}
+
+
+/* Mobile Single product page */
+
+.mobile-bottom-carousel-icon_prev,
+.mobile-bottom-carousel-icon_nxt {
+  height: 20px;
+  width: 20px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #BDBDBE;
+  background-image: none;
+  background-color: #ffffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000!important;
+}
+
+.mobile-bottom-carousel-icon_prev:after{
+  content: '<';
+  font-size: 1rem;
+  color: #035391;
+  font-weight: 500;
+  z-index: 1000;
+}
+
+
+.mobile-bottom-carousel-icon_nxt:after{
+  content: '>';
+  font-size: 1rem;
+  color: #035391;
+  font-weight: 500;
+  z-index: 1000;
+}
+
+.sing_like{
+  position: absolute; top: 3%; right: 1%; height: 1.5rem; width: 1.5rem; border-radius: 50%; box-shadow: 0 0 7px rgb(0 0 0 / 20%); display: flex; justify-content: center; align-items: center; padding: 1.2rem 1.2rem; z-index: 2;
+  
+}
+
+.discount{
+  position: absolute;
+  top: 3px;
+  width: 53px;
+  background-size: 100% auto;
+  padding: 6px 3px 0 9px!important;
+  font-size: 10px;
+  height: 26px;
+  left: 7px;
+  line-height: 17px;
+  background: #545454!important;
+  width: 103px;
+  color: #ffff;
+  text-align: left!important;
+  left: -1px;
+  letter-spacing: 1px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  z-index: 99;
+}
+
+.discount:after{
+content: "";
+  position: absolute;
+  right: -14%;
+  bottom: 0;
+  width: 0;
+  border-left: 13px solid transparent;
+  border-top: 13px solid #545454;
+  border-bottom: 13px solid #545454;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 
