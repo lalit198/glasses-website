@@ -2116,7 +2116,7 @@ input,textarea:focus {
   width: 28px;
   background-size: 100%, 100%;
   border-radius: 50%;
-  border: 1px solid #BDBDBE;
+  border: 1px solid #f1f1f2;
   background-image: none;
   background-color: #ffffffff;
   display: flex;
@@ -2182,6 +2182,21 @@ content: "";
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
+.owl-theme .owl-nav.disabled+.owl-dots{
+  margin-top: 5px!important;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 6px!important;
+  height: 6px!important;
+  margin: 5px 4px!important;
+}
+
+ .owl-theme .owl-dots .owl-dot span:hover {
+  background-color: #035391!important;
+}
+
+
 
 
 
