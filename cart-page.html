@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cart-Page</title>
   <link rel="stylesheet" href="css/style.css">
+
   <!--Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <!--Font Awesome -->
@@ -17,18 +18,38 @@
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="js/jquery.nice-number.css">
 
 </head>
 
 <body>
 
+
+  <!----------------- DESKTOP NAVBAR SECTION START -------------->
   <div class="desktop">
-    <!----------------- DESKTOP NAVBAR SECTION START -------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main" style="z-index: 5000;">
-      <div class="container-fluid text-uppercase p-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top nav_bar_main pt-0 pb-0" style="z-index: 5000;">
+      <div class="container-fluid text-uppercase p-1">
         <a class="navbar-brand font-weight-bold text-capitalize ml-5" href="index.html"><span
             class="text-primary font-weight-bolder">C</span>ool <span
             class="text-primary font-weight-bolder">W</span>inks</a>
+
+        <ul class=" navbar-nav mx-auto nav_step">
+          <li class="active nav_step_1">
+            <span class="font-weight-normal">
+              <span>Your Cart</span>
+            </span>
+          </li>
+          <li class="nav_step_2">
+            <span class="font-weight-normal">
+              <span>Address</span>
+            </span>
+          </li>
+          <li class="nav_step_3">
+            <span class="font-weight-normal">
+              <span>Payment</span>
+            </span>
+          </li>
+        </ul>
 
 
 
@@ -42,56 +63,9 @@
 
       </div>
     </nav>
-
-    <!----------------- DESKTOP NAVBAR SECTION END -------------->
-    <section class="" style="min-height:100vh; background-color: #E5E5E5; padding-top: 7rem;">
-      <div class="container-fluid d-flex justify-content-between mx-auto" style="width: 91%;">
-        <div style="width: 64%;">
-          <h4 style="font-weight: 600;">Review order</h4>
-          <div class="p-3" style="height: auto; background-color: #ffffff;">
-            <div class="row">
-              <div class="col-xl-3 col-md-3 col-3">
-                <div style="border: 1.5px solid #DADADA;" class="py-3">
-                  <img src="images/favrouite.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-
-              <div class="col-xl-9 col-md-9 col-9">
-                <div class="d-flex justify-content-between" style="width: 100%;">
-                  <div>
-                    <h6 style="font-weight: 600;">JRS</h6>
-                    <p style="color: #262626; font-size: .9rem; font-weight: 500;"><span style="color: #035391;">Frame:
-                      </span>Smoke Gradient Sunglasses
-                    </p>
-                  </div>
-
-                  <div class="d-flex">
-                    <p style="font-size: 1.1rem; font-weight: 500; color: #262626; margin-right: 1.2 rem;">₹ 990</p>
-                    <p style="font-size: 1.1rem; font-weight: 500; color: #262626;">₹ 990</p>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div style="width: 34%;">
-          <h5 style="font-weight: 600;">Price Summary</h5>
-          <div style="height: 40vh; background-color: #ffffff;">
-
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
   </div>
 
-
-
+  <!----------------- DESKTOP NAVBAR SECTION END -------------->
 
   <!----------------- MOBILE NAVBAR SECTION START -------------->
   <div class="mobile" style="display: none;">
@@ -296,10 +270,426 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
       </div>
     </nav>
-    <!----------------- MOBILE NAVBAR SECTION END -------------->
+  </div>
+  <!----------------- MOBILE NAVBAR SECTION END -------------->
 
 
-    <!--------------------------- MOBILE CART CONTENT SECTION STARTS ------------------------------>
+  <!----------------- DESKTOP CONTENT SECTION START -------------->
+  <div class="desktop">
+    <section class="" style="min-height:100vh; background-color: #E5E5E5; padding-top: 6rem;">
+      <div class="container-fluid d-flex justify-content-between mx-auto" style="width: 91%;">
+        <div style="width: 66%;">
+          <h4 style="font-weight: 600;">Review order</h4>
+          <div class="p-3 mt-2" style="height: auto; background-color: #ffffff;">
+            <div class="row">
+              <div class="col-xl-3 col-md-3 col-3">
+                <div style="border: 1.5px solid #DADADA;" class="py-3">
+                  <img src="images/S66C6624-2.webp" alt="" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="col-xl-9 col-md-9 col-9">
+                <div class="d-flex justify-content-between" style="width: 100%;">
+                  <div>
+                    <h6 style="font-weight: 600;">JRS</h6>
+                    <p style="color: #262626; font-size: .9rem; font-weight: 400; margin-top: .7rem;"><span
+                        style="color: #035391; font-weight: 500;">Frame:
+                      </span>Smoke Gradient Sunglasses
+                    </p>
+                  </div>
+
+                  <div class="d-flex">
+                    <span class="discount-percentage d-inline-block mt-1"> Save 60 %</span>
+                    <strike>
+                      <p
+                        style="font-size: 1rem; font-weight: 600; color: #8b90a0; margin-top: .1rem; margin-right: 1.2rem; margin-left: 1.2rem;">
+                        ₹1730</p>
+                    </strike>
+                    <p style="font-size: 1.1rem; font-weight: 600; color: #262626;">₹990</p>
+                  </div>
+
+                </div>
+
+                <span class="qtn_row d-flex align-items-center">
+                  <span style="font-size: .9rem; font-weight: 400; color: #262626;">Qty</span>
+                  <div class="input-group d-flex align-items-center">
+                    <!-- <input type="button" value="-" class="" style="margin-left:1.2rem; width: 30px!important;"> -->
+                    <div class="cart_box ml-2">
+                      <input type="number" value="1" step="1" max="2" min="1"
+                        style="width: 30px!important; text-align: center; vertical-align: middle; border: 1px solid #ccc; background-color: #fff;font-size: 14px; padding: 4px;">
+                    </div>
+                    <!-- <input type="button" value="+" class="" style="margin-right: 1.5rem; width: 30px!important;"> -->
+                    <span class="ml-4" style="float: left; font-size: .75rem; font-weight: 400; color: #292929;">Frame
+                      Size:
+                      Medium</span>
+                  </div>
+
+
+                  <i class="fa fa-trash-o" aria-hidden="true"
+                    style="font-size: 1.3rem; font-weight: 400; color: #909090; cursor: pointer;"></i>
+                </span>
+              </div>
+            </div>
+            <div style="position: relative;">
+              <div class="check_row mt-3 d-flex align-items-center w-100"
+                style="border: 2px solid #1276E2; border-radius: 8px;">
+                <div class="pl-3 w-25">
+                  <img src="images/cw-add-pair.png" alt="" class="img-fluid">
+                </div>
+                <div class="px-4">
+                  <span style="color: #035391; font-weight: 600; font-size: 1rem;">GET ANOTHER PAIR FOR ₹291</span>
+                </div>
+                <div class="ml-auto pr-4">
+                  <a href="#" class="btn btn-primary"
+                    style="font-size:.875rem; font-weight: 500; padding-left: 1.2rem!important; padding-right: 1.2rem!important;">ADD</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chec_dis_wrp" style="background-color: #FAFAFA;">
+            <div class="px-3 py-3">
+              <h6 class="px-2 pb-2" style="font-weight: 600; color: #262626;">Available Offers</h6>
+              <div style="display: flex; justify-content: stretch; align-items: stretch; width: 100%;">
+
+                <div class="py-2"
+                  style=" width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                  <div class="car">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"
+                        style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                    <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                      <div class="card-title">
+                        <h5 class="d-flex justify-content-center">
+                          <img src="images/pg-cw.png" class="img-fluid" alt="" style="width: 36.6px; height: 35px;">
+                        </h5>
+                      </div>
+                      <p class="card-text text-center">
+                        <span class="d-block font-weight-bolder"
+                          style="font-size: .8125rem; color: #262626;">COOL20</span>
+                        <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Extra 20% Off
+                          on Orders</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="py-2 ml-3"
+                  style=" width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                  <div class="car">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"
+                        style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                    <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                      <div class="card-title mx-auto">
+                        <h5 class="d-flex justify-content-center">
+                          <img src="images/pg-cw.png" class="img-fluid" alt="" style="width: 36.6px; height: 35px;">
+                        </h5>
+                      </div>
+                      <p class="card-text text-center">
+                        <span class="d-block font-weight-bolder"
+                          style="font-size: .8125rem; color: #262626;">COOL50</span>
+                        <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Flat 50% Off
+                          on Orders</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="py-2 ml-3"
+                  style=" width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                  <div class="car">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"
+                        style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                    <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                      <div class="card-title">
+                        <h5 class="d-flex justify-content-center">
+                          <img src="images/pg-earncoolcash.png" class="img-fluid" alt=""
+                            style="width: 36.6px; height: 35px;">
+                        </h5>
+                      </div>
+                      <p class="card-text text-center">
+                        <span class="d-block font-weight-bolder"
+                          style="font-size: .8125rem; color: #262626;">COOL20</span>
+                        <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Get 100%
+                          CoolCash</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="py-2 ml-3"
+                  style=" width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                  <div class="car">
+                    <span><i class="fa fa-info-circle" aria-hidden="true"
+                        style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                    <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                      <div class="card-title">
+                        <h5 class="d-flex justify-content-center">
+                          <img src="images/pg-cw.png" class="img-fluid" alt="" style="width: 36.6px; height: 35px;">
+                        </h5>
+                      </div>
+                      <p class="card-text text-center">
+                        <span class="d-block font-weight-bolder"
+                          style="font-size: .8125rem; color: #262626;">COOL20</span>
+                        <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Flat RS 350
+                          Off on
+                          Eyewear</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart_show_offer mt-3" style="display: none;">
+                <div style="width: 100%; display: flex; justify-content: stretch; align-items: stretch;">
+
+                  <div class="py-2"
+                    style="width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                    <div class="car">
+                      <span><i class="fa fa-info-circle" aria-hidden="true"
+                          style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                      <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                        <div class="card-title">
+                          <h5 class="d-flex justify-content-center">
+                            <img src="images/pg-cw.png" class="img-fluid" alt="" style="width: 36.6px; height: 35px;">
+                          </h5>
+                        </div>
+                        <p class="card-text text-center">
+                          <span class="d-block font-weight-bolder"
+                            style="font-size: .8125rem; color: #262626;">COOL20</span>
+                          <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Paytm</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="py-2 ml-3"
+                    style="width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                    <div class="car">
+                      <span><i class="fa fa-info-circle" aria-hidden="true"
+                          style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                      <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                        <div class="card-title mx-auto">
+                          <h5 class="d-flex justify-content-center">
+                            <img src="images/pg-cw.png" class="img-fluid" alt="" style="width: 36.6px; height: 35px;">
+                          </h5>
+                        </div>
+                        <p class="card-text text-center">
+                          <span class="d-block font-weight-bolder"
+                            style="font-size: .8125rem; color: #262626;">COOL20</span>
+                          <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Extra 20%
+                            Off on Orders</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="py-2 ml-3"
+                    style="width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                    <div class="car">
+                      <span><i class="fa fa-info-circle" aria-hidden="true"
+                          style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                      <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                        <div class="card-title">
+                          <h5 class="d-flex justify-content-center">
+                            <img src="images/pg-creditcarddebitcard.png" class="img-fluid" alt=""
+                              style="width: 36.6px; height: 35px;">
+                          </h5>
+                        </div>
+                        <p class="card-text text-center">
+                          <span class="d-block font-weight-bolder" style="font-size: .8125rem; color: #262626;">Credit
+                            Card/Debit Card</span>
+                          <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Win up to
+                            100% Cashback</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="py-2 ml-3"
+                    style="width: 25%; position: relative; border-radius: 10px; box-shadow: 0px 4px 8px rgb(0 0 0 / 10%); border: 1px solid #F0F1F3;">
+                    <div class="car">
+                      <span><i class="fa fa-info-circle" aria-hidden="true"
+                          style="position: absolute; top: 4%; right: 4%; font-size: .9rem; color: #a1a4b1;"></i></span>
+                      <div class="card_body" style="padding-top: 1.4rem; padding-bottom: 1.4rem;">
+                        <div class="card-title">
+                          <h5 class="d-flex justify-content-center">
+                            <img src="images/pg-netbanking.png" class="img-fluid" alt=""
+                              style="width: 36.6px; height: 35px;">
+                          </h5>
+                        </div>
+                        <p class="card-text text-center">
+                          <span class="d-block font-weight-bolder" style="font-size: .8125rem; color: #262626;">Net
+                            Banking</span>
+                          <span class="d-block" style="font-size: .7rem; font-weight: 400; color: #262626;">Win up to
+                            100% Cashback</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cart_show_more text-center mt-3" style="cursor: pointer;">
+                <span class="" style="font-size: .9rem; font-weight: 600; color: #111111;">View all offers</span>
+                <!-- <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i> -->
+                <img src="images/cw-icon-down-arrow.svg" class="img-fluid" style="width: 15px; height: 15px;" alt="">
+              </div>
+
+              <div class="cart_show_less text-center mt-3" style="display: none; cursor: pointer;">
+                <span class="" style="font-size: .9rem; font-weight: 600; color: #111111;">View Less</span>
+                <!-- <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i> -->
+                <img src="images/cw-icon-down-arrow.svg" class="img-fluid"
+                  style="width: 15px; height: 15px; transform: rotate(180deg);" alt="">
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div style="width: 34%;" class="ml-3">
+          <h5 style="font-weight: 600;">Price Summary</h5>
+          <div class=" px-3 py-3 checkout_rg_1" style="height: auto; background-color: #ffffff;">
+            <div class="d-flex align-items-center">
+              <div class="form-check">
+                <input class="form-check-input mt-1" type="checkbox" value="" id="defaultCheck1"
+                  style="padding: .6rem .6rem; border: 1px solid #262626;">
+                <label class="form-check-label d-inline-block" for="defaultCheck1"
+                  style="font-size: 14px; font-weight: 600; color: #262626; margin-left: .7rem;">
+                  Apply Coolcash
+                </label>
+              </div>
+              <span class="ml-3"><i class="fa fa-info-circle" aria-hidden="true"
+                  style="font-size: .9rem; color: #a1a4b1;"></i></span>
+            </div>
+            <p style="margin-left: 2.3rem; margin-bottom: 0; font-size: 12px; font-weight: 400; color: #262626;">You can
+              use upto <span class="text-primary">₹ 140 out of ₹ 3500</span> on this order</p>
+          </div>
+
+          <div class="hr-style-or" style="width: 100%;"></div>
+
+          <div class=" px-3 py-3 checkout_rg_1" style="height: auto; background-color: #ffffff;">
+            <div class="d-flex">
+              <img src="images/cw-icon-offer.svg" class="img-fluid" alt="">
+              <p class="d-inline-block mb-0" for="defaultCheck1"
+                style="font-size: 14px; font-weight: 600; color: #262626; margin-left: .7rem;">
+                Apply Coupon Code
+              </p>
+              <img src="images/cw-icon-arrow-right.svg" class="img-fluid ml-auto mt-2" alt="">
+            </div>
+            <p
+              style=" margin-left: 2.3rem; margin-bottom: 0; font-size: 12px; font-weight: 400; color: #262626; margin-top: -.4rem;">
+              You
+              Have 5 Coupons to Apply <span class="text-danger">*</span></p>
+          </div>
+
+          <div class="mt-2 px-3 pt-3 pb-1 checkout_rg_1" style="height: auto; background-color: #ffffff;">
+            <div class="d-flex justify-content-between">
+              <p class="mb-2" style="font-size: 14px; font-weight: 400; color: #262626;">MRP
+              </p>
+              <p class="mb-2" style="font-size: 15px; font-weight: 400; color: #262626;">
+                ₹ 1730
+              </p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p class=" mb-0" style="font-size: 14px; font-weight: 400; color: #262626;">Discount
+              </p>
+              <p class=" mb-0" style="font-size: 15px; font-weight: 400; color: #262626;">
+                -₹ 1031
+              </p>
+            </div>
+
+            <hr class="mt-2 mb-2">
+
+            <div class="d-flex justify-content-between">
+              <p class="mb-2" style="font-size: 14px; font-weight: 600; color: #262626;">Net Price
+
+              </p>
+              <p class="mb-2" style="font-size: 15px; font-weight: 600; color: #262626;">
+                ₹ 699
+              </p>
+            </div>
+            <div class="d-flex justify-content-between py-2">
+              <p class=" mb-2" style="font-size: 14px; font-weight: 400; color: #262626;">Tax (GST)
+              </p>
+              <p class=" mb-2" style="font-size: 15px; font-weight: 400; color: #262626;">
+                -₹ 126
+              </p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p class=" mb-0" style="font-size: 14px; font-weight: 400; color: #262626;">Shipping Charges
+
+              </p>
+              <p class=" mb-0" style="font-size: 15px; font-weight: 400; color: #262626;">
+                ₹ 0
+              </p>
+            </div>
+
+            <hr class="mt-2 mb-2">
+
+            <div class="d-flex justify-content-between">
+              <p class=" mb-0" style="font-size: 16px; font-weight: 600; color: #262626;">You Pay
+
+              </p>
+              <p class=" mb-0" style="font-size: 15px; font-weight: 600; color: #262626;">
+                ₹ 825
+              </p>
+            </div>
+          </div>
+
+          <div class="px-3 py-2 checkout_rg_1" style="height: auto; background-color: #F3FDEE;">
+            <div class="d-flex">
+              <p class=" mb-0" style="font-size: 13px; font-weight: 600; color: #262626;">Total Saving
+
+              </p>
+              <p class=" mb-0 ml-3" style="font-size: 13px; font-weight: 600; color: #388e3c">
+                ₹ 1031
+              </p>
+            </div>
+          </div>
+          <div class="px-3 py-1 checkout_rg_1" style="height: auto; background-color: #ffffff;">
+            <button type="button" class="btn btn-block mt-2 mb-3" style="font-size: 16px; font-weight: 500; padding-top: 1rem; padding-bottom:
+      1rem; background-color: #044271; color: #fff;">Proceed to Checkout</button>
+          </div>
+
+          <div class="px-3 py-2 d-flex mt-4" style="border-bottom: 1px solid #232735;">
+            <img src="images/cw-icon-genuine.svg" alt="" class="img-fluid">
+            <div>
+              <p class="ml-4 mb-0 mt-3" style="font-size: 14px; font-weight: 600; color: #262626;"> 100% Genuine Product
+              </p>
+              <p class="ml-4" style="font-size: 12px; font-weight: 400; color: #262626;">Best Price Guaranteed</p>
+            </div>
+          </div>
+
+
+          <div class="px-3 py-2 d-flex">
+            <img src="images/cw-icon-easy-returns.svg" alt="" class="img-fluid">
+            <div>
+              <p class="ml-4 mb-0 mt-3" style="font-size: 14px; font-weight: 600; color: #262626;"> 14-Days Easy Returns
+              </p>
+              <p class="ml-4" style="font-size: 12px; font-weight: 400; color: #262626;">14 days no questions asked
+                return policy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!----------------- DESKTOP CONTENT SECTION END -------------->
+
+
+
+
+
+
+
+  <!--------------------------- MOBILE CART CONTENT SECTION STARTS ------------------------------>
+
+  <!--------------------------- MOBILE CART CONTENT SECTION END ------------------------------>
 
 
 
@@ -309,25 +699,53 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
 
 
-    <script src="js/swiped-events.js"></script>
-    <script src="js/script.js"></script>
-
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-      crossorigin="anonymous"></script>
+  <script src="js/swiped-events.js"></script>
+  <script src="js/script.js"></script>
 
 
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--Main jQuery External -->
+  <script src="js/my.js"></script>
+
+  <script src="js/jquery.nice-number.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+      $('input[type="number"]').niceNumber();
+    });
+
+    $(document).ready(function () {
+      $('.cart_show_more').click(function () {
+        $('.cart_show_offer').css("display", "block");
+        $('.cart_show_less').css("display", "block");
+        $('.cart_show_more').css("display", "none");
+
+      });
+    });
+
+    $(document).ready(function () {
+      $('.cart_show_less').click(function () {
+        $('.cart_show_more').css("display", "block");
+        $('.cart_show_less').css("display", "none");
+        $('.cart_show_offer').css("display", "none");
+      });
+    });
+  </script>
 
 
 </body>

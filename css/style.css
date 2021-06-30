@@ -257,10 +257,7 @@
 }
 
 .footer-logo{
-  width: 50px;
-    /*margin-top: 5px;
-    margin-bottom: 15px;*/
-    
+  width: 50px;   
   }
 
 
@@ -306,15 +303,6 @@
     
   }
 
-/*.carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    border: 1px solid black;
-    }*/
 
 /*-------------------CONTACT PAGE START*--------------------------/
 
@@ -387,11 +375,6 @@
     font-size: .8rem;
     font-weight: 600;
     color: #212529;
-    /* float: left;
-    width: auto;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    border-bottom: 2px solid #035391; */
 }
 
  .social{    color: #2c2c2c;
@@ -399,7 +382,6 @@
     margin-right: 3px;}
 
 .details{
-    /* float: left;  */
     font-size: 0.7rem; 
     line-height: 1.2rem; 
 }
@@ -1049,7 +1031,6 @@ background:
   color: #212529;
   font-size: 1rem;
   line-height: 1.8rem;
-  /* margin-bottom: 7px; */
   text-align: left;
   }
 
@@ -1099,7 +1080,6 @@ background:
     line-height: 20px;
 }
 .description_heading2{
-  /* margin: 10px 0 10px 0; */
   width: 100%;
   text-align: left;
   font-size: 1rem;
@@ -1650,10 +1630,6 @@ border-width: 13px 15px 0 0;
 }
 
 
-
-
-
-
 input,textarea:focus {
   outline: none!important;
   box-shadow: 0 0 10px #ffffff!important;
@@ -1661,7 +1637,201 @@ input,textarea:focus {
 
 
 
+/* CART PAGE */
   
+
+.nav_step{
+   color: #455A64;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65%;
+}
+
+.nav_step li{
+  list-style-type: none;
+  font-size: 12px;
+    width: 33%;
+    float: left;
+    position: relative;
+    font-weight: 600;
+    color: #A1A4B1;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0.3rem 0 1rem;
+}
+.nav_step .active span span{
+  color: #035391;
+}
+
+.nav_step .nav_step_1::before{
+  content: "";
+  color: #fff;
+  background-image: url(../images/progress-icon-address.svg);
+}
+
+.nav_step li::before{
+  line-height: 17px;
+    display: block;
+    font-size: 12px;
+    /* background-color: #D3D4D8; */
+    border-radius: 50%;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    border: 1px solid #EAEAEA;
+    width: 36px;
+    height: 36px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+}
+
+.nav_step .nav_step_2::before{
+  content: "";
+  color: #fff;
+  background-image: url(../images/progress-icon-address.svg);
+}
+
+.nav_step .nav_step_3::before{
+  content: "";
+  color: #fff;
+  background-image: url(../images/progress-icon-payment.svg);
+}
+
+.nav_step li > span > span{
+  display: inline-block;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #a1a4b1;
+    cursor: auto;
+    
+}
+
+.nav_step li.active:before, .nav_step li.active:after {
+  background-color: #035391;
+}
+.nav_step li:nth-child(1):after {
+  left: 60%;
+  width: 80%;
+}
+
+.nav_step li:nth-child(2):after {
+  left: 60%;
+    width: 80%;
+}
+
+.nav_step li:after{
+  content: '';
+    height: 2px;
+    background-color: #A1A4B1;
+    position: absolute;
+    right: 0%;
+    top: 38%;
+    z-index: 0;
+    transform: translateY(-38%);
+}
+
+
+
+.nice-number button{
+  width: 30px!important;
+}
+
+
+.cart_box .nice-number button:nth-child(1){
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+  background: #eee;
+  text-align: center;
+  vertical-align: middle;
+}
+.cart_box .nice-number button:nth-child(3){
+  border-radius: 0 8px 8px 0;
+  border: 1px solid #ccc;
+  background: #eee;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+
+.discount-percentage{
+  background: #4f87b2;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 9px;
+    height: 18px;
+    line-height: 18px;
+    position: relative;
+    padding: 0 17px 0 10px
+}
+
+.discount-percentage::before{
+  content: '';
+    position: absolute;
+    top: 3px;
+    right: -6px;
+    width: 13px;
+    height: 13px;
+    border-left: 13px solid #fff;
+    transform: rotate(46deg);
+}
+
+.qtn_row .input-group .number_field{
+      text-align: center;
+      vertical-align: middle;
+}
+
+.check_row:after{
+  content: '';
+    bottom: 100%;
+    left: 8%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-bottom-color: #1276E2;
+    border-width: 12px;
+    margin-left: -10px;
+}
+
+ .hr-style-or:after{
+    content: "OR";
+    display: inline-block;
+    position: absolute;
+    top: -13px;
+    font-size: 10px;
+    padding: 0 0.25em;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    width: 26px;
+    height: 26px!important;
+    line-height: 26px;
+    transform: translateX(-50%);
+    left: 50%;
+  
+  } 
+
+  .hr-style-or{
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: 2px solid #dadada;
+    color: #000000!important;
+    text-align: center;
+    position: relative;
+
+  }
   
 
 

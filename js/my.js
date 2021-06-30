@@ -1074,3 +1074,27 @@ $(document).ready(function(){
     $('.mobile_single_buy_show').css("display","none")
   });
 });
+
+
+
+
+
+
+//----------------------- cart page
+
+$(document).ready(function () {
+  $('#cart_show_more').click(function () {
+    $('#cart_show_offer').css("display", "block");
+    $('#cart_show_less').css("display", "block");
+    $('#cart_show_more').css("display", "none");
+    
+  });
+});
+
+$(document).ready(function () {
+  $('#cart_show_less').click(function () {
+    $('#artk_show_more').css("display", "block");
+    $('#cart_show_less').css("display", "none");
+    $('#cart_show_offer').css("display", "none");
+  });
+});
