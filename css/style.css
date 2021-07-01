@@ -1822,7 +1822,7 @@ input,textarea:focus {
   
   } 
 
-  .hr-style-or{
+  /* .hr-style-or{
     overflow: visible;
     padding: 0;
     border: none;
@@ -1831,7 +1831,46 @@ input,textarea:focus {
     text-align: center;
     position: relative;
 
-  }
+  } */
+
+  /* COUPONS CODE MODAL CSS */
+  .modal.show .modal-dialog {
+    min-width: 46%!important;
+    float: right!important;
+}
+
+.modal-header
+{
+  position: relative!important;
+  border: none!important;
+}
+
+.close{
+  position: absolute!important;
+  right: 10%!important;
+  top: 30%!important;
+}
+
+input .form-control .desk_coupon{
+  border: 1px dashed #A1A4B1!important;
+    color: #8B90A0!important;
+    font-size: 0.875rem!important;
+}
+
+.cart_coup_list ul li{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #262626;
+}
+
+.cart_coup_list{
+  display: none;
+}
+
+
+
+
   
 
 

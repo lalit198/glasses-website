@@ -19,6 +19,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="js/jquery.nice-number.css">
+  <link rel="stylesheet" href="js/sweet-alert/node_modules/sweetalert2/dist/sweetalert2.css">
 
 </head>
 
@@ -56,7 +57,7 @@
         <ul class="ml-auto navbar-nav third_icon" style="margin-top: -0.5rem;">
           <li class="nav-item px-4 text-center">
             <span id="click_reg" class="nav-link text-dark" href=""><i class="fa fa-user-o" aria-hidden="true"></i>
-              <p class="font-weight-bolder" style="cursor: pointer;">Admin</p>
+              <p class="font-weight-bolder" style="cursor: auto;">Admin</p>
             </span>
           </li>
         </ul>
@@ -276,7 +277,7 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
   <!----------------- DESKTOP CONTENT SECTION START -------------->
   <div class="desktop">
-    <section class="" style="min-height:100vh; background-color: #E5E5E5; padding-top: 6rem;">
+    <section class="" style="min-height:100vh; background-color: #E5E5E5; padding-top: 6rem; position: relative;">
       <div class="container-fluid d-flex justify-content-between mx-auto" style="width: 91%;">
         <div style="width: 66%;">
           <h4 style="font-weight: 600;">Review order</h4>
@@ -292,8 +293,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
                 <div class="d-flex justify-content-between" style="width: 100%;">
                   <div>
                     <h6 style="font-weight: 600;">JRS</h6>
-                    <p style="color: #262626; font-size: .9rem; font-weight: 400; margin-top: .7rem;"><span
-                        style="color: #035391; font-weight: 500;">Frame:
+                    <p style="color: #262626; font-size: .844rem; font-weight: 400; margin-top: .7rem; cursor: auto;">
+                      <span style="color: #035391; font-weight: 500;">Frame:
                       </span>Smoke Gradient Sunglasses
                     </p>
                   </div>
@@ -302,16 +303,16 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
                     <span class="discount-percentage d-inline-block mt-1"> Save 60 %</span>
                     <strike>
                       <p
-                        style="font-size: 1rem; font-weight: 600; color: #8b90a0; margin-top: .1rem; margin-right: 1.2rem; margin-left: 1.2rem;">
+                        style="font-size: .944rem; font-weight: 600; color: #8b90a0; margin-top: .1rem; margin-right: 1.2rem; margin-left: 1.2rem;">
                         ₹1730</p>
                     </strike>
-                    <p style="font-size: 1.1rem; font-weight: 600; color: #262626;">₹990</p>
+                    <p style="font-size: 1rem; font-weight: 600; color: #262626;">₹990</p>
                   </div>
 
                 </div>
 
                 <span class="qtn_row d-flex align-items-center">
-                  <span style="font-size: .9rem; font-weight: 400; color: #262626;">Qty</span>
+                  <span style="font-size: .855rem; font-weight: 400; color: #262626;">Qty</span>
                   <div class="input-group d-flex align-items-center">
                     <!-- <input type="button" value="-" class="" style="margin-left:1.2rem; width: 30px!important;"> -->
                     <div class="cart_box ml-2">
@@ -326,7 +327,71 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
 
                   <i class="fa fa-trash-o" aria-hidden="true"
-                    style="font-size: 1.3rem; font-weight: 400; color: #909090; cursor: pointer;"></i>
+                    style="font-size: 1.3rem; font-weight: 400; color: #909090; cursor: pointer;"
+                    onclick="cartAlert()"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="row mt-3 pt-3" style="border-top: 1px solid #e5e5e5;">
+              <div class="col-xl-3 col-md-3 col-3">
+                <div style="border: 1.5px solid #DADADA;" class="py-3">
+                  <img src="images/E18A6693-2.webp" alt="" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="col-xl-9 col-md-9 col-9">
+                <div class="d-flex justify-content-between" style="width: 100%">
+                  <div style="width: 100%;">
+                    <h6 style="font-weight: 600; margin-bottom: 1.2rem;">GRAVIATE</h6>
+                    <p class="mb-0 "
+                      style="color: #262626; font-size: .84rem; font-weight: 400; margin-top: .7rem; cursor: auto;">
+                      <span style="color: #035391; font-weight: 500; float: left;">Frame:
+                      </span>Tortoise Full Frame Eyeglasses
+                    </p>
+                    <p class="mt-0"
+                      style="color: #262626; font-size: .84rem; font-weight: 400; margin-top: .7rem; cursor: auto;">
+                      <span style="color: #035391; font-weight: 500;">Lens:
+                      </span>Single Vision - Premium Anti Glare with UV
+                    </p>
+                  </div>
+
+                  <div class="d-flex" style="width: 40%;">
+                    <span class="discount-percentage d-inline-block mt-1" style="width:71.56px;"> Save 70 %</span>
+                    <strike>
+                      <p
+                        style="font-size: .944rem; font-weight: 600; color: #8b90a0; margin-top: .1rem; margin-right: 1.2rem; margin-left: 1.2rem;">
+                        ₹1730</p>
+                    </strike>
+                    <p style="font-size: 1rem; font-weight: 600; color: #262626;">₹990</p>
+                  </div>
+                </div>
+                <p style="color: #8b90a0; font-size: 11px; font-weight: 500; float: right; margin-top: -4.5rem;">(Frame
+                  + Lens)</p>
+                <p style="color: #8b90a0; font-size: 11px; font-weight: 500; float: right; margin-top: -3.2rem;">₹790
+                </p>
+                <p style="color: #8b90a0; font-size: 11px; font-weight: 500; float: right; margin-top: -2rem;">₹500</p>
+
+
+
+                <span class="qtn_row d-flex align-items-center">
+                  <span style="font-size: .855rem; font-weight: 400; color: #262626;">Qty</span>
+                  <div class="input-group d-flex align-items-center">
+                    <!-- <input type="button" value="-" class="" style="margin-left:1.2rem; width: 30px!important;"> -->
+                    <div class="cart_box ml-2">
+                      <input type="number" value="1" step="1" max="2" min="1"
+                        style="width: 30px!important; text-align: center; vertical-align: middle; border: 1px solid #ccc; background-color: #fff;font-size: 14px; padding: 4px;">
+                    </div>
+                    <!-- <input type="button" value="+" class="" style="margin-right: 1.5rem; width: 30px!important;"> -->
+                    <span class="ml-4" style="float: left; font-size: .75rem; font-weight: 400; color: #292929;">Frame
+                      Size:
+                      Medium</span>
+                  </div>
+
+
+                  <i class="fa fa-trash-o" aria-hidden="true"
+                    style="font-size: 1.3rem; font-weight: 400; color: #909090; cursor: pointer;"
+                    onclick="cartAlert()"></i>
                 </span>
               </div>
             </div>
@@ -552,8 +617,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
         <div style="width: 34%;" class="ml-3">
           <h5 style="font-weight: 600;">Price Summary</h5>
-          <div class=" px-3 py-3 checkout_rg_1" style="height: auto; background-color: #ffffff;">
-            <div class="d-flex align-items-center">
+          <!-- <div class=" px-3 py-3 checkout_rg_1" style="height: auto; background-color: #ffffff;"> -->
+          <!-- <div class="d-flex align-items-center">
               <div class="form-check">
                 <input class="form-check-input mt-1" type="checkbox" value="" id="defaultCheck1"
                   style="padding: .6rem .6rem; border: 1px solid #262626;">
@@ -564,12 +629,12 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               </div>
               <span class="ml-3"><i class="fa fa-info-circle" aria-hidden="true"
                   style="font-size: .9rem; color: #a1a4b1;"></i></span>
-            </div>
-            <p style="margin-left: 2.3rem; margin-bottom: 0; font-size: 12px; font-weight: 400; color: #262626;">You can
+            </div> -->
+          <!-- <p style="margin-left: 2.3rem; margin-bottom: 0; font-size: 12px; font-weight: 400; color: #262626;">You can
               use upto <span class="text-primary">₹ 140 out of ₹ 3500</span> on this order</p>
           </div>
 
-          <div class="hr-style-or" style="width: 100%;"></div>
+          <div class="hr-style-or" style="width: 100%;"></div> -->
 
           <div class=" px-3 py-3 checkout_rg_1" style="height: auto; background-color: #ffffff;">
             <div class="d-flex">
@@ -578,13 +643,16 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
                 style="font-size: 14px; font-weight: 600; color: #262626; margin-left: .7rem;">
                 Apply Coupon Code
               </p>
-              <img src="images/cw-icon-arrow-right.svg" class="img-fluid ml-auto mt-2" alt="">
+              <img src="images/cw-icon-arrow-right.svg" class="img-fluid ml-auto mt-2" alt="" data-toggle="modal"
+                data-target="#myModal">
             </div>
             <p
               style=" margin-left: 2.3rem; margin-bottom: 0; font-size: 12px; font-weight: 400; color: #262626; margin-top: -.4rem;">
               You
               Have 5 Coupons to Apply <span class="text-danger">*</span></p>
           </div>
+
+
 
           <div class="mt-2 px-3 pt-3 pb-1 checkout_rg_1" style="height: auto; background-color: #ffffff;">
             <div class="d-flex justify-content-between">
@@ -676,6 +744,267 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
           </div>
         </div>
       </div>
+
+      <!-- The Modal -->
+      <div class="modal pr-0" id="myModal" style="z-index: 50000;">
+        <div class="modal-dialog mt-0">
+          <div class="modal-content px-3">
+
+            <!-- Modal Header -->
+            <div class="modal-header" style="position: relative;">
+              <h4 class="modal-title">Promo Offers</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+
+            <form class="form-inline px-3 py-3" action="">
+              <input type="text" class="form-control" placeholder="Enter Coupon Code" id=""
+                style="border-radius:0; color: #8B90A0; font-size: 0.875rem; border: 1px dashed #A1A4B1; width: 68%; padding: 1.5rem 1.5rem!important;">
+              <button type="submit" class="btn w-25"
+                style="padding: .766rem 0; border-radius: 0; background-color: #035391; border-color: #035391; color: #fff;">Apply</button>
+            </form>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="main_cart_coupn">
+                <div class="senior_cart_coupn" style="background-color: #F0F1F3; border: 1px dashed #D3D4D8;">
+                  <div class="senior_con_cart_coupn p-4">
+                    <div class="row">
+                      <div class="col-xl-4 col-md-4">
+                        <div class="bg-white py-4 px-2 d-flex align-items-center justify-content-center">
+                          <img src="images/cp-cw2.svg" class="img-fluid" alt="" style="width: 105px; height: 63px;">
+                        </div>
+
+                      </div>
+
+                      <div class="col-xl-8 col-md-8">
+                        <div class="d-flex justify-content-between">
+                          <div class="ml-2 px-4 d-flex align-items-center"
+                            style="border: 1px solid #D3D4D8; background-color: #dbf4ed; font-weight: 600; border-radius: 50rem;font-size: 14px;">
+                            FLAT350
+                          </div>
+
+                          <button class="btn btn-outline-primary"
+                            style="font-size: 14px; font-weight: 600;">APPLY</button>
+                        </div>
+
+                        <p class="ml-3 mt-2 mb-1" style="font-weight: 600; color: #262626;">Flat 350 Off</p>
+                        <p class="ml-3 mb-2" style="font-weight: 400; color: #262626; font-size: 12px;">Flat Rs 350 Off
+                          on Eyewear</p>
+                        <p class="" style="font-weight: 400; color: #BDC0C9; font-size: 10px; float: right;">Valid till
+                          31 Jul 2021 23:59</p>
+                        <span class="ml-3 desk_plus_clk_cpn" style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">+
+                          Terms & Conditions </span>
+
+                        <div class="show_cart_coup_list cart_coup_list">
+                          <span class="ml-3 desk_minus_clk_cpn"
+                            style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">- Terms &
+                            Conditions </span>
+                          <ul>
+                            <li>No minimum order value.</li>
+                            <li>Not valid on Reading Glasses, Wipes, Xstyl Lite, Contact Lenses and Ray Ban Products
+                            </li>
+                            <li>Valid till 31st July 2021.</li>
+                            <li>Additional T&Cs apply, please read full T&Cs at offer details page</li>
+                          </ul>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+                </div>
+
+                <div class="senior_cart_coupn mt-3" style="background-color: #F0F1F3; border: 1px dashed #D3D4D8;">
+                  <div class="senior_con_cart_coupn p-4">
+                    <div class="row">
+                      <div class="col-xl-4 col-md-4">
+                        <div class="bg-white py-4 px-2 d-flex align-items-center justify-content-center">
+                          <img src="images/cp-cw2.svg" class="img-fluid" alt="" style="width: 105px; height: 63px;">
+                        </div>
+
+                      </div>
+
+                      <div class="col-xl-8 col-md-8">
+                        <div class="d-flex justify-content-between">
+                          <div class="ml-2 px-4 d-flex align-items-center"
+                            style="border: 1px solid #D3D4D8; background-color: #dbf4ed; font-weight: 600; border-radius: 50rem;font-size: 14px;">
+                            FLAT350
+                          </div>
+
+                          <button class="btn btn-outline-primary"
+                            style="font-size: 14px; font-weight: 600;">APPLY</button>
+                        </div>
+
+                        <p class="ml-3 mt-2 mb-1" style="font-weight: 600; color: #262626;">Flat 350 Off</p>
+                        <p class="ml-3 mb-2" style="font-weight: 400; color: #262626; font-size: 12px;">Flat Rs 350 Off
+                          on Eyewear</p>
+                        <p class="" style="font-weight: 400; color: #BDC0C9; font-size: 10px; float: right;">Valid till
+                          31 Jul 2021 23:59</p>
+                        <span class="ml-3 desk_plus_clk_cpn" style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">+
+                          Terms & Conditions </span>
+
+                        <div class="show_cart_coup_list cart_coup_list">
+                          <span class="ml-3 desk_minus_clk_cpn"
+                            style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">- Terms &
+                            Conditions </span>
+                          <ul>
+                            <li>No minimum order value.</li>
+                            <li>Not valid on Reading Glasses, Wipes, Xstyl Lite, Contact Lenses and Ray Ban Products
+                            </li>
+                            <li>Valid till 31st July 2021.</li>
+                            <li>Additional T&Cs apply, please read full T&Cs at offer details page</li>
+                          </ul>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+                </div>
+
+                <div class="senior_cart_coupn mt-3" style="background-color: #F0F1F3; border: 1px dashed #D3D4D8;">
+                  <div class="senior_con_cart_coupn p-4">
+                    <div class="row">
+                      <div class="col-xl-4 col-md-4">
+                        <div class="bg-white py-4 px-2 d-flex align-items-center justify-content-center">
+                          <img src="images/cp-cw2.svg" class="img-fluid" alt="" style="width: 105px; height: 63px;">
+                        </div>
+
+                      </div>
+
+                      <div class="col-xl-8 col-md-8">
+                        <div class="d-flex justify-content-between">
+                          <div class="ml-2 px-4 d-flex align-items-center"
+                            style="border: 1px solid #D3D4D8; background-color: #dbf4ed; font-weight: 600; border-radius: 50rem;font-size: 14px;">
+                            FLAT350
+                          </div>
+
+                          <button class="btn btn-outline-primary"
+                            style="font-size: 14px; font-weight: 600;">APPLY</button>
+                        </div>
+
+                        <p class="ml-3 mt-2 mb-1" style="font-weight: 600; color: #262626;">Flat 350 Off</p>
+                        <p class="ml-3 mb-2" style="font-weight: 400; color: #262626; font-size: 12px;">Flat Rs 350 Off
+                          on Eyewear</p>
+                        <p class="" style="font-weight: 400; color: #BDC0C9; font-size: 10px; float: right;">Valid till
+                          31 Jul 2021 23:59</p>
+                        <span class="ml-3 desk_plus_clk_cpn" style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">+
+                          Terms & Conditions </span>
+
+                        <div class="show_cart_coup_list cart_coup_list">
+                          <span class="ml-3 desk_minus_clk_cpn"
+                            style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">- Terms &
+                            Conditions </span>
+                          <ul>
+                            <li>No minimum order value.</li>
+                            <li>Not valid on Reading Glasses, Wipes, Xstyl Lite, Contact Lenses and Ray Ban Products
+                            </li>
+                            <li>Valid till 31st July 2021.</li>
+                            <li>Additional T&Cs apply, please read full T&Cs at offer details page</li>
+                          </ul>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+                </div>
+
+                <div class="senior_cart_coupn mt-3" style="background-color: #F0F1F3; border: 1px dashed #D3D4D8;">
+                  <div class="senior_con_cart_coupn p-4">
+                    <div class="row">
+                      <div class="col-xl-4 col-md-4">
+                        <div class="bg-white py-4 px-2 d-flex align-items-center justify-content-center">
+                          <img src="images/cp-cw2.svg" class="img-fluid" alt="" style="width: 105px; height: 63px;">
+                        </div>
+
+                      </div>
+
+                      <div class="col-xl-8 col-md-8">
+                        <div class="d-flex justify-content-between">
+                          <div class="ml-2 px-4 d-flex align-items-center"
+                            style="border: 1px solid #D3D4D8; background-color: #dbf4ed; font-weight: 600; border-radius: 50rem;font-size: 14px;">
+                            FLAT350
+                          </div>
+
+                          <button class="btn btn-outline-primary"
+                            style="font-size: 14px; font-weight: 600;">APPLY</button>
+                        </div>
+
+                        <p class="ml-3 mt-2 mb-1" style="font-weight: 600; color: #262626;">Flat 350 Off</p>
+                        <p class="ml-3 mb-2" style="font-weight: 400; color: #262626; font-size: 12px;">Flat Rs 350 Off
+                          on Eyewear</p>
+                        <p class="" style="font-weight: 400; color: #BDC0C9; font-size: 10px; float: right;">Valid till
+                          31 Jul 2021 23:59</p>
+                        <span class="ml-3 desk_plus_clk_cpn" style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">+
+                          Terms & Conditions </span>
+
+                        <div class="show_cart_coup_list cart_coup_list">
+                          <span class="ml-3 desk_minus_clk_cpn"
+                            style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">- Terms &
+                            Conditions </span>
+                          <ul>
+                            <li>No minimum order value.</li>
+                            <li>Not valid on Reading Glasses, Wipes, Xstyl Lite, Contact Lenses and Ray Ban Products
+                            </li>
+                            <li>Valid till 31st July 2021.</li>
+                            <li>Additional T&Cs apply, please read full T&Cs at offer details page</li>
+                          </ul>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+                </div>
+
+                <div class="senior_cart_coupn mt-3" style="background-color: #F0F1F3; border: 1px dashed #D3D4D8;">
+                  <div class="senior_con_cart_coupn p-4">
+                    <div class="row">
+                      <div class="col-xl-4 col-md-4">
+                        <div class="bg-white py-4 px-2 d-flex align-items-center justify-content-center">
+                          <img src="images/cp-cw2.svg" class="img-fluid" alt="" style="width: 105px; height: 63px;">
+                        </div>
+
+                      </div>
+
+                      <div class="col-xl-8 col-md-8">
+                        <div class="d-flex justify-content-between">
+                          <div class="ml-2 px-4 d-flex align-items-center"
+                            style="border: 1px solid #D3D4D8; background-color: #dbf4ed; font-weight: 600; border-radius: 50rem;font-size: 14px;">
+                            FLAT350
+                          </div>
+
+                          <button class="btn btn-outline-primary"
+                            style="font-size: 14px; font-weight: 600;">APPLY</button>
+                        </div>
+
+                        <p class="ml-3 mt-2 mb-1" style="font-weight: 600; color: #262626;">Flat 350 Off</p>
+                        <p class="ml-3 mb-2" style="font-weight: 400; color: #262626; font-size: 12px;">Flat Rs 350 Off
+                          on Eyewear</p>
+                        <p class="" style="font-weight: 400; color: #BDC0C9; font-size: 10px; float: right;">Valid till
+                          31 Jul 2021 23:59</p>
+                        <span class="ml-3 desk_plus_clk_cpn" style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">+
+                          Terms & Conditions </span>
+
+                        <div class="show_cart_coup_list cart_coup_list">
+                          <span class="ml-3 desk_minus_clk_cpn"
+                            style="font-size: 12px; font-weight: 400; color: #1276e2; cursor: pointer;">- Terms &
+                            Conditions </span>
+                          <ul>
+                            <li>No minimum order value.</li>
+                            <li>Not valid on Reading Glasses, Wipes, Xstyl Lite, Contact Lenses and Ray Ban Products
+                            </li>
+                            <li>Valid till 31st July 2021.</li>
+                            <li>Additional T&Cs apply, please read full T&Cs at offer details page</li>
+                          </ul>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
   </div>
 
@@ -688,6 +1017,10 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
 
   <!--------------------------- MOBILE CART CONTENT SECTION STARTS ------------------------------>
+
+
+
+
 
   <!--------------------------- MOBILE CART CONTENT SECTION END ------------------------------>
 
@@ -718,6 +1051,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
   <script src="js/jquery.nice-number.js"></script>
 
+  <script src="js/sweet-alert/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
@@ -725,6 +1060,38 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <script>
+    function cartAlert() {
+      Swal.fire({
+        title: 'Delete Item',
+        text: 'Are you sure you want to delete this item?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Delete',
+        cancelButtonText: 'Cancel'
+      }).then((result) => {
+        // if (result.isConfirmed) {
+        //   Swal.fire(
+        //     'Deleted!',
+        //     'Your imaginary file has been deleted.',
+        //     'success'
+        //   )
+        // // For more information about handling dismissals please visit
+        // // https://sweetalert2.github.io/#handling-dismissals
+        // } else if (result.dismiss === Swal.DismissReason.cancel) {
+        //   Swal.fire(
+        //     'Cancelled',
+        //     'Your imaginary file is safe :)',
+        //     'error'
+        //   )
+        // }
+      })
+    }
+
+
+
+
+
+
     $(function () {
       $('input[type="number"]').niceNumber();
     });
@@ -745,6 +1112,11 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
         $('.cart_show_offer').css("display", "none");
       });
     });
+
+
+  
+  
+
   </script>
 
 
