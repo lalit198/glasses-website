@@ -1668,7 +1668,8 @@ input,textarea:focus {
 .nav_step .nav_step_1::before{
   content: "";
   color: #fff;
-  background-image: url(../images/progress-icon-address.svg);
+  background-image: url(../images/progress-icon-cart.svg);
+
 }
 
 .nav_step li::before{
@@ -1835,7 +1836,7 @@ input,textarea:focus {
 
   /* COUPONS CODE MODAL CSS */
   .modal.show .modal-dialog {
-    min-width: 46%!important;
+    min-width: 43%!important;
     float: right!important;
 }
 
@@ -1844,11 +1845,20 @@ input,textarea:focus {
   position: relative!important;
   border: none!important;
 }
+.modal-content{
+  border-radius: 0!important;
+  border: none!important;
+}
 
 .close{
   position: absolute!important;
-  right: 10%!important;
-  top: 30%!important;
+  right: 5%!important;
+  top: 31%!important;
+  font-size: 1.8rem!important;
+  color: #000000!important;
+}
+.close:hover{
+  color: #8b90a0!important;
 }
 
 input .form-control .desk_coupon{
@@ -1861,7 +1871,8 @@ input .form-control .desk_coupon{
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  color: #262626;
+  color: #262626; 
+  
 }
 
 .cart_coup_list{
