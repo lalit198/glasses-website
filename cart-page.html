@@ -1133,7 +1133,7 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
       });
       $('.desk_minus_clk_cpn').click(function () {
         $(this).parent().hide();
-        $('.desk_plus_clk_cpn').show();
+        $(this).parent().prev().show();
       });
     }); 
 
