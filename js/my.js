@@ -918,15 +918,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".popup_product_detail").click(function(){
-    $(this).addClass("popup_product_detail_bord");
-    if($(this).click()===true){
-      $(this).addClass("popup_product_detail_bord");
-    }else{
-      $(this).css("border", "1px solid gray");
-    }
-
+ $(".popup_product_detail").click(function(){
+   $(this).addClass("popup_product_detail_bord");
  });
+ 
 });
 
 
