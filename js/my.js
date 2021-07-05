@@ -917,6 +917,18 @@ $(document).ready(function(){
  });
 });
 
+$(document).ready(function(){
+  $(".popup_product_detail").click(function(){
+    $(this).addClass("popup_product_detail_bord");
+    if($(this).click()===true){
+      $(this).addClass("popup_product_detail_bord");
+    }else{
+      $(this).css("border", "1px solid gray");
+    }
+
+ });
+});
+
 
 
 // Mobile SINGLE PRODUCT  PAGE 
@@ -1030,7 +1042,7 @@ $(document).ready(function () {
 
 
 
-//----------------------- cart page-----------------------------
+//-----------------------Mobile cart page-----------------------------
 
 $(document).ready(function () {
   $('#wrapperopen').click(function () {
@@ -1081,8 +1093,8 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  $('#delete').click(function () {
-    $('.remove').css({
+  $('.delete').click(function () {
+    $(this).parentsUntil(".grand_prt").next().css({
       
       'width' : '90%',
       'left' : '10%'
