@@ -1562,7 +1562,7 @@ background:
 }
 
 .pro_bought_wrap:after {
-border-width: 13px 15px 0 0;
+  border-width: 13px 15px 0 0;
   top: -13px;
 }
 
@@ -1759,9 +1759,7 @@ input,textarea:focus {
   .popup_product_detail_bord{
     border: 1px solid #024781;
   }
-  .popup_product_detail_gry{
-    border: 1px solid gray;
-  }
+  
 /* CART PAGE */
   
 
