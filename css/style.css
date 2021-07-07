@@ -1759,7 +1759,9 @@ input,textarea:focus {
   .popup_product_detail_bord{
     border: 1px solid #024781;
   }
-  
+  .modal-backdrop{
+    height: 0!important;
+  }
 /* CART PAGE */
   
 

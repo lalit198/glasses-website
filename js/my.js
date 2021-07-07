@@ -924,6 +924,12 @@ $(document).ready(function(){
  
 });
 
+$(document).ready(function(){
+  $(".bdy_button").click(function(){
+    $(".modal_main").hide();
+  });
+});
+
 
 
 // Mobile SINGLE PRODUCT  PAGE 
@@ -968,13 +974,19 @@ $(document).ready(function () {
 
 $(document).ready(function(){
   $('.mobile_single_buy_click').click(function(){
-    $('.mobile_single_buy_show').css("display","block")
+    $('.mobile_single_buy_show').css("display","block");
   });
 });
 
 $(document).ready(function(){
   $('.mobile_single_buy_cancel').click(function(){
-    $('.mobile_single_buy_show').css("display","none")
+    $('.mobile_single_buy_show').css("display","none");
+  });
+});
+
+$(document).ready(function(){
+  $('.mobile_bdy_button').click(function(){
+    $('.show_mobile_bdy_button').css("display","block");
   });
 });
 
