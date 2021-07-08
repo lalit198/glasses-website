@@ -1250,7 +1250,7 @@ background:
 }  
 .btn_filter:focus{
   outline: none!important;
-  box-shadow: 0 0 10px #ffffff!important;
+  box-shadow: 0 0 0 transparent!important;
 }
 .form-check-input{
   outline: none!important;
@@ -1632,7 +1632,7 @@ background:
 
 input,textarea:focus {
   outline: none!important;
-  box-shadow: 0 0 10px #ffffff!important;
+  box-shadow: 0 0 0 transparent!important;
   }
 
 
@@ -2314,7 +2314,7 @@ input .form-control .desk_coupon{
 /*---------------- Filter Page --------------------------*/
 .btn:focus{
   outline: none!important;
-  box-shadow: 0 0 10px #ffffff!important;
+  box-shadow: 0 0 0 transparent!important;
 }
 
 

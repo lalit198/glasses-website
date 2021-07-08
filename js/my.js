@@ -990,6 +990,25 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $('.show_mobile_bdy_cancel').click(function(){
+    $('.show_mobile_bdy_button').css("display", "none");
+  });
+});
+
+$(document).ready(function(){
+  $('.mobile_bdy2_button').click(function(){
+    $('.show_mobile_bdy2_button').css("display","block");
+    $('.show_mobile_bdy_button').css("display", "none");
+  });
+});
+
+$(document).ready(function(){
+  $('.show_mobile_bdy2_cancel').click(function(){
+    $('.show_mobile_bdy2_button').css("display", "none");
+  });
+});
+
 
 
 
