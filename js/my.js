@@ -987,12 +987,14 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.mobile_bdy_button').click(function(){
     $('.show_mobile_bdy_button').css("display","block");
+    $('.mobile').css("position","fixed");    
   });
 });
 
 $(document).ready(function(){
-  $('.show_mobile_bdy_cancel').click(function(){
+  $('.show_mobile_bdy_cancel, .show_mobile_bdy_button').click(function(){
     $('.show_mobile_bdy_button').css("display", "none");
+        $('.mobile').css("position","static");    
   });
 });
 
