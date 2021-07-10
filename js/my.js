@@ -1132,5 +1132,84 @@ $(document).ready(function () {
 });
 
 
+// DESKTOP ADDRESS
+
+$(document).ready(function () {
+  $('.address_product_show').hide();
+  $('.address_product_click').click(function () {
+    $('.address_product_show').toggle();
+
+
+  });
+});
+
+$(document).ready(function () {
+  $('.shipping_address2').hide();
+  $('.shipping_address_child1, .address_top_btn').click(function () {
+  $(this).parentsUntil('.address_left').next().show();
+  $('.shipping_address1').hide();
+  });
+});
+
+ $(document).ready(function () {
+   $('.address_top_btn2').click(function () {
+     $(this).parentsUntil('.address_left').prev().show();
+     $('.shipping_address2').hide();
+   });
+ });
+
+
+// var desk_address = "";
+// var desk_selected = $(".shipping_body input[type='radio']:checked");
+// if (desk_selected.length > 0) {
+//   desk_address = desk_selected.val();
+// }
+
+
+// MOBILE ADDRESS PAGE
+
+$(document).ready(function () {
+  $('.address').click(function () {
+    $('.address_popup').css("display", "block");
+  });
+});
+
+$(document).ready(function () {
+  $('.address_popup_close').click(function () {
+    $('.address_popup').css("display", "none");
+
+
+  });
+});
+
+
+
+
+$(document).ready(function () {
+  $('.mob_address_click').click(function () {
+    $('.address_form').css("display", "block");
+    $('.address_popup').css("display", "none");
+    $('.cart_grand_parent').css("display", "none");
+
+
+
+  });
+});
+
+
+
+
+$(document).ready(function () {
+  $('.mob_address_form_close').click(function () {
+    $('.address_form').css("display", "none");
+    $('.cart_grand_parent').css("display", "block");
+
+
+  });
+});
+
+
+
+
 
 

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cart-Page</title>
+  <title>Address-Page</title>
   <link rel="stylesheet" href="css/style.css">
 
   <!--Google Font -->
@@ -40,7 +40,7 @@
               <span>Your Cart</span>
             </span>
           </li>
-          <li class="nav_step_2">
+          <li class="active active2 nav_step_2">
             <span class="font-weight-normal">
               <span>Address</span>
             </span>
@@ -279,32 +279,66 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
   <div class="desktop">
     <section class="" style="min-height:100vh; background-color: #E5E5E5; padding-top: 6rem; position: relative;">
       <div class="container-fluid d-flex justify-content-between mx-auto mt-2" style="width: 91%;">
-        <div style="width: 66%; margin-top: -.2rem;">
-          <h4 class="mb-2" style="font-weight: 600;">Review order</h4>
-          <div class="p-3" style="height: auto; background-color: #ffffff;">
-            
+        <div class="address_left" style="width: 66%; margin-top: -.2rem;">
+          <h4 class="mb-2" style="font-weight: 600;">Shipping Details</h4>
 
+          <div class="px-3 py-4 shipping_address1" style="height: auto; background-color: #ffffff;">
+            <div class="d-flex justify-content-between container">
+              <p style="font-size: 16px; font-weight: 600; color: #262626;">You have 1 saved address</p>
+              <button class="btn btn-outline-primary address_top_btn"><img src="images/icon-plus.svg" class="img-fluid" alt=""
+                  style="width: 20px; height: 20px;"> <span class="ml-2"
+                  style="font-size:13px; font-weight: 500; color: #035391;">Add a new address</span> </button>
+            </div>
+
+            <div class="shipping_body container mt-5">
+              <div class="d-flex align-items-stretch">
+                <div class="px-3 py-4 mr-3" style="border: 1px solid green; width:50%; position: relative;">
+                  <div class="d-flex">
+                    <input type="radio" checked>
+                    <label for="" class="ml-2">
+                      <span style="font-size: 16px; font-weight: 600; color: #333333;">Admin</span>
+                      <p style="font-size: 14px; font-weight: 400; color: #505565;" class="mb-0">Ph no. - 9811552515,
+                      <p style="font-size: 14px; font-weight: 400; color: #505565; line-height: 21px;" class="mb-0">wz
+                        870 gali no9, nangal raya bharat ghr, NEW DELHI 110049, DELHI,India</p>
+                      </p>
+                    </label>
+                    <img src="images/icon-edit.svg" class="img-fluid" style="width: 16px; height: 16px;" alt="">
+                  </div>
+
+                  <div class="add_icon">
+
+                  </div>
+                </div>
+
+                <div class=" px-3 py-4 ml-3 shipping_address_child1" style="border:1px solid blue; width: 50%;">
+                  <div style="display: flex; align-items: center; justify-content: center; align-items: stretch;">
+                     <img src="images/icon-add-address.svg" class="img-fluid" alt="">
+                  </div>
+                  <h6 style="font-weight: 600; color: #262626; text-align: center;">Add a new address</h6>
+                  
+
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="px-3 py-4 shipping_address2" style="height: auto; background-color: #ffffff;">
+
+        <div class="d-flex justify-content-between container">
+          <p style="font-size: 16px; font-weight: 600; color: #262626;">Add Address</p>
+          <button class="btn btn-outline-primary address_top_btn2"><img src="images/cw-icon-save-address.svg" class="img-fluid" alt=""
+              style="width: 16px; height: 16px;"> <span class="ml-2"
+              style="font-size:13px; font-weight: 500; color: #035391;">View saved address</span> </button>
+        </div>
+
+        <div class="shipping_body container mt-5">
+          
+      </div>
+  </div>
+</div>
 
         <div style="width: 34%;" class="ml-3">
           <h5 style="font-weight: 600;">Price Summary</h5>
-          <!-- <div class=" px-3 py-3 checkout_rg_1" style="height: auto; background-color: #ffffff;"> -->
-          <!-- <div class="d-flex align-items-center">
-              <div class="form-check">
-                <input class="form-check-input mt-1" type="checkbox" value="" id="defaultCheck1"
-                  style="padding: .6rem .6rem; border: 1px solid #262626;">
-                <label class="form-check-label d-inline-block" for="defaultCheck1"
-                  style="font-size: 14px; font-weight: 600; color: #262626; margin-left: .7rem;">
-                  Apply Coolcash
-                </label>
-              </div>
-              <span class="ml-3"><i class="fa fa-info-circle" aria-hidden="true"
-                  style="font-size: .9rem; color: #a1a4b1;"></i></span>
-            </div> -->
-          <!-- <p style="margin-left: 2.3rem; margin-bottom: 0; font-size: 12px; font-weight: 400; color: #262626;">You can
-              use upto <span class="text-primary">₹ 140 out of ₹ 3500</span> on this order</p>
-          </div>
-
-          <div class="hr-style-or" style="width: 100%;"></div> -->
 
           <div class=" px-3 py-3 checkout_rg_1" style="height: auto; background-color: #ffffff;" data-toggle="modal"
             data-target="#myModal">
@@ -320,6 +354,114 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               style=" margin-left: 2.3rem; margin-bottom: 0; font-size: 12px; font-weight: 400; color: #262626; margin-top: -.4rem;">
               You
               Have 5 Coupons to Apply <span class="text-danger">*</span></p>
+          </div>
+
+          <div class="mt-2 px-2 py-2"
+            style="height: auto; background-color: #ffffff; cursor: pointer; position: relative;">
+            <div class="address_product_click d-flex align-items-center py-3 px-2" style="background-color:#E5E5E5">
+
+              <p class="d-inline-block mb-0" for="defaultCheck1"
+                style="font-size: 13px; font-weight: 600; color: #000000; margin-left: .2rem; width: 50%!important;">
+                Your Cart <span class="ml-1" style="color: #1276e2;">( 3 Items) </span>
+              </p>
+              <span
+                style="font-size: 12px; font-weight: 600; color: #1276e2; text-decoration: underline; width: 40%!important;position: absolute; right: 1px;">View
+                Details</span>
+              <img src="images/cw-icon-arrow-right.svg" class="img-fluid ml-auto" alt="">
+            </div>
+
+            <div class="address_product_show">
+
+              <div class="row my-4 pr-3">
+                <div class="col-xl-3 col-md-3 col-3">
+                  <div style="border: 1.5px solid #DADADA;">
+                    <img src="images/S66C6624-2.webp" alt="" class="img-fluid py-2 ml-2" style="width: 60px;">
+                  </div>
+                </div>
+
+                <div class="col-xl-9 col-md-9 col-9">
+                  <div class="d-flex justify-content-between" style="width: 100%;">
+                    <div>
+                      <h6 style="font-weight: 600; margin-bottom: 0; font-size: 13px;">JRS</h6>
+                      <p style="color: #262626; font-size: 14px; font-weight: 500; cursor: auto; margin-bottom: 0;">
+                        <span style="color: #035391;">Frame:
+                        </span>Smoke Gradient Sunglasses
+                      </p>
+                    </div>
+                  </div>
+
+                  <span class="qtn_row d-flex align-items-center justify-content-between mt-1">
+                    <span style="font-size: 14px; font-weight: 600; color: #262626;">Qty <span
+                        style="font-weight: 500;">1</span></span>
+                    <span style="font-size: 14px; font-weight: 600; color: #262626;">₹1250</span>
+                  </span>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row my-4 pr-3">
+                <div class="col-xl-3 col-md-3 col-3">
+                  <div style="border: 1.5px solid #DADADA;">
+                    <img src="images/E18A6693-2.webp" alt="" class="img-fluid py-2 ml-2" style="width: 60px;">
+                  </div>
+                </div>
+
+                <div class="col-xl-9 col-md-9 col-9">
+                  <div class="d-flex justify-content-between" style="width: 100%;">
+                    <div>
+                      <h6 style="font-weight: 600; margin-bottom: 0; font-size: 13px;">GRAVIATE</h6>
+                      <p style="color: #262626; font-size: 14px; font-weight: 500; cursor: auto; margin-bottom: 0;">
+                        <span style="color: #035391;">Frame:
+                        </span>Smoke Gradient Sunglasses
+                      </p>
+                      <p class="mb-0" style="color: #262626; font-size: 14px; font-weight: 500; cursor: auto;">
+                        <span style="color: #035391;">Lens:
+                        </span>Single Vision - Premium Anti Glare with UV
+                      </p>
+                    </div>
+                  </div>
+
+                  <span class="qtn_row d-flex align-items-center justify-content-between mt-2">
+                    <span style="font-size: 14px; font-weight: 600; color: #262626;">Qty <span
+                        style="font-weight: 500;">1</span> </span>
+                    <span style="font-size: 14px; font-weight: 600; color: #262626;">₹1250</span>
+                  </span>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="row my-4 pr-3">
+                <div class="col-xl-3 col-md-3 col-3">
+                  <div style="border: 1.5px solid #DADADA;">
+                    <img src="images/E_DSC_4577_1.webp" alt="" class="img-fluid py-2 ml-2" style="width: 60px;">
+                  </div>
+                </div>
+
+                <div class="col-xl-9 col-md-9 col-9">
+                  <div class="d-flex justify-content-between" style="width: 100%;">
+                    <div>
+                      <h6 style="font-weight: 600; margin-bottom: 0; font-size: 13px;">GRAVIATE</h6>
+                      <p style="color: #262626; font-size: 14px; font-weight: 500; cursor: auto; margin-bottom: 0;">
+                        <span style="color: #035391; font-weight: 500;">Frame:
+                        </span>Smoke Gradient Sunglasses
+                      </p>
+                      <p class="mb-0" style="color: #262626; font-size: 14px; font-weight: 500; cursor: auto;">
+                        <span style="color: #035391;">Lens:
+                        </span>Single Vision - Premium Anti Glare with UV
+                      </p>
+                    </div>
+                  </div>
+
+                  <span class="qtn_row d-flex align-items-center justify-content-between mt-1">
+                    <span style="font-size: 14px; font-weight: 600; color: #262626;">Qty <span
+                        style="font-weight: 500;">2</span> </span>
+                    <span style="font-size: 14px; font-weight: 600; color: #262626;">₹1250</span>
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
 
 
@@ -700,206 +842,371 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
 
   <!--------------------------- MOBILE CART CONTENT SECTION STARTS ------------------------------>
-  <section class="mobile" style="display: none; background-color: #EDEDED; width: 100%; min-height: 100vh;">
+  <div class="mobile" style="display: none;">
+    <div style="background-color: #EDEDED; width: 100%;">
 
 
-    <div class="p-5"></div>
+      <div class="p-5"></div>
+      <div style="position: relative; overflow-y: scroll;">
 
-    <div id="remove">
-      <div class="container p-2" style="width: 97%; background-color: #fff; height: auto;">
-        <div class="row p-2">
-          <div class="col-md-11 col-11">
+        <div id="product_delete" class="grand_prt">
+          <div class="container p-2" style="width: 97%; background-color: #fff; ">
+            <div class="row p-2">
+              <div class="col-md-11 col-11">
 
-            <div>
-              <h6 style="font-weight: 600; font-size: 12px; color: #333333; line-height: 10px;">JRS</h6>
-              <p style="color: #4a444a; font-size: 11px !important; font-weight: 400; line-height: 20px;">Smoke Gradient
-                Sunglasses
+                <div>
+                  <h6 style="font-weight: 600; font-size: 13px; color: #333333; line-height: 10px;">JRS</h6>
+                  <p style="color: #4a444a; font-size: 12px !important; font-weight: 400; line-height: 20px;">Smoke
+                    Gradient
+                    Sunglasses
+                  </p>
+                </div>
+              </div>
+              <div class="col-1 delete">
+                <i class="fa fa-trash-o" aria-hidden="true"
+                  style="font-size: 1.4rem; size: 16px; font-weight: 400; color: #909090; cursor: pointer;"></i>
+              </div>
+            </div>
+
+
+            <div class="row mx-0">
+              <div class="col-6">
+                <img src="images/S66C6624-2.webp" alt="" class="img-fluid">
+              </div>
+
+              <div class="col-6">
+                <div class="cart_box">
+                  <input type="number" value="1" step="1" max="2" min="1"
+                    style="width: 20px!important; text-align: center; vertical-align: middle; border: 1px solid #ccc; background-color: #fff;font-size: 14px; padding: 4px;">
+                </div>
+
+                <div class="mt-3">
+                  <p style="font-size: 12px;  line-height: 20px;"> <span
+                      style="font-size: 13px; line-height:22px; font-weight: 700; color: #4a4a4a; "
+                      class="mr-2">Size:</span>
+                    Medium</p>
+                </div>
+
+                <div class="" style="margin-top: -12px; ">
+                  <p style="font-size: 12px; font-weight: 700;  line-height: 20px; color: #035391;"> <span
+                      style="font-size: 13px; line-height:22px; font-weight: 700; color: #035391; "
+                      class="mr-2">Rs:</span>
+                    990</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="remove container  d-flex align-items-center justify-content-center flex-column ">
+            <h3 class=" text-center" style="font-size: 12px; line-height: 150%; color: #333333; width: 80%;">Do you want
+              to
+              remove your product from your cart?</h3>
+            <ul style="list-style: none;" class="text-center">
+
+              <li><a href="#" class="text-capitalize btn btn-outline-danger m-2"
+                  style="border-radius: 30px; text-align: center;  padding: 4px 19px;" onclick="cartAlert()">Yes,
+                  remove</a>
+              </li>
+              <li><a href="#" class="text-capitalize btn btn-outline-primary m-1"
+                  style="border-radius: 30px; text-align: center; ">add to wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+        <div class="pt-2"></div>
+
+        <div id="product_delete" class="grand_prt">
+          <div class="container p-2" style="width: 97%; background-color: #fff; height: auto;">
+            <div class="row p-2">
+              <div class="col-md-11 col-11">
+
+                <div>
+                  <h6 style="font-weight: 600; font-size: 13px; color: #333333; line-height: 10px;">GRAVIATE</h6>
+                  <p style="color: #4a444a; font-size: 12px !important; font-weight: 400; line-height: 20px;">Brown
+                    Rimless Eyeglasses
+                  </p>
+                </div>
+              </div>
+              <div class="col-1 delete">
+                <i class="fa fa-trash-o" aria-hidden="true"
+                  style="font-size: 1.3rem; size: 16px; font-weight: 400; color: #909090; cursor: pointer;"></i>
+              </div>
+            </div>
+
+
+            <div class="row mx-0">
+              <div class="col-6">
+                <img src="images/E18A6693-2.webp" alt="" class="img-fluid">
+              </div>
+
+              <div class="col-6">
+
+
+                <div class="mt-3">
+                  <p style="font-size: 12px;  line-height: 20px;"> <span
+                      style="font-size: 13px; line-height:22px; font-weight: 700; color: #4a4a4a; "
+                      class="mr-2">Size:</span>
+                    Medium</p>
+                </div>
+
+                <div class="" style="margin-top: -12px; ">
+                  <p style="font-size: 12px; font-weight: 700;  line-height: 20px; color: #035391;"> <span
+                      style="font-size: 13px; line-height:22px; font-weight: 700; color: #035391; "
+                      class="mr-2">Rs:</span>
+                    990</p>
+                </div>
+              </div>
+            </div>
+
+            <ul style="list-style: none; font-size: 12px; line-height: 150%; padding-left: 9px;">
+              <li class="d-flex justify-content-between" style="padding: 8px; border-top:  1px solid #eee;">
+                <div style="margin-left: -12px;">Frame</div>
+                <div>Rs 1290</div>
+              </li>
+              <li class="d-flex justify-content-between" style="padding: 8px; border-top:  1px solid #eee;">
+                <div style="margin-left: -12px;">Premium Anti Glare with UV Protection</div>
+                <div>Rs 500</div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="remove container  d-flex align-items-center justify-content-center flex-column ">
+            <h3 class=" text-center" style="font-size: 12px; line-height: 150%; color: #333333; width: 80%;">Do you want
+              to
+              remove your product from your cart?</h3>
+            <ul style="list-style: none;" class="text-center">
+
+              <li><a href="#" class="text-capitalize btn btn-outline-danger m-2"
+                  style="border-radius: 30px; text-align: center;  padding: 4px 19px;" onclick="cartAlert()">Yes,
+                  remove</a>
+              </li>
+              <li><a href="#" class="text-capitalize btn btn-outline-primary m-1"
+                  style="border-radius: 30px; text-align: center; ">add to wishlist</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="pt-2"></div>
+
+        <div id="product_delete" class="grand_prt">
+          <div class="container p-2" style="width: 97%; background-color: #fff; height: auto;">
+            <div class="row p-2">
+              <div class="col-md-11 col-11">
+
+                <div>
+                  <h6 style="font-weight: 600; font-size: 13px; color: #333333; line-height: 10px;">GRAVIATE</h6>
+                  <p style="color: #4a444a; font-size: 12px !important; font-weight: 400; line-height: 20px;">Brown
+                    Rimless Eyeglasses
+                  </p>
+                </div>
+              </div>
+              <div class="col-1 delete">
+                <i class="fa fa-trash-o" aria-hidden="true"
+                  style="font-size: 1.3rem; size: 16px; font-weight: 400; color: #909090; cursor: pointer;"></i>
+              </div>
+            </div>
+
+
+            <div class="row mx-0">
+              <div class="col-6">
+                <img src="images/E_DSC_4577_1.webp" alt="" class="img-fluid">
+              </div>
+
+              <div class="col-6">
+
+                <div class="mt-3">
+                  <p style="font-size: 12px;  line-height: 20px;"> <span
+                      style="font-size: 13px; line-height:22px; font-weight: 700; color: #4a4a4a; "
+                      class="mr-2">Size:</span>
+                    Medium</p>
+                </div>
+
+                <div class="" style="margin-top: -12px; ">
+                  <p style="font-size: 12px; font-weight: 700;  line-height: 20px; color: #035391;"> <span
+                      style="font-size: 13px; line-height:22px; font-weight: 700; color: #035391; "
+                      class="mr-2">Rs:</span>
+                    990</p>
+                </div>
+              </div>
+            </div>
+
+            <ul style="list-style: none; font-size: 12px;  line-height: 150%; padding-left: 9px;">
+              <li class="d-flex justify-content-between" style="padding: 8px; border-top:  1px solid #eee;">
+                <div style="margin-left: -12px;">Frame</div>
+                <div>Rs 1290</div>
+              </li>
+              <li class="d-flex justify-content-between" style="padding: 8px; border-top:  1px solid #eee;">
+                <div style="margin-left: -12px;">Premium Anti Glare with UV Protection</div>
+                <div>Rs 500</div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="remove container  d-flex align-items-center justify-content-center flex-column ">
+            <h3 class=" text-center" style="font-size: 12px; line-height: 150%; color: #333333; width: 80%;">Do you want
+              to
+              remove your product from your cart?</h3>
+            <ul style="list-style: none;" class="text-center">
+
+              <li><a href="#" class="text-capitalize btn btn-outline-danger m-2"
+                  style="border-radius: 30px; text-align: center;  padding: 4px 19px;" onclick="cartAlert()">Yes,
+                  remove</a>
+              </li>
+              <li><a href="#" class="text-capitalize btn btn-outline-primary m-1"
+                  style="border-radius: 30px; text-align: center; ">add to wishlist</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="container check_row"
+          style="width: 97%; position: relative;  background-color: #fff; border: 1px solid #1276E2; border-radius: 0px;">
+
+          <div class="row">
+            <div class="col-5">
+              <img src="images/cw-add-pair.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-3 text-center " style="display: flex; align-items: center;">
+              <h2 style="color: #333333; font-weight: 900; font-size: 9px; " class="">GET ANOTHER PAIR FOR ₹291</h2>
+            </div>
+            <div class="col-4 d-flex align-items-center">
+              <a href="#" class="btn btn-primary btn-block " style="font-size:1rem;  font-weight: 900;  ">ADD NOW</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="container p-3" id="wrapperopen" style="width: 97%; background-color: #fff; ">
+          <div class="d-flex align-items-center">
+            <img src="images/cw-icon-offer.svg" class="img-fluid" alt="">
+            <p class="d-inline-block mb-0" for="defaultCheck1"
+              style="font-size: 13px; font-weight: 700; color: #484848; margin-left: .7rem;">
+              Use Coupon
+            </p>
+            <img src="images/cw-icon-arrow-right.svg" class="img-fluid ml-auto mt-2" alt=""
+              style="size: 11px !important;">
+          </div>
+
+        </div>
+
+
+        <div class="pt-2"></div>
+
+        <div class="container py-2" style="width: 97%; background-color: #fff; margin-bottom: 10rem;">
+
+          <div class="row pt-3">
+            <div class="col-10">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">MRP
+              </p>
+
+            </div>
+            <div class="col-2 text-right">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
+                ₹ 1800</p>
+            </div>
+            <div class="col-10">
+              <p class=" mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">Discount
+                <span class="ml-auto" id="popup"><i class="fa fa-info-circle" aria-hidden="true"
+                    style="font-size: .9rem; color: #a1a4b1;"></i></span>
+              </p>
+
+            </div>
+            <div class="col-2 text-right">
+              <p class=" mb-2" style="font-size: 12px; font-weight: 400; color: #2ca01c; line-height: 16px;">
+                -₹ 1031
+              </p>
+            </div>
+            <div class="col-10">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">COUPON
+                DISCOUNT
+              </p>
+
+            </div>
+            <div class="col-2 text-right">
+              <p class=" mb-2" style="font-size: 12px; font-weight: 400; color: #2ca01c; line-height: 16px;">
+                -₹ 0
+              </p>
+            </div>
+            <div class="col-10">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">NET PRICE
+              </p>
+
+            </div>
+            <div class="col-2 text-right">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
+                ₹ 990</p>
+            </div>
+            <div class="col-10">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">GST
+              </p>
+
+            </div>
+            <div class="col-2 text-right">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
+                ₹ 178</p>
+            </div>
+            <div class="col-10">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">SHIPPING
+                CHARGES
+              </p>
+
+            </div>
+            <div class="col-2 text-right">
+              <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
+                ₹ 0</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pt-2"></div>
+
+        <div class="below" style="position: fixed; width: 100%; bottom: 0;">
+          <div class="row d-flex align-items-center" style="background-color: #ffffff;">
+            <div class="col-10 px-4 pt-3">
+              <p class=" mb-0" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">Final
+                Amount
+
+              </p>
+              <p style="font-size: 12px; font-weight: 400; color: #2ca01c !important; line-height: 16px;">Your total
+                savings
+                on this order is 810</p>
+
+            </div>
+            <div class="col-2">
+              <p class=" mb-0 ml-auto" style="font-size: 12px; font-weight: 400; color: #2ca01c; line-height: 16px;">
+                ₹ 1168
               </p>
             </div>
           </div>
-          <div class="col-1" id="delete">
-            <i class="fa fa-trash-o" aria-hidden="true"
-              style="font-size: 1.3rem; size: 16px; font-weight: 400; color: #909090; cursor: pointer;"></i>
-          </div>
-        </div>
 
-
-        <div class="row mx-0">
-          <div class="col-6">
-            <img src="images/S66C6624-2.webp" alt="" class="img-fluid">
-          </div>
-
-          <div class="col-6">
-            <div class="cart_box">
-              <input type="number" value="1" step="1" max="2" min="1"
-                style="width: 20px!important; text-align: center; vertical-align: middle; border: 1px solid #ccc; background-color: #fff;font-size: 14px; padding: 4px;">
-            </div>
-
-            <div class="mt-3">
-              <p style="font-size: 11px;  line-height: 20px;"> <span
-                  style="font-size: 12px; line-height:22px; font-weight: 700; color: #4a4a4a; "
-                  class="mr-2">Size:</span>
-                Medium</p>
-            </div>
-
-            <div class="" style="margin-top: -12px; ">
-              <p style="font-size: 11px; font-weight: 700;  line-height: 20px; color: #035391;"> <span
-                  style="font-size: 12px; line-height:22px; font-weight: 700; color: #035391; " class="mr-2">Rs:</span>
-                990</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-
-
-      <div class="container check_row "
-        style="width: 97%; position: relative;  background-color: #fff; border: 1px solid #1276E2; border-radius: 0px;">
-
-        <div class="row">
-          <div class="col-5">
-            <img src="images/cw-add-pair.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-3 text-center " style="display: flex; align-items: center;">
-            <h2 style="color: #333333; font-weight: 900; font-size: 9px; " class="">GET ANOTHER PAIR FOR ₹291</h2>
-          </div>
-          <div class="col-4 d-flex align-items-center">
-            <a href="#" class="btn btn-primary btn-block " style="font-size:1rem;  font-weight: 900;  ">ADD NOW</a>
-          </div>
-        </div>
-
-      </div>
-      <!-- 
-    #ff472b;
-    #035391; -->
-
-      <div class="remove container  d-flex align-items-center justify-content-center flex-column ">
-        <h3 class=" text-center" style="font-size: 12px; line-height: 150%; color: #333333; width: 80%;">Do you want to
-          remove your product from your cart?</h3>
-        <ul style="list-style: none;" class="text-center">
-          function cartAlert() {
-          <li><a href="#" class="text-capitalize btn btn-outline-danger m-2"
-              style="border-radius: 30px; text-align: center;  padding: 4px 19px;" onclick="cartAlert()">Yes, remove</a>
-          </li>
-          <li><a href="#" class="text-capitalize btn btn-outline-primary m-1"
-              style="border-radius: 30px; text-align: center; ">add to wishlist</a></li>
-        </ul>
-      </div>
-
-    </div>
-    <div class="pt-2"></div>
-
-    <div class="container p-3" id="wrapperopen" style="width: 97%; background-color: #fff; ">
-      <div class="d-flex align-items-center">
-        <img src="images/cw-icon-offer.svg" class="img-fluid" alt="">
-        <p class="d-inline-block mb-0" for="defaultCheck1"
-          style="font-size: 13px; font-weight: 700; color: #484848; margin-left: .7rem;">
-          Use Coupon
-        </p>
-        <img src="images/cw-icon-arrow-right.svg" class="img-fluid ml-auto mt-2" alt="" style="size: 11px !important;">
-      </div>
-
-    </div>
-
-
-    <div class="pt-2"></div>
-
-    <div class="container " style="width: 97%; background-color: #fff; ">
-
-
-
-      <div class="row pt-3">
-        <div class="col-10">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">MRP
-          </p>
-
-        </div>
-        <div class="col-2 text-right">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
-            ₹ 1800</p>
-        </div>
-        <div class="col-10">
-          <p class=" mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">Discount <span
-              class="ml-auto" id="popup"><i class="fa fa-info-circle" aria-hidden="true"
-                style="font-size: .9rem; color: #a1a4b1;"></i></span>
-          </p>
-
-        </div>
-        <div class="col-2 text-right">
-          <p class=" mb-2" style="font-size: 12px; font-weight: 400; color: #2ca01c; line-height: 16px;">
-            -₹ 1031
-          </p>
-        </div>
-        <div class="col-10">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">COUPON DISCOUNT
-          </p>
-
-        </div>
-        <div class="col-2 text-right">
-          <p class=" mb-2" style="font-size: 12px; font-weight: 400; color: #2ca01c; line-height: 16px;">
-            -₹ 0
-          </p>
-        </div>
-        <div class="col-10">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">NET PRICE
-          </p>
-
-        </div>
-        <div class="col-2 text-right">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
-            ₹ 990</p>
-        </div>
-        <div class="col-10">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">GST
-          </p>
-
-        </div>
-        <div class="col-2 text-right">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
-            ₹ 178</p>
-        </div>
-        <div class="col-10">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">SHIPPING CHARGES
-          </p>
-
-        </div>
-        <div class="col-2 text-right">
-          <p class="mb-2" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">
-            ₹ 0</p>
-        </div>
-      </div>
-
-
-    </div>
-
-
-    <div class="below" style="position: fixed ;width: 100%; bottom: 0;">
-
-      <div class="row d-flex align-items-center" style="background-color: #ffffff;">
-        <div class="col-10 px-4 pt-3">
-          <p class=" mb-0" style="font-size: 12px; font-weight: 400; color: #4a4a4a; line-height: 16px;">Final Amount
-
-          </p>
-          <p style="font-size: 12px; font-weight: 400; color: #2ca01c !important; line-height: 16px;">Your total savings
-            on this order is 810</p>
-
-        </div>
-        <div class="col-2">
-          <p class=" mb-0 ml-auto" style="font-size: 12px; font-weight: 400; color: #2ca01c; line-height: 16px;">
-            ₹ 1168
-          </p>
-        </div>
-      </div>
-
-      <div class="carti ">
-        <button type="button" class="btn btn-lg  btn-block " style="font-size: 1.5rem; font-weight: 500; padding-top: 1.5rem; padding-bottom:
+          <div class="carti ">
+            <button type="button" class="btn btn-lg  btn-block " style="font-size: 1.5rem; font-weight: 500; padding-top: 1.5rem; padding-bottom:
     1.5rem; background-color: #044271; color: #fff;">PROCEED</button>
+          </div>
+        </div>
+
       </div>
     </div>
-
-  </section>
+  </div>
 
   <!-- ---------------------------------Wrapper open------------------- -->
   <div id="wrapper">
@@ -922,7 +1229,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
             <div class="input-group input-group-lg" style="border-radius: 0 !important; box-shadow: none;">
               <input type="text" class="form-control" placeholder="Enter Coupon Code" aria-label="Recipient's username"
                 aria-describedby="basic-addon2">
-              <span class="input-group-text px-4" id="basic-addon2" style="color: white; background-color: #035391;">APPLY</span>
+              <span class="input-group-text px-4" id="basic-addon2"
+                style="color: white; background-color: #035391;">APPLY</span>
             </div>
           </form>
 
@@ -930,8 +1238,10 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
         </div>
       </div>
 
-      <div style="width: 100%; background-color: #fff;" class="mt-2 py-2 px-2">
-        <h3 style="font-size: 12px; font-weight: 700; color: #222222;line-height: 150%;">Available Coupons</h3>
+      <div style="width: 100%; background-color: #fff; padding-left: 9px;" class="mt-2 py-2">
+        <h3
+          style="font-size: 13px; font-weight: 700; color: #222222;line-height: 150%; margin-top: 6px; padding-left: 13px;">
+          Available Coupons</h3>
       </div>
 
 
@@ -948,7 +1258,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               <p style="font-size: 12px; line-height: 150%; color: #035391;" class="mob_cart_clkpopup">View Details</p>
             </div>
             <div class="col-3">
-              <a href="#" class="btn" style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
+              <a href="#" class="btn"
+                style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
             </div>
           </div>
         </div>
@@ -968,7 +1279,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               <p style="font-size: 12px; line-height: 150%; color: #035391;" class="mob_cart_clkpopup">View Details</p>
             </div>
             <div class="col-3">
-              <a href="#" class="btn" style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
+              <a href="#" class="btn"
+                style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
             </div>
           </div>
         </div>
@@ -987,7 +1299,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               <p style="font-size: 12px; line-height: 150%; color: #035391;" class="mob_cart_clkpopup">View Details</p>
             </div>
             <div class="col-3">
-              <a href="#" class="btn" style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
+              <a href="#" class="btn"
+                style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
             </div>
           </div>
         </div>
@@ -1006,7 +1319,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               <p style="font-size: 12px; line-height: 150%; color: #035391;" class="mob_cart_clkpopup">View Details</p>
             </div>
             <div class="col-3">
-              <a href="#" class="btn" style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
+              <a href="#" class="btn"
+                style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
             </div>
           </div>
         </div>
@@ -1025,7 +1339,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
               <p style="font-size: 12px; line-height: 150%; color: #035391;" class="mob_cart_clkpopup">View Details</p>
             </div>
             <div class="col-3">
-              <a href="#" class="btn" style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
+              <a href="#" class="btn"
+                style="border-radius: 25px; padding: 5px 15px; background-color: #035391; color: #fff;"> Apply</a>
             </div>
           </div>
         </div>
@@ -1044,7 +1359,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
       <div class="container">
         <div class="popup_header2 pt-1">
           <div class="row">
-            <h3 class="text-uppercase pt-3 mb-1" style="font-size: 14px; line-height: 150%; color: #333333; font-weight: 700;">
+            <h3 class="text-uppercase pt-3 mb-1"
+              style="font-size: 14px; line-height: 150%; color: #333333; font-weight: 700;">
               Coolcash <span class="float-right mob_cart_popupclose2"><i class="fa fa-times"></i></span></h3>
             <p class="mb-3" style="font-size: 12px; line-height: 150%; color: #5b5b5b;">Huge saving with every
               order</p>
@@ -1053,9 +1369,11 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
         <div class="popup_content2 p-1">
           <ul class="mt-3">
             <li style="font-size: 11px; line-height: 150%; color: #333333; ">No minimum order value.</li>
-            <li style="font-size: 11px; line-height: 150%; color: #333333; ">Not valid on Reading Glasses,wipes,Xstyl Lite.</li>
+            <li style="font-size: 11px; line-height: 150%; color: #333333; ">Not valid on Reading Glasses,wipes,Xstyl
+              Lite.</li>
             <li style="font-size: 11px; line-height: 150%; color: #333333; ">Valid till 31st July 2021.</li>
-            <li style="font-size: 11px; line-height: 150%; color: #333333; ">Additional T&C apply,please read full T&C at offer details page.</li>
+            <li style="font-size: 11px; line-height: 150%; color: #333333; ">Additional T&C apply,please read full T&C
+              at offer details page.</li>
           </ul>
         </div>
 
@@ -1106,6 +1424,7 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
       </div>
     </div>
   </div>
+
 
 
 
