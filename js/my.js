@@ -1190,9 +1190,6 @@ $(document).ready(function () {
     $('.address_form').css("display", "block");
     $('.address_popup').css("display", "none");
     $('.cart_grand_parent').css("display", "none");
-
-
-
   });
 });
 
@@ -1203,8 +1200,12 @@ $(document).ready(function () {
   $('.mob_address_form_close').click(function () {
     $('.address_form').css("display", "none");
     $('.cart_grand_parent').css("display", "block");
+  });
+});
 
-
+$(document).ready(function () {
+  $('.form_up').click(function () {
+    $(this).find(".show_form_up").css("transform", "translateY(-25px)");
   });
 });
 

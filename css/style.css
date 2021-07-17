@@ -2803,9 +2803,10 @@ position: absolute;
 left: 11;
 top: 0;
 }
-.address_formm  .form_input input:focus ~span{
-transform: translateY(-32px);
-}
+/* .address_formm  .form_input .form_up:focus ~span,
+.address_formm  .form_input .form_up:valid ~span{
+transform: translateY(-25px);
+} */
 
 .address_formm  .form_input {
 position: relative;
