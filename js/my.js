@@ -1171,14 +1171,15 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.address').click(function () {
     $('.address_popup').css("display", "block");
+    $('.mobile_nav').css("display", "none");
   });
 });
 
 $(document).ready(function () {
   $('.address_popup_close').click(function () {
     $('.address_popup').css("display", "none");
-
-
+    $('.cart_grand_parent').css("display", "block");
+    $('.mobile_nav').css("display", "block");
   });
 });
 
@@ -1190,6 +1191,7 @@ $(document).ready(function () {
     $('.address_form').css("display", "block");
     $('.address_popup').css("display", "none");
     $('.cart_grand_parent').css("display", "none");
+    $('.mobile_nav').css("display", "none");
   });
 });
 
@@ -1200,6 +1202,7 @@ $(document).ready(function () {
   $('.mob_address_form_close').click(function () {
     $('.address_form').css("display", "none");
     $('.cart_grand_parent').css("display", "block");
+    $('.mobile_nav').css("display", "block");
   });
 });
 
@@ -1208,6 +1211,14 @@ $(document).ready(function () {
     $(this).find(".show_form_up").css("transform", "translateY(-25px)");
   });
 });
+
+ $(document).ready(function () {
+   $('.mob_view_address').click(function () {
+     $('.address_popup').css("display", "block");
+     $('.address_form').css("display", "none");
+   });
+ });
+
 
 
 
