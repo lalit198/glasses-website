@@ -727,8 +727,8 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
 
           <div class="px-3 py-1 checkout_rg_1" style="height: auto; background-color: #ffffff;">
-            <button type="button" class="btn btn-block mt-2 mb-3" style="font-size: 16px; font-weight: 500; padding-top: 1rem; padding-bottom:
-      1rem; background-color: #044271; color: #fff;">Proceed to Checkout</button>
+            <a href="address.html" type="button" class="btn btn-block mt-2 mb-3" style="font-size: 16px; font-weight: 500; padding-top: 1rem; padding-bottom:
+      1rem; background-color: #044271; color: #fff;">Proceed to Checkout</a>
           </div>
 
           <div class="px-3 py-2 d-flex mt-4" style="border-bottom: 1px solid #232735;">
@@ -1623,85 +1623,109 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
   <div class="address_popup" style="display: none;">
     <div class="address_popup_content">
-      <div style="position: absolute; top: 50%; background-color: #fff; width: 100%; overflow: scroll; height: 45vh;">
-      <div class="address_popup_header  px-2 pt-4 mb-3" style="box-shadow: 0 2px 5px rgb(0 0 0 / 10%);">
-        <div class="container">
-          <div class="row">
-            <div class="col-11">
-              <p class="text-uppercase" style="font-size: 14px; line-height:150%; color:#122a78; font-weight: 700;">
-                Select delivery addresss</p>
+      <div style="position: absolute; top: 0; background-color: #fff; width: 100%; overflow: scroll; height: 100vh;">
+        <div class="address_popup_header  px-2 pt-4 mb-3" style="box-shadow: 0 2px 5px rgb(0 0 0 / 10%);">
+          <div class="container">
+            <div style="position: relative; bottom: .5rem;">
+                <i class="fa fa-long-arrow-left address_popup_close"
+                  style="font-size: 14px; color:#505565; font-weight: 700;"></i>
+
+                <span class="text-uppercase w-75 text-center"
+                  style="font-size: 14px; color:#122a78; font-weight: 700; position: absolute; left: 50%;
+                   transform: translateX(-50%);">
+                  Select delivery addresss</span>
+
             </div>
-            <div class="col-1"><i class="fa fa-times address_popup_close"
-                style="font-size: 14px; line-height:150%; color:#505565; font-weight: 700;"></i></div>
           </div>
         </div>
-      </div>
-      <div class="address_popup_middle " style="width: 100%; margin-top: 20px;">
-        <div class="container">
-          <div class="row " style=" margin: 0 auto; ">
-            <div class="col-12">
-              <button class=" mb-3 btn btn-lg btn-outline-primary mob_address_click"
-                style="width: 100%; border-radius: 0; font-size: 15px; line-height: 19px; color: #035391; padding: 18px 0px; font-weight: 600; border: 1px solid silver;">+Add
-                a New Address</button>
+        <div class="address_popup_middle " style="width: 100%; margin-top: 20px;">
+          <div class="container">
+            <div class="row " style=" margin: 0 auto; ">
+              <div class="col-12">
+                <button class=" mb-3 btn btn-lg btn-outline-primary mob_address_click"
+                  style="width: 100%; border-radius: 0; font-size: 15px; line-height: 19px; color: #035391; padding: 18px 0px; font-weight: 600; border: 1px solid silver;">+Add
+                  a New Address</button>
 
-            </div>
-          </div>
-
-          <div class="row px-2 py-2 mb-3"
-            style="width: 95%;  margin: 0 auto;  background: #fafafc; border-radius: 5px;    border: 1px solid #035391;">
-            <div class="col-1"><input type="radio" checked></div>
-            <div class="col-11 pl-3" style="padding: 0 0 5px; font-weight: 300; ">
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;"><span
-                  style="font-weight:600; color:#505565">Admin </span> (Default) <span
-                  style="float: right; clear: both; background: #dfdfdf; color: #000; padding: 3px 10px; letter-spacing: .75px; font-size: 11px; border-radius: 50px; font-weight: 400; ">Home</span>
-              </p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">xyz amskas mksfosal,</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">NEW DELHI, 
-                Delhi,</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">India</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">Mobile: 4551522222 <span
-                  style="float: right; clear: both; text-decoration: underline; color: #035391;">Edit</span></p>
+              </div>
             </div>
 
-          </div>
+            <div class="row px-2 py-2 mb-3"
+              style="width: 95%;  margin: 0 auto;  background: #fafafc; border-radius: 5px;    border: 1px solid #035391;">
+              <div class="col-1"><input type="radio" name="addrress" value="" id="defaultCheck1" checked></div>
+              <div class="col-11 pl-3" style="padding: 0 0 5px; font-weight: 300; ">
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;"><span
+                    style="font-weight:600; color:#505565">Admin </span> (Default)
+                     <!-- <span
+                    style="float: right; clear: both; background: #dfdfdf; color: #000; padding: 3px 10px; letter-spacing: .75px; font-size: 11px; border-radius: 50px; font-weight: 400; ">Home</span> -->
+                </p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">xyz amskas mksfosal,</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">NEW DELHI,
+                  Delhi,</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">India</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">Mobile: 4551522222</p>
+                <div class="d-flex justify-content-stretch mt-2">
+                <button class="btn w-25"
+                  style="clear: both; text-decoration: none; color: #000000; background-color: #D3D4D8;">Edit</button>
+                </div>  
+              </div>
 
-          <div class="row px-2 py-2 mb-3 "
-            style="width: 95%;  margin: 0 auto;  background: #fafafc; border-radius: 5px;    border: 1px solid silver;">
-            <div class="col-1"><input type="radio"></div>
-            <div class="col-11 pl-3" style="padding: 0 0 5px; font-weight: 300; ">
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;"><span
-                  style="font-weight:600; color:#505565">Admin </span> (Default) <span
-                  style="float: right; clear: both; background: #dfdfdf; color: #000; padding: 3px 10px; letter-spacing: .75px; font-size: 11px; border-radius: 50px; font-weight: 400; ">Home</span>
-              </p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">xyz amskas mksfosal,</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">NEW DELHI,
-                Delhi,</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">India</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">Mobile: 4551522222 <span
-                  style="float: right; clear: both; text-decoration: underline; color: #035391;">Edit</span></p>
             </div>
 
-          </div>
+            <div class="row px-2 py-2 mb-3 "
+              style="width: 95%;  margin: 0 auto;  background: #fafafc; border-radius: 5px;    border: 1px solid silver;">
+              <div class="col-1"><input type="radio" name="addrress" value="" id="defaultCheck1"></div>
+              <div class="col-11 pl-3" style="padding: 0 0 5px; font-weight: 300; ">
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;"><span
+                    style="font-weight:600; color:#505565">Admin </span>
+                     <!-- <span
+                    style="float: right; clear: both; background: #dfdfdf; color: #000; padding: 3px 10px; letter-spacing: .75px; font-size: 11px; border-radius: 50px; font-weight: 400; ">Home</span> -->
+                </p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">xyz amskas mksfosal,</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">NEW DELHI,
+                  Delhi,</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">India</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">Mobile: 4551522222 </p>
 
-          <div class="row px-2 py-2 mb-3 "
-            style="width: 95%;  margin: 0 auto;  background: #fafafc; border-radius: 5px;    border: 1px solid silver;">
-            <div class="col-1"><input type="radio"></div>
-            <div class="col-11 pl-3" style="padding: 0 0 5px; font-weight: 300; ">
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;"><span
-                  style="font-weight:600; color:#505565">Admin </span> (Default) <span
-                  style="float: right; clear: both; background: #dfdfdf; color: #000; padding: 3px 10px; letter-spacing: .75px; font-size: 11px; border-radius: 50px; font-weight: 400; ">Home</span>
-              </p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">xyz amskas mksfosal,</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">NEW DELHI,
-                Delhi,</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">India</p>
-              <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">Mobile: 4551522222 <span
-                  style="float: right; clear: both; text-decoration: underline; color: #035391;">Edit</span></p>
+                <div class="d-flex justify-content-stretch mt-2">
+                  <button class="btn w-25"
+                    style="clear: both; text-decoration: none; color: #000000; background-color: #D3D4D8;">Edit</button>
+  
+                    <button class="btn w-25 ml-3"
+                    style="clear: both; text-decoration: none; color: #000000; background-color: #D3D4D8;">Delete
+                  </button>
+                  </div>
+              </div>
+
             </div>
 
+            <div class="row px-2 py-2 mb-3 "
+              style="width: 95%;  margin: 0 auto;  background: #fafafc; border-radius: 5px;    border: 1px solid silver;">
+              <div class="col-1"><input type="radio" name="addrress" value="" id="defaultCheck1"></div>
+              <div class="col-11 pl-3" style="padding: 0 0 5px; font-weight: 300; ">
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;"><span
+                    style="font-weight:600; color:#505565">Admin </span>
+                     <!-- <span
+                    style="float: right; clear: both; background: #dfdfdf; color: #000; padding: 3px 10px; letter-spacing: .75px; font-size: 11px; border-radius: 50px; font-weight: 400; ">Home</span> -->
+                </p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">xyz amskas mksfosal,</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">NEW DELHI,
+                  Delhi,</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">India</p>
+                <p style="margin: 0; line-height: 17px; color: #505565; font-size: 13px;">Mobile: 4551522222</p>
+
+                <div class="d-flex justify-content-stretch mt-2">
+                  <button class="btn w-25"
+                    style="clear: both; text-decoration: none; color: #000000; background-color: #D3D4D8;">Edit</button>
+  
+                    <button class="btn w-25 ml-3"
+                    style="clear: both; text-decoration: none; color: #000000; background-color: #D3D4D8;">Delete
+                  </button>
+                  </div>
+              </div>
+
+            </div>
           </div>
         </div>
-      </div>
       </div>
 
       <div class="address_popup_footer mb-0 mt-4" style="width: 100%; position: fixed; bottom: 0; z-index: 1000000;">
@@ -1719,19 +1743,15 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
 
 
     <div class="address_from_header  px-2 mb-3" style="box-shadow: 0 2px 5px rgb(0 0 0 / 10%); padding-top: 1.5rem;">
-      <div class="container">
-        <div class="row">
-          <div class="col-11">
-            <p class="text-uppercase mb-0" style="font-size: 14px; line-height:18px; color:#505556; font-weight: 700;">
-              Add
-              new addresss</p>
-          </div>
-          <div class="col-1">
-            <p class=" mob_address_form_close"
-              style="font-size: 14px; line-height:150%; color:#505565; font-weight: 700;">X
-            </p>
-          </div>
-        </div>
+      <div class="container" style="position: relative; bottom: .5rem;">
+          
+            <span class=" mob_address_form_close"><i class="fa fa-long-arrow-left address_popup_close"
+              style="font-size: 14px; line-height:150%; color:#505565; font-weight: 700;"></i>
+            </span>
+          
+            <span class="text-uppercase mb-0 text-center" style="font-size: 14px; line-height:18px; color:#505556; font-weight: 700; position: absolute; left: 50%; transform: translateX(-50%);">
+              Addresss</span>
+  
       </div>
 
     </div>
@@ -1750,51 +1770,51 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
             <div class="row">
               <div class="col-12 my-3 form_input">
                 <div class="form_up">
-                <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
-                <span class="show_form_up">Address (Area Building)*</span>
-              </div>
-              </div>
-
-              <div class="col-12 my-3 form_input">
-                <div class="form_up">
-                <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
-                <span class="show_form_up">Locality*</span>
-              </div>
+                  <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
+                  <span class="show_form_up">Address (Area Building)*</span>
+                </div>
               </div>
 
               <div class="col-12 my-3 form_input">
                 <div class="form_up">
-                <input type="text" class="form-control" id="email" name="Subject" placeholder="">
-                <span class="show_form_up">Landmard (Optional)</span>
+                  <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
+                  <span class="show_form_up">Locality*</span>
+                </div>
               </div>
+
+              <div class="col-12 my-3 form_input">
+                <div class="form_up">
+                  <input type="text" class="form-control" id="email" name="Subject" placeholder="">
+                  <span class="show_form_up">Landmard (Optional)</span>
+                </div>
               </div>
 
               <div class="col-6 my-3 form_input">
                 <div class="form_up">
-                <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
-                <span class="show_form_up">Pin Code*</span>
-              </div>
-              </div>
-
-              <div class="col-6 my-3 form_input">
-                <div class="form_up">
-                <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
-                <span class="show_form_up">City*</span>
-              </div>
+                  <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
+                  <span class="show_form_up">Pin Code*</span>
+                </div>
               </div>
 
               <div class="col-6 my-3 form_input">
                 <div class="form_up">
-                <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
-                <span class="show_form_up">State*</span>
-              </div>
+                  <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
+                  <span class="show_form_up">City*</span>
+                </div>
               </div>
 
               <div class="col-6 my-3 form_input">
                 <div class="form_up">
-                <input type="text" class="form-control" id="email" name="Subject" value="" required>
-                <span class="show_form_up">INDIA</span>
+                  <input type="text" class="form-control" id="email" name="Subject" placeholder="" required>
+                  <span class="show_form_up">State*</span>
+                </div>
               </div>
+
+              <div class="col-6 my-3 form_input">
+                <div class="form_up">
+                  <input type="text" class="form-control" id="email" name="Subject" value="" required>
+                  <span class="show_form_up">INDIA</span>
+                </div>
               </div>
 
               <div class="personal pt-3" style="    background: #f7f7f7;">
@@ -1808,18 +1828,18 @@ background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
                 <div class="row">
                   <div class="col-6 my-3 form_input">
                     <div class="form_up">
-                    <input type="text" class="form-control" id="email" name="Subject" placeholder="" required
-                      style="background: transparent;">
-                    <span class="show_form_up">Name*</span>
+                      <input type="text" class="form-control" id="email" name="Subject" placeholder="" required
+                        style="background: transparent;">
+                      <span class="show_form_up">Name*</span>
+                    </div>
                   </div>
-                </div>
 
                   <div class="col-6 my-3 form_input">
                     <div class="form_up">
-                    <input type="text" class="form-control" id="email" name="Subject" placeholder="" required
-                      style="background: transparent;">
-                    <span class="show_form_up">Mobile Number*</span>
-                  </div>
+                      <input type="text" class="form-control" id="email" name="Subject" placeholder="" required
+                        style="background: transparent;">
+                      <span class="show_form_up">Mobile Number*</span>
+                    </div>
                   </div>
                 </div>
               </div>
