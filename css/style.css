@@ -593,7 +593,7 @@
 
  .mypr_hero{
   width: 100%;
-  height: 45%;
+  height: 45vh;
   background-image: url('../images/myaccnt_bnr_myinfo.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;

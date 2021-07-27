@@ -189,6 +189,19 @@ $(document).ready(function () {
 });
 
 
+// MY ACCOUNT PAGES 
+
+$(document).ready(function () {
+  $('#click_reg,.my_account').mouseenter(function () {
+    $('.my_account').css("visibility", "visible")
+  });
+
+  $('#click_reg,.my_account').mouseleave(function () {
+    $('.my_account').css("visibility", "hidden")
+  });
+});
+
+
 
 
 
