@@ -203,8 +203,6 @@ $(document).ready(function () {
 
 
 
-
-
 //  DESKTOP FILTER PAGE
 
 
