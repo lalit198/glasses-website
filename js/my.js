@@ -1,4 +1,33 @@
 $(document).ready(function () {
+  $('.nav_form').click(function () {
+    $('.nav_form').css("border" , "1px solid #F5F5F6");
+    $('.nav_form').css("background", "none");
+  });
+  $('.header').click(function () {
+    $('.nav_form').css("border" , "none");
+    $('.nav_form').css("background-color", "#F5F5F6");
+  });
+});
+
+  $(document).ready(function () {
+    $('.footer_link').hide();
+  $('.foot_about').click(function () {
+    $(this).next().toggle();   
+  });
+});
+
+$(document).ready(function () {
+  $('.clk_mob_seach_pop').click(function () {
+    $('.mob-hom-popup_ser').css("display","block");   
+  });
+
+  $('.mob-hom-popup_ser').click(function () {
+    $('.mob-hom-popup_ser').css("display","none");   
+  });
+});
+
+
+$(document).ready(function () {
   $('#eyeglassId').mouseenter(function () {
     $('#showOne,#showTwo,#showThree,showFour').css("visibility", "visible");
     $('#showTwo,#showThree,#showFour').css("visibility", "hidden");
