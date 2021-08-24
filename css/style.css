@@ -134,7 +134,7 @@
 
     .home_main_car .owl-prev{
       position: absolute;
-      top: 35%;
+      top: 43%;
       left: 5%;
       font-size: 2.5rem!important;
     }
@@ -145,7 +145,7 @@
     }
      .home_main_car .owl-next{
       position: absolute;
-      top: 35%;
+      top: 43%;
       right: 5%;
       font-size: 2.5rem!important;
     }
@@ -1376,6 +1376,20 @@ background:
   .filter_right{
     width: 84%!important;
   }
+  #eyeglass .eyeglass img {
+    height: 150px;
+}
+.first_eyeglass{
+  margin-right: 3rem;
+
+}
+.first_eyeglass{
+  margin-left: 3rem;
+  
+}
+.eyeglass{
+  width: 100%!important;
+}
 
   
 }

@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  $('.nav_form').click(function () {
+  $('.nav_form, .nav_form_icon').click(function () {
     $('.nav_form').css("border" , "1px solid #F5F5F6");
-    $('.nav_form').css("background", "none");
+    $('.nav_form, .search_input').css("background", "none");
   });
   $('.header').click(function () {
     $('.nav_form').css("border" , "none");
