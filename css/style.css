@@ -1427,6 +1427,10 @@ background:
     padding-right: 8rem!important;
     margin-left: 6rem!important;
   }
+
+  .nav_form_drp ul{
+    width: 150%;
+  }
   
 }
 
@@ -1437,7 +1441,7 @@ background:
 }
   
 .eyeglass{
-  width: 45%!important;
+  width: 60%!important;
 }
 .nav_form{
   padding-right: 11rem!important;
@@ -2463,17 +2467,23 @@ input .form-control .desk_coupon{
 
   #show_reg .fir_frm{
    width: 33%!important;
-   height: 70%!important;
+   height: auto!important;
+   padding-bottom: 27rem;
+   
  }
 
  #show_form .sec_frm{
    width: 33%!important;
-   height: 90%!important;
+   /* height: 90%!important; */
+   height: auto!important;
+   padding-bottom: 27rem;
  }
 
  #show_sigin .sigin_frm{
    width: 33%!important;
-   height: 80%!important;
+   /* height: 80%!important; */
+   height: auto!important;
+   padding-bottom: 31rem;
  }
 
  .sigin_bdr p{
@@ -2484,12 +2494,16 @@ input .form-control .desk_coupon{
 
 #show_otp .otp_frm{
   width: 33%!important;
-  height: 53%!important;
+  /* height: 53%!important; */
+  height: auto!important;
+   padding-bottom: 20rem;
 }
 
 #show_forget .forget_frm{
   width: 33%!important;
-  height: 55%!important;
+  /* height: 55%!important; */
+  height: auto!important;
+   padding-bottom: 27rem;
 }
 
 
