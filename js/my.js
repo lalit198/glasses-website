@@ -18,12 +18,13 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.clk_mob_seach_pop').click(function () {
-    $('.mob-hom-popup_ser').css("display","block");   
+    $('.mob-hom-popup_ser, .mobile_search').css("display","block");   
   });
 
   $('.mob-hom-popup_ser').click(function () {
-    $('.mob-hom-popup_ser').css("display","none");   
+    $('.mob-hom-popup_ser, .mobile_search').css("display","none");   
   });
+
 });
 
 
