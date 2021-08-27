@@ -89,14 +89,25 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#click_reg').click(function () {
-    $('#show_reg').css("display", "block");
+    $('.fir_frm').css("top", "5%");
+    $('html').css("position", "fixed");
+    // $('.fir_frm').css("display", "block");
+  });
+
+  $('#click_reg').click(function () {
+    $('#show_reg').css("top", "0");
+    // $('#show_reg').css("display", "block");
   });
 });
 
 $(document).ready(function () {
   $('#reg_can').click(function () {
-    $('#show_reg').css("display", "none");
+    $('.fir_frm').css("top", "-100%");
+    $('html').css("position", "static");
+  });
 
+  $('#reg_can').click(function () {
+    $('#show_reg').css("top", "-100%");
   });
 });
 
@@ -120,40 +131,57 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#reg_btn').click(function () {
-    $('#show_sigin').css("display", "block");
-    $('#show_reg').css("display", "none");
+    $('#show_sigin').css("top", "0");
+    $('.sigin_frm').css("top", "5%");
+    $('#show_reg').css("top", "-100%");
+    $('.fir_frm').css("top", "-100%");
   });
 });
 
 $(document).ready(function () {
   $('#sigin_can').click(function () {
-    $('#show_sigin').css("display", "none");
+    $('#show_sigin').css("top", "-100%");
+    $('html').css("position", "static");
 
+
+  });
+});
+
+$(document).ready(function () {
+  $('.sigin_change').click(function () {
+    $('#show_reg').css("top", "0");
+    $('.fir_frm').css("top", "5%");
+    $('#show_sigin').css("top", "-100%");
 
   });
 });
 
 $(document).ready(function () {
   $('#sigin_btn').click(function () {
-    $('#show_otp').css("display", "block");
-    $('#show_sigin').css("display", "none");
-    $('#show_reg').css("display", "none");
+    $('#show_otp').css("top", "0");
+    $('.otp_frm').css("top", "5%");
+    $('#show_sigin').css("top", "-100%");
+    $('.sigin_frm').css("top", "-100%");
+
   });
 });
 
 $(document).ready(function () {
   $('#sigin_email').click(function () {
-    $('#show_reg').css("display", "block");
-    $('#show_sigin').css("display", "none");
+    $('#show_reg').css("top", "0");
+    $('.fir_frm').css("top", "5%");
+    $('#show_sigin').css("top", "-100%");
+    // $('#show_forget').css("top", "-100%");
 
   });
 });
 
 $(document).ready(function () {
   $('#sigin_frgtpass').click(function () {
-    $('#show_forget').css("display", "block");
-    $('#show_sigin').css("display", "none");
-    $('#show_reg').css("display", "none");
+    $('#show_forget').css("top", "0");
+    $('.forget_frm').css("top", "5%");
+    $('#show_sigin').css("top", "-100%");
+    $('#show_reg').css("top", "-100%");
   });
 });
 
@@ -161,16 +189,18 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#otp_change').click(function () {
-    $('#show_reg').css("display", "block");
-    $('#show_otp').css("display", "none");
+    $('#show_reg').css("top", "0");
+    $('.fir_frm').css("top", "5%");
+    $('#show_otp').css("top", "-100%");
 
   });
 });
 
 $(document).ready(function () {
   $('#otp_pass').click(function () {
-    $('#show_sigin').css("display", "block");
-    $('#show_otp').css("display", "none");
+    $('#show_sigin').css("top", "0");
+    $('.sigin_frm').css("top", "5%");
+    $('#show_otp').css("top", "-100%");
   });
 });
 
@@ -178,29 +208,40 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#otp_can').click(function () {
-    $('#show_otp').css("display", "none");
-
-
+    $('#show_otp').css("top", "-100%");
+    $('html').css("position", "static");
   });
 });
+
 
 //----------- Forget----------
 
 $(document).ready(function () {
   $('#forget_can').click(function () {
-    $('#show_forget').css("display", "none");
-
-
+    $('#show_forget').css("top", "-100%");
+    $('html').css("position", "static");
   });
 });
 
 
 $(document).ready(function () {
   $('#clk_reg').click(function () {
-    $('#show_reg').css("display", "block");
+    $('#show_reg').css("top", "0");
+    $('.fir_frm').css("top", "5%");
   });
 });
 
+$(document).ready(function () {
+  $('.forget_change').click(function () {
+    $('#show_sigin').css("top", "0");
+    $('.sigin_frm').css("top", "5%");
+    $('#show_forget').css("top", "-100%");
+
+  });
+});
+
+
+// End
 
 $(document).ready(function () {
   $('#show_four').click(function () {
@@ -217,6 +258,8 @@ $(document).ready(function () {
     $('#show_2four').css("display", "none");
   });
 });
+
+
 
 
 // MY ACCOUNT PAGES 

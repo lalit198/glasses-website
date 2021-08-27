@@ -2,7 +2,7 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
 .header{
   width: 100%;
-  height: 62vh!important;
+  /* height: 62vh!important; */
   background-color: #ffffff!important;
   display: flex;
   flex-direction: column;
@@ -108,9 +108,10 @@
 
     .crousel_child{
       width: 100%;
-      height: 90%;
-      position: absolute;
-      top: 8%;
+      /* height: 90%; */
+      /* position: absolute;
+      top: 8%; */
+      
 
 
     }
@@ -128,6 +129,59 @@
       z-index: 75;
     }
 
+
+
+/* Login form */
+
+
+
+    .fir_frm , #reg_can{
+      transition: top 0.7s linear!important;
+    }
+  
+    #show_reg .fir_frm{
+     width: 33%;
+     height: auto!important;
+     padding-bottom: 27rem;
+     
+   }
+  
+   #show_form .sec_frm{
+     width: 33%!important;
+     /* height: 90%!important; */
+     height: auto!important;
+     padding-bottom: 27rem;
+   }
+  
+   #show_sigin .sigin_frm{
+     width: 33%;
+     /* height: 80%!important; */
+     height: auto!important;
+     padding-bottom: 31rem;
+   }
+  
+   .sigin_bdr p{
+    font-size: .9rem!important;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #025392!important;
+    border-bottom: 1px solid #025392;
+  }
+  
+  #show_otp .otp_frm{
+    width: 33%;
+    /* height: 53%!important; */
+    height: auto!important;
+     padding-bottom: 20rem;
+  }
+  
+  #show_forget .forget_frm{
+    width: 33%;
+    /* height: 55%!important; */
+    height: auto!important;
+     padding-bottom: 20rem;
+  }
+  
 
     /*--------------------------------- NEW SECTION------------------------- */
 
@@ -1358,6 +1412,10 @@ background:
 
 @media (min-width: 1600px){
 
+  #show_reg .fir_frm, #show_sigin .sigin_frm, #show_otp .otp_frm{
+    width: 30%!important;
+  }
+
   .filter_left{
     width: 18%!important;
   }
@@ -1389,9 +1447,14 @@ background:
 }
 .eyeglass{
   width: 100%!important;
+}  
 }
 
-  
+@media (min-width: 1800px){
+
+  #show_reg .fir_frm, #show_sigin .sigin_frm, #show_otp .otp_frm{
+    width: 25%!important;
+  }
 }
 
 @media (min-width: 1920px){
@@ -1414,10 +1477,7 @@ background:
   .eyeglass{
     width: 52%!important;
   }
-
-   .header{
-    height: 55vh!important;
-  }  
+ 
 
   .nav_form{
     padding-right: 8rem!important;
@@ -1453,9 +1513,6 @@ background:
 }
 .navbar_nav_link{
   margin-left: 6rem!important;
-}
-.header{
-  height: 58vh!important;
 }
 }
 
@@ -2464,9 +2521,12 @@ input .form-control .desk_coupon{
 
 
   /*----------------LOGIN POP FORM-----------------------------*/
+  .fir_frm , #reg_can{
+    transition: top 0.7s linear!important;
+  }
 
   #show_reg .fir_frm{
-   width: 33%!important;
+   width: 33%;
    height: auto!important;
    padding-bottom: 27rem;
    
@@ -2480,30 +2540,32 @@ input .form-control .desk_coupon{
  }
 
  #show_sigin .sigin_frm{
-   width: 33%!important;
+   width: 33%;
    /* height: 80%!important; */
    height: auto!important;
    padding-bottom: 31rem;
  }
 
  .sigin_bdr p{
-  font-size: 1.2rem!important;
+  font-size: .9rem!important;
   margin-top: 1rem;
   cursor: pointer;
+  color: #025392!important;
+  border-bottom: 1px solid #025392;
 }
 
 #show_otp .otp_frm{
-  width: 33%!important;
+  width: 33%;
   /* height: 53%!important; */
   height: auto!important;
    padding-bottom: 20rem;
 }
 
 #show_forget .forget_frm{
-  width: 33%!important;
+  width: 33%;
   /* height: 55%!important; */
   height: auto!important;
-   padding-bottom: 27rem;
+   padding-bottom: 20rem;
 }
 
 
@@ -2517,17 +2579,6 @@ input .form-control .desk_coupon{
   border: none;
   border-bottom: 0.1rem solid grey;
 
-}
-
-.sigin_bdr{
-  font-size: 0.9rem;
-  margin-top: 1.5rem;
-  cursor: pointer;
-  color: #0B5ED7;
-}
-
-.sigin_bdr p{
-  border-bottom: 1px solid #0B5ED7;
 }
 
 .otp_form  .form-control{
@@ -3198,9 +3249,6 @@ width: 18px;
 
 
 @media only screen and (max-width: 1024px) {
-  .header{
-    height: 30vh;
-  }
   .sec_frm{
     height: 50%!important;
   }
@@ -3228,7 +3276,7 @@ width: 18px;
  }
 
  #show_sigin .sigin_frm{
-   width: 50%!important;
+   width: 50%;
    height: 40%!important;
  }
 
