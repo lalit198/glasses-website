@@ -85,7 +85,7 @@ $(document).ready(function () {
   });
 });
 
-// LOGIN POPUP 
+// DESKTOP LOGIN POPUP 
 
 $(document).ready(function () {
   $('#click_reg').click(function () {
@@ -111,7 +111,7 @@ $(document).ready(function () {
   });
 });
 
-// ---------------first time registration-----------------------
+// ---------------DESKTOP first time registration-----------------------
 
 // $(document).ready(function(){
 //   $('#reg_btn').click(function(){
@@ -127,7 +127,7 @@ $(document).ready(function () {
 //   });
 // }); 
 
-// ----------Sign In Form--------------------
+// ----------DESKTOP Sign In Form--------------------
 
 $(document).ready(function () {
   $('#reg_btn').click(function () {
@@ -185,7 +185,7 @@ $(document).ready(function () {
   });
 });
 
-// ----------Otp Form--------------------
+// ----------DESKTOP Otp Form--------------------
 
 $(document).ready(function () {
   $('#otp_change').click(function () {
@@ -214,7 +214,7 @@ $(document).ready(function () {
 });
 
 
-//----------- Forget----------
+//-----------DESKTOP Forget----------
 
 $(document).ready(function () {
   $('#forget_can').click(function () {
@@ -241,7 +241,169 @@ $(document).ready(function () {
 });
 
 
-// End
+// End 
+
+
+//-------------------------MOBILE Login Popup--------------------------
+
+$(document).ready(function () {
+  $('#mob_click_reg').click(function () {
+    $('.mob_fir_frm').css("bottom", "0");
+    $('html').css("position", "fixed");
+    // $('.fir_frm').css("display", "block");
+  });
+
+  $('#mob_click_reg').click(function () {
+    $('#mob_show_reg').css("bottom", "0");
+    // $('#show_reg').css("display", "block");
+  });
+});
+
+$(document).ready(function () {
+  $('#mob_reg_can').click(function () {
+    $('.mob_fir_frm').css("bottom", "-100%");
+    $('html').css("position", "static");
+  });
+
+  $('#mob_reg_can').click(function () {
+    $('#mob_show_reg').css("bottom", "-100%");
+  });
+});
+
+// ---------------Mobile first time registration-----------------------
+
+// $(document).ready(function(){
+//   $('#reg_btn').click(function(){
+//     $('#show_form').css("visibility","visible");
+//   });
+// });
+
+// $(document).ready(function(){
+//   $('#form_can').click(function(){
+//     $('#show_form').css("visibility","hidden");
+//     $('#show_reg').css("visibility","hidden");
+
+//   });
+// }); 
+
+// ----------Mobile Sign In Form--------------------
+
+$(document).ready(function () {
+  $('#mob_reg_btn').click(function () {
+    $('#mob_show_sigin').css("bottom", "0");
+    $('.mob_sigin_frm').css("bottom", "0");
+    $('#mob_show_reg').css("bottom", "-100%");
+    $('.mob_fir_frm').css("bottom", "-100%");
+  });
+});
+
+$(document).ready(function () {
+  $('#mob_sigin_can').click(function () {
+    $('#mob_show_sigin').css("bottom", "-100%");
+    $('html').css("position", "static");
+
+
+  });
+});
+
+$(document).ready(function () {
+  $('.mob_sigin_change').click(function () {
+    $('#mob_show_reg').css("bottom", "0");
+    $('.mob_fir_frm').css("bottom", "0");
+    $('#mob_show_sigin').css("bottom", "-100%");
+
+  });
+});
+
+$(document).ready(function () {
+  $('#mob_sigin_btn').click(function () {
+    $('#mob_show_otp').css("bottom", "0");
+    $('.mob_otp_frm').css("bottom", "0");
+    $('#mob_show_sigin').css("bottom", "-100%");
+    $('.mob_sigin_frm').css("bottom", "-100%");
+
+  });
+});
+
+$(document).ready(function () {
+  $('#mob_sigin_email').click(function () {
+    $('#mob_show_reg').css("bottom", "0");
+    $('.mob_fir_frm').css("bottom", "0");
+    $('#mob_show_sigin').css("bottom", "-100%");
+    // $('#show_forget').css("top", "-100%");
+
+  });
+});
+
+$(document).ready(function () {
+  $('#mob_sigin_frgtpass').click(function () {
+    $('#mob_show_forget').css("bottom", "0");
+    $('.mob_forget_frm').css("bottom", "0");
+    $('#mob_show_sigin').css("bottom", "-100%");
+    $('#mob_show_reg').css("bottom", "-100%");
+  });
+});
+
+// ----------Mobile Otp Form--------------------
+
+$(document).ready(function () {
+  $('#mob_otp_change').click(function () {
+    $('#mob_show_reg').css("bottom", "0");
+    $('.mob_fir_frm').css("bottom", "0");
+    $('#mob_show_otp').css("bottom", "-100%");
+
+  });
+});
+
+$(document).ready(function () {
+  $('#mob_otp_pass').click(function () {
+    $('#mob_show_sigin').css("bottom", "0");
+    $('.mob_sigin_frm').css("bottom", "0");
+    $('#mob_show_otp').css("bottom", "-100%");
+  });
+});
+
+
+
+$(document).ready(function () {
+  $('#mob_otp_can').click(function () {
+    $('#mob_show_otp').css("bottom", "-100%");
+    $('html').css("position", "static");
+  });
+});
+
+
+//-----------Mobile Forget----------
+
+$(document).ready(function () {
+  $('#mob_forget_can').click(function () {
+    $('#mob_show_forget').css("bottom", "-100%");
+    $('html').css("position", "static");
+  });
+});
+
+
+$(document).ready(function () {
+  $('#mob_clk_reg').click(function () {
+    $('#mob_show_reg').css("bottom", "0");
+    $('.mob_fir_frm').css("bottom", "0");
+  });
+});
+
+$(document).ready(function () {
+  $('.mob_forget_change').click(function () {
+    $('#mob_show_sigin').css("bottom", "0");
+    $('.mob_sigin_frm').css("bottom", "0");
+    $('#mob_show_forget').css("bottom", "-100%");
+
+  });
+});
+
+
+//-------------------------------------Mobile End ----------------------------------------------
+
+
+
 
 $(document).ready(function () {
   $('#show_four').click(function () {
