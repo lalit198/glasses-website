@@ -261,12 +261,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#mob_reg_can').click(function () {
-    $('.mob_fir_frm').css("bottom", "-100%");
+    $('.mob_fir_frm').css("bottom", "-110%");
     $('html').css("position", "static");
   });
 
   $('#mob_reg_can').click(function () {
-    $('#mob_show_reg').css("bottom", "-100%");
+    $('#mob_show_reg').css("bottom", "-110%");
   });
 });
 
@@ -292,14 +292,14 @@ $(document).ready(function () {
   $('#mob_reg_btn').click(function () {
     $('#mob_show_sigin').css("bottom", "0");
     $('.mob_sigin_frm').css("bottom", "0");
-    $('#mob_show_reg').css("bottom", "-100%");
-    $('.mob_fir_frm').css("bottom", "-100%");
+    $('#mob_show_reg').css("bottom", "-110%");
+    $('.mob_fir_frm').css("bottom", "-110%");
   });
 });
 
 $(document).ready(function () {
   $('#mob_sigin_can').click(function () {
-    $('#mob_show_sigin').css("bottom", "-100%");
+    $('#mob_show_sigin').css("bottom", "-110%");
     $('html').css("position", "static");
 
 
@@ -310,7 +310,7 @@ $(document).ready(function () {
   $('.mob_sigin_change').click(function () {
     $('#mob_show_reg').css("bottom", "0");
     $('.mob_fir_frm').css("bottom", "0");
-    $('#mob_show_sigin').css("bottom", "-100%");
+    $('#mob_show_sigin').css("bottom", "-110%");
 
   });
 });
@@ -319,8 +319,8 @@ $(document).ready(function () {
   $('#mob_sigin_btn').click(function () {
     $('#mob_show_otp').css("bottom", "0");
     $('.mob_otp_frm').css("bottom", "0");
-    $('#mob_show_sigin').css("bottom", "-100%");
-    $('.mob_sigin_frm').css("bottom", "-100%");
+    $('#mob_show_sigin').css("bottom", "-110%");
+    $('.mob_sigin_frm').css("bottom", "-110%");
 
   });
 });
@@ -329,7 +329,7 @@ $(document).ready(function () {
   $('#mob_sigin_email').click(function () {
     $('#mob_show_reg').css("bottom", "0");
     $('.mob_fir_frm').css("bottom", "0");
-    $('#mob_show_sigin').css("bottom", "-100%");
+    $('#mob_show_sigin').css("bottom", "-110%");
     // $('#show_forget').css("top", "-100%");
 
   });
@@ -339,8 +339,8 @@ $(document).ready(function () {
   $('#mob_sigin_frgtpass').click(function () {
     $('#mob_show_forget').css("bottom", "0");
     $('.mob_forget_frm').css("bottom", "0");
-    $('#mob_show_sigin').css("bottom", "-100%");
-    $('#mob_show_reg').css("bottom", "-100%");
+    $('#mob_show_sigin').css("bottom", "-110%");
+    $('#mob_show_reg').css("bottom", "-110%");
   });
 });
 
@@ -350,7 +350,7 @@ $(document).ready(function () {
   $('#mob_otp_change').click(function () {
     $('#mob_show_reg').css("bottom", "0");
     $('.mob_fir_frm').css("bottom", "0");
-    $('#mob_show_otp').css("bottom", "-100%");
+    $('#mob_show_otp').css("bottom", "-110%");
 
   });
 });
@@ -359,7 +359,7 @@ $(document).ready(function () {
   $('#mob_otp_pass').click(function () {
     $('#mob_show_sigin').css("bottom", "0");
     $('.mob_sigin_frm').css("bottom", "0");
-    $('#mob_show_otp').css("bottom", "-100%");
+    $('#mob_show_otp').css("bottom", "-110%");
   });
 });
 
@@ -367,7 +367,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#mob_otp_can').click(function () {
-    $('#mob_show_otp').css("bottom", "-100%");
+    $('#mob_show_otp').css("bottom", "-110%");
     $('html').css("position", "static");
   });
 });
@@ -377,7 +377,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('#mob_forget_can').click(function () {
-    $('#mob_show_forget').css("bottom", "-100%");
+    $('#mob_show_forget').css("bottom", "-110%");
     $('html').css("position", "static");
   });
 });
@@ -394,7 +394,7 @@ $(document).ready(function () {
   $('.mob_forget_change').click(function () {
     $('#mob_show_sigin').css("bottom", "0");
     $('.mob_sigin_frm').css("bottom", "0");
-    $('#mob_show_forget').css("bottom", "-100%");
+    $('#mob_show_forget').css("bottom", "-110%");
 
   });
 });
